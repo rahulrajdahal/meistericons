@@ -4,5 +4,40 @@
   "description": "icons for you",
   "main": "index.js",
   "author": "rahulrajdahal",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "optimize": "svgo -f ./assets/svg -o ./assets/optimized",
+    "clean": "rimraf assets/optimized package *.tgz",
+    "build": "run-s clean optimize",
+    "np": "np",
+    "release": "run-s build np"
+  },
+  "homepage": "https://github.com/Markaa10/meistericons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markaa10/meistericons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Markaa10/meistericons/issues"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "mnicons",
+    "meistericons",
+    "mni",
+    "mn-icons"
+  ],
+  "dependencies": {
+    "svgo": "^2.8.0"
+  },
+  "files": [
+    "assets/optimized"
+  ],
+  "devDependencies": {
+    "np": "^7.5.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2"
+  }
 }
