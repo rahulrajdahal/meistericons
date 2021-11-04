@@ -6,9 +6,10 @@
   "author": "rahulrajdahal",
   "license": "MIT",
   "scripts": {
-    "optimize": "svgo -f ./assets/svg -o ./assets/optimized",
-    "clean": "rimraf assets/optimized package *.tgz",
-    "build": "run-s clean optimize",
+    "optimize": "svgo -f ./assets/svg -o ./assets/optimized && npx @svgr/cli -d ./assets/svg/react ./assets/optimized",
+    "clean": "rimraf assets/optimized react assets/svg/react package *.tgz",
+    "bundle": "rollup --config",
+    "build": "run-s clean optimize bundle",
     "np": "np",
     "release": "run-s build np"
   },
@@ -30,14 +31,23 @@
     "mn-icons"
   ],
   "dependencies": {
+    "@svgr/rollup": "^5.5.0",
     "svgo": "^2.8.0"
   },
   "files": [
-    "assets/optimized"
+    "assets/optimized",
+    "react/"
   ],
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@svgr/cli": "^5.5.0",
+    "@types/react": "^17.0.34",
+    "dotenv": "^10.0.0",
     "np": "^7.5.0",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^3.0.2"
+    "react": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.59.0",
+    "typescript": "^4.4.4"
   }
 }
