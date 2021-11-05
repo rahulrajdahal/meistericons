@@ -1,6 +1,8 @@
 node_modules/
 
-svg/
+svg/raw
+svg/optimized
+
 scripts/
 .changeset/
 .github/
