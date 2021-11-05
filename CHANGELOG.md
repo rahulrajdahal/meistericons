@@ -1,5 +1,11 @@
 # meistericons
 
+## 2.3.0
+
+### Minor Changes
+
+- abec450: readmeupdate
+
 ## 2.2.2
 
 ### Patch Changes
