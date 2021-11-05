@@ -1,5 +1,11 @@
 # meistericons
 
+## 2.2.1
+
+### Patch Changes
+
+- e3131de: iconswidths change
+
 ## 2.2.0
 
 ### Minor Changes
