@@ -31,7 +31,8 @@
     "mn-icons"
   ],
   "files": [
-    "svg/react"
+    "svg/react",
+    "svg/fonts"
   ],
   "devDependencies": {
     "@babel/core": "^7.16.0",
