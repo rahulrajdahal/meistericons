@@ -1,6 +1,6 @@
 {
   "name": "meistericons",
-  "version": "1.0.1-1",
+  "version": "1.0.1",
   "description": "icons for you",
   "main": "./svg/react/cjs/index.js",
   "module": "./svg/react/esm/index.js",
