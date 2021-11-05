@@ -6,3 +6,4 @@ scripts/
 .github/
 
 svgo.config.js
+package.json
