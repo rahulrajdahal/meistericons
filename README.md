@@ -24,4 +24,6 @@ Copy the following code and add it to the <head> tag of your html document.
 ##### Use
 
 Add icon with class name, class name rule: mni-{name}
+
 <i class="mni mni-bug"></i>
+
