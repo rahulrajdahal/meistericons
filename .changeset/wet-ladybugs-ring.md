@@ -1,0 +1,5 @@
+---
+"meistericons": patch
+---
+
+iconswidths change
