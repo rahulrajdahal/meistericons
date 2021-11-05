@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "optimize": "rimraf ./svg/optimized & svgo -q -p 8 -f ./svg/raw -o ./svg/optimized",
-    "build": "yarn optimize && node scripts/build.js",
+    "fonts": "fantasticon -n mni -p mni svg/optimized -o svg/fonts",
+    "build": "yarn optimize & yarn fonts & node scripts/build.js",
     "release": "yarn changeset publish"
   },
   "homepage": "https://github.com/Markaa10/meistericons#readme",
@@ -41,7 +42,7 @@
     "@svgr/core": "^5.5.0",
     "camelcase": "^6.2.0",
     "rimraf": "^3.0.2",
-    "terser": "^5.9.0",
-    "svgo": "^2.8.0"
+    "svgo": "^2.8.0",
+    "terser": "^5.9.0"
   }
 }
