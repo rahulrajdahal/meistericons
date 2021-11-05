@@ -1,8 +1,7 @@
-node_modules/
+node_modules
 
-svg/
-scripts/
-.changeset/
-.github/
+svg
+scripts
+.changeset
+.github
 
-svgo.config.js
