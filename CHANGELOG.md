@@ -1,5 +1,11 @@
 # meistericons
 
+## 2.1.0
+
+### Minor Changes
+
+- 5b7abf2: fontsexport
+
 ## 2.0.0
 
 ### Major Changes
