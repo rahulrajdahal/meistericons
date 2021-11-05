@@ -1,5 +1,0 @@
----
-"meistericons": major
----
-
-fonts added

@@ -1,5 +1,11 @@
 # meistericons
 
+## 2.0.0
+
+### Major Changes
+
+- c8a3726: fonts added
+
 ## 1.0.2
 
 ### Patch Changes
