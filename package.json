@@ -2,7 +2,8 @@
   "name": "meistericons",
   "version": "1.0.1-1",
   "description": "icons for you",
-  "main": "index.js",
+  "main": "./svg/react/cjs/index.js",
+  "module": "./svg/react/esm/index.js",
   "author": "rahulrajdahal",
   "license": "MIT",
   "scripts": {
@@ -22,35 +23,25 @@
     "icons",
     "svg",
     "react",
+    "react-icon",
     "mnicons",
     "meistericons",
     "mni",
     "mn-icons"
   ],
-  "dependencies": {
-    "@svgr/rollup": "^5.5.0",
-    "svgo": "^2.8.0"
-  },
   "files": [
-    "svg/optimized"
+    "svg/react"
   ],
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@changesets/changelog-github": "^0.4.1",
     "@changesets/cli": "^2.17.0",
-    "@rollup/plugin-typescript": "^8.3.0",
     "@svgr/cli": "^5.5.0",
     "@svgr/core": "^5.5.0",
-    "@types/react": "^17.0.34",
     "camelcase": "^6.2.0",
-    "dotenv": "^10.0.0",
-    "np": "^7.5.0",
-    "npm-run-all": "^4.1.5",
-    "react": "^17.0.2",
     "rimraf": "^3.0.2",
-    "rollup": "^2.59.0",
     "terser": "^5.9.0",
-    "typescript": "^4.4.4"
+    "svgo": "^2.8.0"
   }
 }
