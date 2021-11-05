@@ -4,11 +4,11 @@
 
 ### Webfont Usage
 
-Note: You can import MeisterIcons with npm install, cdn or download it manually.
+>Note: You can import MeisterIcons with npm install, cdn or download it manually.
 
 ##### Installation
 
-Note: If you'd like to use MeisterIcons with a CDN, you can skip this installation step.
+>Note: If you'd like to use MeisterIcons with a CDN, you can skip this installation step.
 
 npm install meistericons --save
 import 'meistericons/svg/fonts/mni.css'
