@@ -1,0 +1,5 @@
+---
+"meistericons": minor
+---
+
+icons added
