@@ -9,8 +9,9 @@
 ##### Installation
 
 >Note: If you'd like to use MeisterIcons with a CDN, you can skip this installation step.
-
+```
 npm install meistericons --save
+```
 import 'meistericons/svg/fonts/mni.css'
 
 import CSS to your main.js
