@@ -1,5 +1,11 @@
 # meistericons
 
+## 2.2.0
+
+### Minor Changes
+
+- 7e818a5: icons added
+
 ## 2.1.0
 
 ### Minor Changes
