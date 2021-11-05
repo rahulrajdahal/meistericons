@@ -28,3 +28,13 @@ Add icon with class name, class name rule: mni-{name}
 ```
 <i class="mni mni-bug"></i>
 ```
+
+ ### Javascript Usage
+ 
+ ```
+import {BugIcon} from 'meistericons'
+ 
+ <>
+  <BugIcon/>
+ </>
+```
