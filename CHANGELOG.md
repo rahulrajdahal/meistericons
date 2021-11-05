@@ -1,5 +1,11 @@
 # meistericons
 
+## 2.2.2
+
+### Patch Changes
+
+- 9587eec: readmemd
+
 ## 2.2.1
 
 ### Patch Changes
