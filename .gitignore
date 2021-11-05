@@ -1,3 +1,8 @@
 node_modules
 
-assets/
+svg
+scripts
+.changeset
+.github
+
+svgo.config.js
