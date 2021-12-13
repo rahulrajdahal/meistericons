@@ -1,14 +1,14 @@
 {
   "name": "meistericons",
-  "version": "2.3.0",
+  "version": "0.1.1",
   "description": "icons for you",
   "main": "./svg/react/cjs/index.js",
   "module": "./svg/react/esm/index.js",
   "author": "rahulrajdahal",
   "license": "MIT",
   "scripts": {
-    "optimize": "rimraf ./svg/optimized & svgo -q -p 8 -f ./svg/raw -o ./svg/optimized",
-    "fonts": "fantasticon -n mni -p mni svg/optimized -o svg/fonts",
+    "optimize": "svgo -q -p 8 -f ./icons -o ./icons",
+    "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "build": "yarn optimize & yarn fonts & node scripts/build.js",
     "release": "yarn changeset publish"
   },

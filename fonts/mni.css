@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "mni";
+    src: url("./mni.eot?2d8254bce364df3838e672f912273baa#iefix") format("embedded-opentype"),
+url("./mni.woff2?2d8254bce364df3838e672f912273baa") format("woff2"),
+url("./mni.woff?2d8254bce364df3838e672f912273baa") format("woff");
+}
+
+i[class^="mni-"]:before, i[class*=" mni-"]:before {
+    font-family: mni !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mni-address-book:before {
+    content: "\f101";
+}
+.mni-archive:before {
+    content: "\f102";
+}
+.mni-attachment:before {
+    content: "\f103";
+}
+.mni-badge:before {
+    content: "\f104";
+}
+.mni-bank:before {
+    content: "\f105";
+}
+.mni-briefcase:before {
+    content: "\f106";
+}
+.mni-calculator:before {
+    content: "\f107";
+}
+.mni-calendar:before {
+    content: "\f108";
+}
+.mni-card-swipe:before {
+    content: "\f109";
+}
+.mni-cash-bag:before {
+    content: "\f10a";
+}
+.mni-chair:before {
+    content: "\f10b";
+}
+.mni-coffee-mug:before {
+    content: "\f10c";
+}
+.mni-copier:before {
+    content: "\f10d";
+}
+.mni-dashboard:before {
+    content: "\f10e";
+}
+.mni-documents:before {
+    content: "\f10f";
+}
+.mni-envelope:before {
+    content: "\f110";
+}
+.mni-file-cabinet:before {
+    content: "\f111";
+}
+.mni-file-folder:before {
+    content: "\f112";
+}
+.mni-file:before {
+    content: "\f113";
+}
+.mni-files:before {
+    content: "\f114";
+}
+.mni-flag:before {
+    content: "\f115";
+}
+.mni-headphones:before {
+    content: "\f116";
+}
+.mni-lamp:before {
+    content: "\f117";
+}
+.mni-letter-envelope:before {
+    content: "\f118";
+}
+.mni-link:before {
+    content: "\f119";
+}
+.mni-map:before {
+    content: "\f11a";
+}
+.mni-marketing:before {
+    content: "\f11b";
+}
+.mni-microhone:before {
+    content: "\f11c";
+}
+.mni-navigation:before {
+    content: "\f11d";
+}
+.mni-notepad:before {
+    content: "\f11e";
+}
+.mni-notification:before {
+    content: "\f11f";
+}
+.mni-oective:before {
+    content: "\f120";
+}
+.mni-pen-holder:before {
+    content: "\f121";
+}
+.mni-phone:before {
+    content: "\f122";
+}
+.mni-pie:before {
+    content: "\f123";
+}
+.mni-plant:before {
+    content: "\f124";
+}
+.mni-poster:before {
+    content: "\f125";
+}
+.mni-printer:before {
+    content: "\f126";
+}
+.mni-projector:before {
+    content: "\f127";
+}
+.mni-receipt:before {
+    content: "\f128";
+}
+.mni-reception:before {
+    content: "\f129";
+}
+.mni-shelf:before {
+    content: "\f12a";
+}
+.mni-sticky-note:before {
+    content: "\f12b";
+}
+.mni-tie:before {
+    content: "\f12c";
+}
+.mni-trophy:before {
+    content: "\f12d";
+}
+.mni-user-tie:before {
+    content: "\f12e";
+}
+.mni-vault:before {
+    content: "\f12f";
+}
+.mni-volume:before {
+    content: "\f130";
+}
+.mni-wallet:before {
+    content: "\f131";
+}
+.mni-webcam:before {
+    content: "\f132";
+}
