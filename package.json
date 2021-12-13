@@ -1,6 +1,6 @@
 {
   "name": "meistericons",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "icons for you",
   "license": "MIT",
   "scripts": {
@@ -28,7 +28,8 @@
   ],
   "files": [
     "fonts/",
-    "icons/"
+    "icons/",
+    "react/"
   ],
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -38,6 +39,7 @@
     "@svgr/plugin-jsx": "^6.1.2",
     "@svgr/plugin-prettier": "^6.1.2",
     "rimraf": "^3.0.2",
-    "svgo": "^2.8.0"
+    "svgo": "^2.8.0",
+    "terser": "^5.10.0"
   }
 }
