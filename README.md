@@ -11,7 +11,7 @@
 npm install meistericons --save
 ```
 ```
-import 'meistericons/svg/fonts/mni.css'
+import 'meistericons/fonts/mni.css'
 ```
 
 import CSS to your main.js
@@ -20,7 +20,7 @@ import CSS to your main.js
 Copy the following code and add it to the <head> tag of your html document.
 
 ```
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/meistericons@2/svg/fonts/mni.min.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/meistericons@2/fonts/mni.min.css">
  ```
 
 ##### Use
