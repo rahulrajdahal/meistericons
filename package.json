@@ -2,15 +2,11 @@
   "name": "meistericons",
   "version": "0.1.1",
   "description": "icons for you",
-  "main": "./svg/react/cjs/index.js",
-  "module": "./svg/react/esm/index.js",
-  "author": "rahulrajdahal",
   "license": "MIT",
   "scripts": {
     "optimize": "svgo -q -p 8 -f ./icons -o ./icons",
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
-    "build": "yarn optimize & yarn fonts & node scripts/build.js",
-    "release": "yarn changeset publish"
+    "build": "yarn optimize & yarn fonts"
   },
   "homepage": "https://github.com/Markaa10/meistericons#readme",
   "repository": {
@@ -27,23 +23,18 @@
     "react-icon",
     "mnicons",
     "meistericons",
-    "mni",
-    "mn-icons"
+    "mni"
   ],
   "files": [
-    "svg/react",
-    "svg/fonts"
+    "fonts/",
+    "icons/"
   ],
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
-    "@changesets/changelog-github": "^0.4.1",
-    "@changesets/cli": "^2.17.0",
     "@svgr/cli": "^5.5.0",
     "@svgr/core": "^5.5.0",
-    "camelcase": "^6.2.0",
     "rimraf": "^3.0.2",
-    "svgo": "^2.8.0",
-    "terser": "^5.9.0"
+    "svgo": "^2.8.0"
   }
 }
