@@ -32,7 +32,9 @@
   "files": [
     "fonts/",
     "icons/",
-    "react/"
+    "react/",
+    "icon-nodes.json",
+    "tags.json"
   ],
   "devDependencies": {
     "@babel/core": "^7.16.0",
