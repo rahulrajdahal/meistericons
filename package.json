@@ -43,8 +43,9 @@
     "@svgr/core": "^5.5.0",
     "@svgr/plugin-jsx": "^6.1.2",
     "@svgr/plugin-prettier": "^6.1.2",
+    "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "svgo": "^2.8.0",
+    "svgo": "^1.3.2",
     "svgson": "^5.2.1",
     "terser": "^5.10.0"
   }
