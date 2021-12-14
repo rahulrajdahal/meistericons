@@ -42,6 +42,7 @@
     "@svgr/plugin-prettier": "^6.1.2",
     "rimraf": "^3.0.2",
     "svgo": "^2.8.0",
+    "svgson": "^5.2.1",
     "terser": "^5.10.0"
   }
 }
