@@ -8,8 +8,9 @@
   "scripts": {
     "optimize": "svgo -q -p 8 -f ./icons -o ./icons",
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
+    "add:tags": "node ./scripts/addTags.js",
     "build:react": "rimraf react && node ./scripts/build.js",
-    "build": "yarn optimize & yarn fonts && yarn build:react"
+    "build": "yarn optimize & yarn fonts & yarn add:tags & yarn build:react"
   },
   "homepage": "https://github.com/Markaa10/meistericons#readme",
   "repository": {
