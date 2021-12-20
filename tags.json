@@ -1,38 +1,38 @@
 {
-  "calendar": [
-    "calendar"
+  "user-add": [
+    "user-add"
   ],
-  "calendar-a": [
-    "calendar-a"
+  "user-check": [
+    "user-check"
   ],
-  "calendar-a-add": [
-    "calendar-a-add"
+  "user-circle": [
+    "user-circle"
   ],
-  "calendar-a-dots": [
-    "calendar-a-dots"
+  "user-circle-block": [
+    "user-circle-block"
   ],
-  "calendar-add": [
-    "calendar-add"
+  "user-circle-code": [
+    "user-circle-code"
   ],
-  "calendar-check": [
-    "calendar-check"
+  "user-cross": [
+    "user-cross"
   ],
-  "calendar-cross": [
-    "calendar-cross"
+  "user-sqaure-block": [
+    "user-sqaure-block"
   ],
-  "calendar-dash": [
-    "calendar-dash"
+  "user-sqaure-check": [
+    "user-sqaure-check"
   ],
-  "calendar-dot": [
-    "calendar-dot"
+  "user-sqaure-code": [
+    "user-sqaure-code"
   ],
-  "calendar-lines": [
-    "calendar-lines"
+  "user-square": [
+    "user-square"
   ],
-  "calendar-star": [
-    "calendar-star"
+  "user-square-add": [
+    "user-square-add"
   ],
-  "clock-circle": [
-    "clock-circle"
+  "users": [
+    "users"
   ]
 }

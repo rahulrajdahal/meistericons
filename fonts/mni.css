@@ -1,8 +1,8 @@
 @font-face {
     font-family: "mni";
-    src: url("./mni.eot?4ee9c7c7fac641d933b40dd20cd24f3b#iefix") format("embedded-opentype"),
-url("./mni.woff2?4ee9c7c7fac641d933b40dd20cd24f3b") format("woff2"),
-url("./mni.woff?4ee9c7c7fac641d933b40dd20cd24f3b") format("woff");
+    src: url("./mni.eot?1c34f0630950d90ed3f9b8a3b1b107a7#iefix") format("embedded-opentype"),
+url("./mni.woff2?1c34f0630950d90ed3f9b8a3b1b107a7") format("woff2"),
+url("./mni.woff?1c34f0630950d90ed3f9b8a3b1b107a7") format("woff");
 }
 
 i[class^="mni-"]:before, i[class*=" mni-"]:before {
@@ -16,39 +16,39 @@ i[class^="mni-"]:before, i[class*=" mni-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.mni-calendar-a-add:before {
+.mni-user-add:before {
     content: "\f101";
 }
-.mni-calendar-a-dots:before {
+.mni-user-check:before {
     content: "\f102";
 }
-.mni-calendar-a:before {
+.mni-user-circle-block:before {
     content: "\f103";
 }
-.mni-calendar-add:before {
+.mni-user-circle-code:before {
     content: "\f104";
 }
-.mni-calendar-check:before {
+.mni-user-circle:before {
     content: "\f105";
 }
-.mni-calendar-cross:before {
+.mni-user-cross:before {
     content: "\f106";
 }
-.mni-calendar-dash:before {
+.mni-user-sqaure-block:before {
     content: "\f107";
 }
-.mni-calendar-dot:before {
+.mni-user-sqaure-check:before {
     content: "\f108";
 }
-.mni-calendar-lines:before {
+.mni-user-sqaure-code:before {
     content: "\f109";
 }
-.mni-calendar-star:before {
+.mni-user-square-add:before {
     content: "\f10a";
 }
-.mni-calendar:before {
+.mni-user-square:before {
     content: "\f10b";
 }
-.mni-clock-circle:before {
+.mni-users:before {
     content: "\f10c";
 }

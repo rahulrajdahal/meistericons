@@ -1,14 +1,14 @@
 {
-    "calendar-a-add": 61697,
-    "calendar-a-dots": 61698,
-    "calendar-a": 61699,
-    "calendar-add": 61700,
-    "calendar-check": 61701,
-    "calendar-cross": 61702,
-    "calendar-dash": 61703,
-    "calendar-dot": 61704,
-    "calendar-lines": 61705,
-    "calendar-star": 61706,
-    "calendar": 61707,
-    "clock-circle": 61708
+    "user-add": 61697,
+    "user-check": 61698,
+    "user-circle-block": 61699,
+    "user-circle-code": 61700,
+    "user-circle": 61701,
+    "user-cross": 61702,
+    "user-sqaure-block": 61703,
+    "user-sqaure-check": 61704,
+    "user-sqaure-code": 61705,
+    "user-square-add": 61706,
+    "user-square": 61707,
+    "users": 61708
 }

@@ -18,12 +18,6 @@ module.exports = {
     "removeDimensions",
     "sortAttrs",
     {
-      name: "removeAttrs",
-      params: {
-        attrs: "(fill|stroke)",
-      },
-    },
-    {
       name: "addAttributesToSVGElement",
       params: {
         attribute: { fill: "currentColor" },

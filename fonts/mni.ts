@@ -1,57 +1,57 @@
 export type MniId =
-  | "calendar-a-add"
-  | "calendar-a-dots"
-  | "calendar-a"
-  | "calendar-add"
-  | "calendar-check"
-  | "calendar-cross"
-  | "calendar-dash"
-  | "calendar-dot"
-  | "calendar-lines"
-  | "calendar-star"
-  | "calendar"
-  | "clock-circle";
+  | "user-add"
+  | "user-check"
+  | "user-circle-block"
+  | "user-circle-code"
+  | "user-circle"
+  | "user-cross"
+  | "user-sqaure-block"
+  | "user-sqaure-check"
+  | "user-sqaure-code"
+  | "user-square-add"
+  | "user-square"
+  | "users";
 
 export type MniKey =
-  | "CalendarAAdd"
-  | "CalendarADots"
-  | "CalendarA"
-  | "CalendarAdd"
-  | "CalendarCheck"
-  | "CalendarCross"
-  | "CalendarDash"
-  | "CalendarDot"
-  | "CalendarLines"
-  | "CalendarStar"
-  | "Calendar"
-  | "ClockCircle";
+  | "UserAdd"
+  | "UserCheck"
+  | "UserCircleBlock"
+  | "UserCircleCode"
+  | "UserCircle"
+  | "UserCross"
+  | "UserSqaureBlock"
+  | "UserSqaureCheck"
+  | "UserSqaureCode"
+  | "UserSquareAdd"
+  | "UserSquare"
+  | "Users";
 
 export enum Mni {
-  CalendarAAdd = "calendar-a-add",
-  CalendarADots = "calendar-a-dots",
-  CalendarA = "calendar-a",
-  CalendarAdd = "calendar-add",
-  CalendarCheck = "calendar-check",
-  CalendarCross = "calendar-cross",
-  CalendarDash = "calendar-dash",
-  CalendarDot = "calendar-dot",
-  CalendarLines = "calendar-lines",
-  CalendarStar = "calendar-star",
-  Calendar = "calendar",
-  ClockCircle = "clock-circle",
+  UserAdd = "user-add",
+  UserCheck = "user-check",
+  UserCircleBlock = "user-circle-block",
+  UserCircleCode = "user-circle-code",
+  UserCircle = "user-circle",
+  UserCross = "user-cross",
+  UserSqaureBlock = "user-sqaure-block",
+  UserSqaureCheck = "user-sqaure-check",
+  UserSqaureCode = "user-sqaure-code",
+  UserSquareAdd = "user-square-add",
+  UserSquare = "user-square",
+  Users = "users",
 }
 
 export const MNI_CODEPOINTS: { [key in Mni]: string } = {
-  [Mni.CalendarAAdd]: "61697",
-  [Mni.CalendarADots]: "61698",
-  [Mni.CalendarA]: "61699",
-  [Mni.CalendarAdd]: "61700",
-  [Mni.CalendarCheck]: "61701",
-  [Mni.CalendarCross]: "61702",
-  [Mni.CalendarDash]: "61703",
-  [Mni.CalendarDot]: "61704",
-  [Mni.CalendarLines]: "61705",
-  [Mni.CalendarStar]: "61706",
-  [Mni.Calendar]: "61707",
-  [Mni.ClockCircle]: "61708",
+  [Mni.UserAdd]: "61697",
+  [Mni.UserCheck]: "61698",
+  [Mni.UserCircleBlock]: "61699",
+  [Mni.UserCircleCode]: "61700",
+  [Mni.UserCircle]: "61701",
+  [Mni.UserCross]: "61702",
+  [Mni.UserSqaureBlock]: "61703",
+  [Mni.UserSqaureCheck]: "61704",
+  [Mni.UserSqaureCode]: "61705",
+  [Mni.UserSquareAdd]: "61706",
+  [Mni.UserSquare]: "61707",
+  [Mni.Users]: "61708",
 };
