@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-  <rect width="24" height="24" fill="#fff"/>
-  <path stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" d="M15 3H9C5.7 3 3 5.7 3 9v6c0 3.3 2.7 6 6 6h6c3.3 0 6-2.7 6-6v-4"/>
-  <path stroke="#000" stroke-miterlimit="10" stroke-width="1.5" d="M12 15c1.6569 0 3-1.3431 3-3s-1.3431-3-3-3-3 1.3431-3 3 1.3431 3 3 3Z"/>
-  <path stroke="#000" stroke-miterlimit="10" stroke-width="1.5" d="M17.8999 20.2c-.4-2.9-2.9-5.2-6-5.2s-5.6 2.3-6 5.2"/>
-  <path stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" d="M18 4v6"/>
-  <path stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" d="M21 7h-6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M0 0h24v24H0z"/>
+  <path d="M15 3H9C5.7 3 3 5.7 3 9v6c0 3.3 2.7 6 6 6h6c3.3 0 6-2.7 6-6v-4"/>
+  <path d="M12 15c1.6569 0 3-1.3431 3-3s-1.3431-3-3-3-3 1.3431-3 3 1.3431 3 3 3Zm5.8999 5.2c-.4-2.9-2.9-5.2-6-5.2s-5.6 2.3-6 5.2M18 4v6m3-3h-6"/>
 </svg>

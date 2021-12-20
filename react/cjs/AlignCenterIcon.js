@@ -1,0 +1,1 @@
+const React=require("react");function AlignCenterIcon(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 24 24",fill:"currentColor",width:24,height:24},e),React.createElement("path",{d:"M0 0h24v24H0zm4 6h15M7 10h9M4 14h15M7 18h9"}))}module.exports=AlignCenterIcon;

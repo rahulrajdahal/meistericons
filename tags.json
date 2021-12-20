@@ -1,4 +1,277 @@
 {
+  "add-sqaure": [
+    "add-sqaure"
+  ],
+  "align-center": [
+    "align-center"
+  ],
+  "align-justify": [
+    "align-justify"
+  ],
+  "align-left": [
+    "align-left"
+  ],
+  "align-right": [
+    "align-right"
+  ],
+  "apps-a": [
+    "apps-a"
+  ],
+  "apps-add": [
+    "apps-add"
+  ],
+  "apps-add-a": [
+    "apps-add-a"
+  ],
+  "apps-cross": [
+    "apps-cross"
+  ],
+  "archive": [
+    "archive"
+  ],
+  "archive-add": [
+    "archive-add"
+  ],
+  "archive-cross": [
+    "archive-cross"
+  ],
+  "bookmark": [
+    "bookmark"
+  ],
+  "bookmark-a": [
+    "bookmark-a"
+  ],
+  "bookmark-add": [
+    "bookmark-add"
+  ],
+  "bookmark-cross": [
+    "bookmark-cross"
+  ],
+  "bookmark-minus": [
+    "bookmark-minus"
+  ],
+  "bookmarks": [
+    "bookmarks"
+  ],
+  "calendar": [
+    "calendar"
+  ],
+  "calendar-a": [
+    "calendar-a"
+  ],
+  "calendar-a-add": [
+    "calendar-a-add"
+  ],
+  "calendar-a-dots": [
+    "calendar-a-dots"
+  ],
+  "calendar-add": [
+    "calendar-add"
+  ],
+  "calendar-check": [
+    "calendar-check"
+  ],
+  "calendar-cross": [
+    "calendar-cross"
+  ],
+  "calendar-dash": [
+    "calendar-dash"
+  ],
+  "calendar-dot": [
+    "calendar-dot"
+  ],
+  "calendar-lines": [
+    "calendar-lines"
+  ],
+  "calendar-star": [
+    "calendar-star"
+  ],
+  "check-circle": [
+    "check-circle"
+  ],
+  "check-square": [
+    "check-square"
+  ],
+  "circle": [
+    "circle"
+  ],
+  "circle-times": [
+    "circle-times"
+  ],
+  "clock-circle": [
+    "clock-circle"
+  ],
+  "copy": [
+    "copy"
+  ],
+  "copy-a": [
+    "copy-a"
+  ],
+  "copy-overlap": [
+    "copy-overlap"
+  ],
+  "cricket-ball": [
+    "cricket-ball"
+  ],
+  "cross-square": [
+    "cross-square"
+  ],
+  "curved-rectangle": [
+    "curved-rectangle"
+  ],
+  "curved-rectangle-a": [
+    "curved-rectangle-a"
+  ],
+  "curved-square": [
+    "curved-square"
+  ],
+  "cylinder": [
+    "cylinder"
+  ],
+  "cylinder-a": [
+    "cylinder-a"
+  ],
+  "dashboard": [
+    "dashboard"
+  ],
+  "dashboard-square": [
+    "dashboard-square"
+  ],
+  "dashed square": [
+    "dashed square"
+  ],
+  "dashed-circle": [
+    "dashed-circle"
+  ],
+  "dashed-square-a": [
+    "dashed-square-a"
+  ],
+  "delete": [
+    "delete"
+  ],
+  "emrald": [
+    "emrald"
+  ],
+  "equal-square": [
+    "equal-square"
+  ],
+  "football": [
+    "football"
+  ],
+  "football-a": [
+    "football-a"
+  ],
+  "heptagon": [
+    "heptagon"
+  ],
+  "hex-add": [
+    "hex-add"
+  ],
+  "hex-cross": [
+    "hex-cross"
+  ],
+  "hex-cross-1": [
+    "hex-cross-1"
+  ],
+  "hockey": [
+    "hockey"
+  ],
+  "home-chimney": [
+    "home-chimney"
+  ],
+  "home-circle": [
+    "home-circle"
+  ],
+  "home-empty": [
+    "home-empty"
+  ],
+  "minus-square": [
+    "minus-square"
+  ],
+  "no-entry": [
+    "no-entry"
+  ],
+  "note-locate": [
+    "note-locate"
+  ],
+  "note-search": [
+    "note-search"
+  ],
+  "notification": [
+    "notification"
+  ],
+  "notification-alert": [
+    "notification-alert"
+  ],
+  "octagon": [
+    "octagon"
+  ],
+  "para-add": [
+    "para-add"
+  ],
+  "para-check": [
+    "para-check"
+  ],
+  "para-circle": [
+    "para-circle"
+  ],
+  "para-cross": [
+    "para-cross"
+  ],
+  "para-play": [
+    "para-play"
+  ],
+  "para-search": [
+    "para-search"
+  ],
+  "rhombus": [
+    "rhombus"
+  ],
+  "rugby-helbet": [
+    "rugby-helbet"
+  ],
+  "save": [
+    "save"
+  ],
+  "search": [
+    "search"
+  ],
+  "search-add": [
+    "search-add"
+  ],
+  "search-circle": [
+    "search-circle"
+  ],
+  "search-cross": [
+    "search-cross"
+  ],
+  "search-minus": [
+    "search-minus"
+  ],
+  "search-square": [
+    "search-square"
+  ],
+  "settings-horizontal": [
+    "settings-horizontal"
+  ],
+  "settings-vertical": [
+    "settings-vertical"
+  ],
+  "square": [
+    "square"
+  ],
+  "square-circle": [
+    "square-circle"
+  ],
+  "star": [
+    "star"
+  ],
+  "target": [
+    "target"
+  ],
+  "tennis": [
+    "tennis"
+  ],
   "user-add": [
     "user-add"
   ],
@@ -34,5 +307,8 @@
   ],
   "users": [
     "users"
+  ],
+  "yoga-mat": [
+    "yoga-mat"
   ]
 }

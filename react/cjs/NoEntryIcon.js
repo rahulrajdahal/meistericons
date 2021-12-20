@@ -1,0 +1,1 @@
+const React=require("react");function NoEntryIcon(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 24 24",fill:"currentColor",width:24,height:24},e),React.createElement("path",{d:"M0 0h24v24H0z"}),React.createElement("path",{d:"M12 21a9 9 0 100-18 9 9 0 000 18zm6.8-14.9L6.1 18.8"}))}module.exports=NoEntryIcon;

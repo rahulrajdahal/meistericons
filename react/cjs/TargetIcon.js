@@ -1,0 +1,1 @@
+const React=require("react");function TargetIcon(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 24 24",fill:"currentColor",width:24,height:24},e),React.createElement("path",{d:"M0 0h24v24H0z"}),React.createElement("path",{d:"M12 19a7 7 0 100-14 7 7 0 000 14zm-9-7h4m10 0h4m-9 9v-4m0-10V3"}))}module.exports=TargetIcon;
