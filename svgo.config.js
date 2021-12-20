@@ -15,14 +15,8 @@ module.exports = {
         },
       },
     },
-    { name: "removeDimensions", active: true },
-    { name: "sortAttrs" },
-    {
-      name: "removeAttrs",
-      params: {
-        attrs: "(fill|stroke)",
-      },
-    },
+    "removeDimensions",
+    "sortAttrs",
     {
       name: "addAttributesToSVGElement",
       params: {
