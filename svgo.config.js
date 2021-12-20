@@ -7,7 +7,14 @@ module.exports = {
   plugins: [
     {
       name: "preset-default",
+      params: {
+        overrides: {
+          convertShapeToPath: false,
+          mergePaths: false,
+        },
+      },
     },
+    "removeTitle",
     "removeDimensions",
     "sortAttrs",
     {
