@@ -1,6 +1,6 @@
 {
   "name": "meistericons",
-  "version": "0.1.11",
+  "version": "0.1.1",
   "description": "icons for you",
   "license": "MIT",
   "main": "./react/cjs/index.js",
