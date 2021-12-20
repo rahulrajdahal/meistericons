@@ -4,19 +4,18 @@ module.exports = {
     indent: 2, // string with spaces or number of spaces. 4 by default
     pretty: true, // boolean, false by default
   },
-
   plugins: [
     {
       name: "preset-default",
       params: {
         overrides: {
           convertShapeToPath: false,
-          removeTitle: true,
           mergePaths: false,
+          removeViewBox: false,
         },
       },
     },
-    { name: "removeDimensions" },
+    { name: "removeDimensions", active: true },
     { name: "sortAttrs" },
     {
       name: "removeAttrs",
