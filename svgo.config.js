@@ -7,16 +7,15 @@ module.exports = {
   plugins: [
     {
       name: "preset-default",
-      params: {
-        overrides: {
-          convertShapeToPath: false,
-          mergePaths: false,
-          removeViewBox: false,
-        },
-      },
     },
     "removeDimensions",
     "sortAttrs",
+    {
+      name: "removeAttrs",
+      params: {
+        attrs: "(fill|stroke)",
+      },
+    },
     {
       name: "addAttributesToSVGElement",
       params: {
