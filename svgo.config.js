@@ -23,11 +23,5 @@ module.exports = {
         attrs: "(fill|stroke)",
       },
     },
-    {
-      name: "addAttributesToSVGElement",
-      params: {
-        attribute: { fill: "currentColor" },
-      },
-    },
   ],
 };
