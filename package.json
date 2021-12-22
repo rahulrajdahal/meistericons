@@ -1,12 +1,12 @@
 {
   "name": "meistericons",
-  "version": "0.1.24",
+  "version": "0.1.22",
   "description": "icons for you",
   "license": "MIT",
   "main": "./react/cjs/index.js",
   "module": "./react/esm/index.js",
   "scripts": {
-    "optimize": "svgo -q -p 8 -f ./icons -o ./icons",
+    "optimize": "rimraf optimized && svgo -q -p 8 -f ./icons -o ./optimizied",
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "add:tags": "node ./scripts/addTags.js",
     "build:react": "rimraf react && node ./scripts/build.js",

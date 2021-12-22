@@ -7,10 +7,16 @@ module.exports = {
   plugins: [
     {
       name: "preset-default",
-      params: { overrides: { removeViewBox: false, convertPathData: false } },
+      params: {
+        overrides: {
+          removeViewBox: false,
+          removeUselessStrokeAndFill: false,
+        },
+      },
     },
     "removeDimensions",
     "sortAttrs",
+    "removeOffCanvasPaths",
 
     {
       name: "removeAttrs",
