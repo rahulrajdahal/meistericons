@@ -1,8 +1,8 @@
 @font-face {
     font-family: "mni";
-    src: url("./mni.eot?c239e31e3e9c74fd0b54b5dfdf3aabec#iefix") format("embedded-opentype"),
-url("./mni.woff2?c239e31e3e9c74fd0b54b5dfdf3aabec") format("woff2"),
-url("./mni.woff?c239e31e3e9c74fd0b54b5dfdf3aabec") format("woff");
+    src: url("./mni.eot?340eb2ccf91cb0cb39848602362416e8#iefix") format("embedded-opentype"),
+url("./mni.woff2?340eb2ccf91cb0cb39848602362416e8") format("woff2"),
+url("./mni.woff?340eb2ccf91cb0cb39848602362416e8") format("woff");
 }
 
 i[class^="mni-"]:before, i[class*=" mni-"]:before {

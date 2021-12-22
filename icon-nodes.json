@@ -3,68 +3,13 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 15v6"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M19 18h-6"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M20 15V9c0-2.2-1.8-4-4-4H8C5.8 5 4 6.8 4 9v8c0 2.2 1.8 4 4 4h4"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M20 10H4"
+        "d": "M16 15V21M19 18H13M20 15V9C20 6.8 18.2 5 16 5H8C5.8 5 4 6.8 4 9V17C4 19.2 5.8 21 8 21H12M8 7V3M16 7V3M20 10H4"
       }
     ]
   ],
@@ -72,65 +17,19 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3M20 10H4"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M20 10H4"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M9 16c.82843 0 1.5-.6716 1.5-1.5S9.82843 13 9 13s-1.5.6716-1.5 1.5S8.17157 16 9 16Z"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M15 16c.8284 0 1.5-.6716 1.5-1.5S15.8284 13 15 13s-1.5.6716-1.5 1.5.6716 1.5 1.5 1.5Z"
+        "d": "M9 16C9.82843 16 10.5 15.3284 10.5 14.5 10.5 13.6716 9.82843 13 9 13 8.17157 13 7.5 13.6716 7.5 14.5 7.5 15.3284 8.17157 16 9 16ZM15 16C15.8284 16 16.5 15.3284 16.5 14.5 16.5 13.6716 15.8284 13 15 13 14.1716 13 13.5 13.6716 13.5 14.5 13.5 15.3284 14.1716 16 15 16Z"
       }
     ]
   ],
@@ -138,47 +37,13 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M20 10H4"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3M20 10H4"
       }
     ]
   ],
@@ -186,57 +51,13 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M9 13h6"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M12 10v6"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3M9 13H15M12 10V16"
       }
     ]
   ],
@@ -244,47 +65,19 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17Z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "m9 14 1.5 2c.1.1.3.1.4 0l4.1-4"
+        "d": "M8 7V3M16 7V3M9 14 10.5 16C10.6 16.1 10.8 16.1 10.9 16L15 12"
       }
     ]
   ],
@@ -292,37 +85,13 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3M9.79993 10.7999 14.0999 15.0999M14.0999 10.7999 9.79993 15.0999"
       }
     ]
   ],
@@ -330,47 +99,13 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 11H8"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3M16 11H8"
       }
     ]
   ],
@@ -378,46 +113,19 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8.5 13c.82843 0 1.5-.6716 1.5-1.5S9.32843 10 8.5 10 7 10.6716 7 11.5 7.67157 13 8.5 13Z"
+        "d": "M8.5 13C9.32843 13 10 12.3284 10 11.5C10 10.6716 9.32843 10 8.5 10C7.67157 10 7 10.6716 7 11.5C7 12.3284 7.67157 13 8.5 13Z"
       }
     ]
   ],
@@ -425,57 +133,13 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 11H8"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 16H8"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3M16 11H8M16 16H8"
       }
     ]
   ],
@@ -483,46 +147,19 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "m11.7999 15.2-1.7.9c-.19999.1-.40001-.1-.40001-.3l.29998-1.9c0-.1.00003-.2-.09997-.2l-1.40003-1.3c-.2-.1-.09996-.4.10004-.4l1.89999-.3c.1 0 .2-.1.2-.1l.8-1.7c.1-.2.4-.2.5 0l.8 1.7c0 .1.1.1.2.1l1.9.3c.2 0 .3.3.1.4l-1.4 1.3c-.1.1-.1.1-.1.2l.3 1.9c0 .2-.2.4-.4.3l-1.7-.9h.1Z"
+        "d": "M11.7999 15.2L10.0999 16.1C9.89991 16.2 9.69989 16 9.69989 15.8L9.99987 13.9C9.99987 13.8 9.9999 13.7 9.8999 13.7L8.49987 12.4C8.29987 12.3 8.39991 12 8.59991 12L10.4999 11.7C10.5999 11.7 10.6999 11.6 10.6999 11.6L11.4999 9.9C11.5999 9.7 11.8999 9.7 11.9999 9.9L12.7999 11.6C12.7999 11.7 12.8999 11.7 12.9999 11.7L14.8999 12C15.0999 12 15.1999 12.3 14.9999 12.4L13.5999 13.7C13.4999 13.8 13.4999 13.8 13.4999 13.9L13.7999 15.8C13.7999 16 13.5999 16.2 13.3999 16.1L11.6999 15.2C11.9999 15.2 11.8999 15.2 11.7999 15.2Z"
       }
     ]
   ],
@@ -530,37 +167,13 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M8 7V3"
-      }
-    ],
-    [
-      "path",
-      {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M16 7V3"
+        "d": "M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17ZM8 7V3M16 7V3"
       }
     ]
   ],
@@ -568,27 +181,19 @@
     [
       "path",
       {
-        "fill": "#fff",
-        "d": "M0 0h24v24H0z"
+        "d": "M0 0H24V24H0z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M12 21c4.9706 0 9-4.0294 9-9 0-4.97056-4.0294-9-9-9-4.97056 0-9 4.02944-9 9 0 4.9706 4.02944 9 9 9Z"
+        "d": "M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
       }
     ],
     [
       "path",
       {
-        "stroke": "#000",
-        "stroke-linecap": "round",
-        "stroke-miterlimit": "10",
-        "stroke-width": "1.5",
-        "d": "M12 6v5.2c0 .5.2 1 .6 1.4L15 15"
+        "d": "M12 6V11.2C12 11.7 12.2 12.2 12.6 12.6L15 15"
       }
     ]
   ]
