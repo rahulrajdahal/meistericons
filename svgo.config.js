@@ -16,7 +16,6 @@ module.exports = {
     },
     "removeDimensions",
     "sortAttrs",
-
     {
       name: "removeAttrs",
       params: {

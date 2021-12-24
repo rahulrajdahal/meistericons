@@ -1,23 +1,11 @@
 {
-  "cricket-ball": [
-    "cricket-ball"
+  "calendar": [
+    "calendar"
   ],
-  "football": [
-    "football"
+  "calendar-a": [
+    "calendar-a"
   ],
-  "football-a": [
-    "football-a"
-  ],
-  "hockey": [
-    "hockey"
-  ],
-  "rugby-helbet": [
-    "rugby-helbet"
-  ],
-  "tennis": [
-    "tennis"
-  ],
-  "yoga-mat": [
-    "yoga-mat"
+  "calendar-a-add": [
+    "calendar-a-add"
   ]
 }

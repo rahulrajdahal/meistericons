@@ -1,8 +1,8 @@
 @font-face {
     font-family: "mni";
-    src: url("./mni.eot?c996dfa1ceb6f79f04c6357e8de20a35#iefix") format("embedded-opentype"),
-url("./mni.woff2?c996dfa1ceb6f79f04c6357e8de20a35") format("woff2"),
-url("./mni.woff?c996dfa1ceb6f79f04c6357e8de20a35") format("woff");
+    src: url("./mni.eot?1f4f112854fb012b9593e251a959adb1#iefix") format("embedded-opentype"),
+url("./mni.woff2?1f4f112854fb012b9593e251a959adb1") format("woff2"),
+url("./mni.woff?1f4f112854fb012b9593e251a959adb1") format("woff");
 }
 
 i[class^="mni-"]:before, i[class*=" mni-"]:before {
@@ -16,24 +16,12 @@ i[class^="mni-"]:before, i[class*=" mni-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.mni-cricket-ball:before {
+.mni-calendar-a-add:before {
     content: "\f101";
 }
-.mni-football-a:before {
+.mni-calendar-a:before {
     content: "\f102";
 }
-.mni-football:before {
+.mni-calendar:before {
     content: "\f103";
-}
-.mni-hockey:before {
-    content: "\f104";
-}
-.mni-rugby-helbet:before {
-    content: "\f105";
-}
-.mni-tennis:before {
-    content: "\f106";
-}
-.mni-yoga-mat:before {
-    content: "\f107";
 }
