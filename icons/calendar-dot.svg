@@ -1,7 +1,6 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="24" height="24" fill="white"/>
-<path d="M4 17V9C4 6.8 5.8 5 8 5H16C18.2 5 20 6.8 20 9V17C20 19.2 18.2 21 16 21H8C5.7 21 4 19.2 4 17Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M8 7V3" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-<path d="M16 7V3" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-<path d="M8.5 13C9.32843 13 10 12.3284 10 11.5C10 10.6716 9.32843 10 8.5 10C7.67157 10 7 10.6716 7 11.5C7 12.3284 7.67157 13 8.5 13Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+  <path fill="#fff" d="M0 0h24v24H0z"/>
+  <path stroke="#000" stroke-miterlimit="10" stroke-width="1.5" d="M4 17V9c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4H8c-2.3 0-4-1.8-4-4Z"/>
+  <path stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" d="M8 7V3m8 4V3"/>
+  <path stroke="#000" stroke-miterlimit="10" stroke-width="1.5" d="M8.5 13c.82843 0 1.5-.6716 1.5-1.5S9.32843 10 8.5 10 7 10.6716 7 11.5 7.67157 13 8.5 13Z"/>
 </svg>

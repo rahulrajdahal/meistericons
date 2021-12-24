@@ -7,28 +7,8 @@ module.exports = {
   plugins: [
     {
       name: "preset-default",
-      params: {
-        overrides: {
-          removeViewBox: false,
-          removeUselessStrokeAndFill: false,
-        },
-      },
     },
     "removeDimensions",
     "sortAttrs",
-    "removeOffCanvasPaths",
-
-    {
-      name: "removeAttrs",
-      params: {
-        attrs: "(fill|stroke)",
-      },
-    },
-    {
-      name: "addAttributesToSVGElement",
-      params: {
-        attribute: { fill: "currentColor" },
-      },
-    },
   ],
 };

@@ -6,7 +6,7 @@
   "main": "./react/cjs/index.js",
   "module": "./react/esm/index.js",
   "scripts": {
-    "optimize": "rimraf optimized && svgo -q -p 8 -f ./icons -o ./optimizied",
+    "optimize": "svgo -q -p 8 -f ./icons -o ./icons",
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "add:tags": "node ./scripts/addTags.js",
     "build:react": "rimraf react && node ./scripts/build.js",
