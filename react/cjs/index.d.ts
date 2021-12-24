@@ -1,15 +1,3 @@
-export { default as CalendarAAddIcon } from './CalendarAAddIcon';
-export { default as CalendarADotsIcon } from './CalendarADotsIcon';
-export { default as CalendarAIcon } from './CalendarAIcon';
-export { default as CalendarAddIcon } from './CalendarAddIcon';
-export { default as CalendarCheckIcon } from './CalendarCheckIcon';
-export { default as CalendarCrossIcon } from './CalendarCrossIcon';
-export { default as CalendarDashIcon } from './CalendarDashIcon';
-export { default as CalendarDotIcon } from './CalendarDotIcon';
-export { default as CalendarLinesIcon } from './CalendarLinesIcon';
-export { default as CalendarStarIcon } from './CalendarStarIcon';
-export { default as CalendarIcon } from './CalendarIcon';
-export { default as ClockCircleIcon } from './ClockCircleIcon';
 export { default as CricketBallIcon } from './CricketBallIcon';
 export { default as FootballAIcon } from './FootballAIcon';
 export { default as FootballIcon } from './FootballIcon';

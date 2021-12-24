@@ -1,8 +1,8 @@
 @font-face {
     font-family: "mni";
-    src: url("./mni.eot?a4f206c54b72d6eab66857df9334b591#iefix") format("embedded-opentype"),
-url("./mni.woff2?a4f206c54b72d6eab66857df9334b591") format("woff2"),
-url("./mni.woff?a4f206c54b72d6eab66857df9334b591") format("woff");
+    src: url("./mni.eot?b7c6c29dbb4c332e9fb743ea5bbca12f#iefix") format("embedded-opentype"),
+url("./mni.woff2?b7c6c29dbb4c332e9fb743ea5bbca12f") format("woff2"),
+url("./mni.woff?b7c6c29dbb4c332e9fb743ea5bbca12f") format("woff");
 }
 
 i[class^="mni-"]:before, i[class*=" mni-"]:before {
@@ -16,60 +16,24 @@ i[class^="mni-"]:before, i[class*=" mni-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.mni-calendar-a-add:before {
+.mni-cricket-ball:before {
     content: "\f101";
 }
-.mni-calendar-a-dots:before {
+.mni-football-a:before {
     content: "\f102";
 }
-.mni-calendar-a:before {
+.mni-football:before {
     content: "\f103";
 }
-.mni-calendar-add:before {
+.mni-hockey:before {
     content: "\f104";
 }
-.mni-calendar-check:before {
+.mni-rugby-helbet:before {
     content: "\f105";
 }
-.mni-calendar-cross:before {
+.mni-tennis:before {
     content: "\f106";
 }
-.mni-calendar-dash:before {
-    content: "\f107";
-}
-.mni-calendar-dot:before {
-    content: "\f108";
-}
-.mni-calendar-lines:before {
-    content: "\f109";
-}
-.mni-calendar-star:before {
-    content: "\f10a";
-}
-.mni-calendar:before {
-    content: "\f10b";
-}
-.mni-clock-circle:before {
-    content: "\f10c";
-}
-.mni-cricket-ball:before {
-    content: "\f10d";
-}
-.mni-football-a:before {
-    content: "\f10e";
-}
-.mni-football:before {
-    content: "\f10f";
-}
-.mni-hockey:before {
-    content: "\f110";
-}
-.mni-rugby-helbet:before {
-    content: "\f111";
-}
-.mni-tennis:before {
-    content: "\f112";
-}
 .mni-yoga-mat:before {
-    content: "\f113";
+    content: "\f107";
 }

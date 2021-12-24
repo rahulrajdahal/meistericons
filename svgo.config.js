@@ -9,6 +9,7 @@ module.exports = {
       name: "preset-default",
       params: {
         overrides: {
+          mergePaths: false,
           removeViewBox: false,
         },
       },
@@ -19,7 +20,7 @@ module.exports = {
     {
       name: "removeAttrs",
       params: {
-        attrs: "(fill|stroke)",
+        attrs: "fill",
       },
     },
     {
