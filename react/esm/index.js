@@ -1,3 +1,3 @@
-export { default as CalendarAAddIcon } from './CalendarAAddIcon.js';
-export { default as CalendarAIcon } from './CalendarAIcon.js';
-export { default as CalendarIcon } from './CalendarIcon.js';
+export { default as UserCircleBlockIcon } from './UserCircleBlockIcon.js';
+export { default as UserCircleCodeIcon } from './UserCircleCodeIcon.js';
+export { default as UserSqaureCodeIcon } from './UserSqaureCodeIcon.js';

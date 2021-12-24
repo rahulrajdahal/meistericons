@@ -1,8 +1,8 @@
 @font-face {
     font-family: "mni";
-    src: url("./mni.eot?1f4f112854fb012b9593e251a959adb1#iefix") format("embedded-opentype"),
-url("./mni.woff2?1f4f112854fb012b9593e251a959adb1") format("woff2"),
-url("./mni.woff?1f4f112854fb012b9593e251a959adb1") format("woff");
+    src: url("./mni.eot?aaf2fe03ee8c51747c7e9530b663371e#iefix") format("embedded-opentype"),
+url("./mni.woff2?aaf2fe03ee8c51747c7e9530b663371e") format("woff2"),
+url("./mni.woff?aaf2fe03ee8c51747c7e9530b663371e") format("woff");
 }
 
 i[class^="mni-"]:before, i[class*=" mni-"]:before {
@@ -16,12 +16,12 @@ i[class^="mni-"]:before, i[class*=" mni-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.mni-calendar-a-add:before {
+.mni-user-circle-block:before {
     content: "\f101";
 }
-.mni-calendar-a:before {
+.mni-user-circle-code:before {
     content: "\f102";
 }
-.mni-calendar:before {
+.mni-user-sqaure-code:before {
     content: "\f103";
 }

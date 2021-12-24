@@ -1,21 +1,21 @@
 export type MniId =
-  | "calendar-a-add"
-  | "calendar-a"
-  | "calendar";
+  | "user-circle-block"
+  | "user-circle-code"
+  | "user-sqaure-code";
 
 export type MniKey =
-  | "CalendarAAdd"
-  | "CalendarA"
-  | "Calendar";
+  | "UserCircleBlock"
+  | "UserCircleCode"
+  | "UserSqaureCode";
 
 export enum Mni {
-  CalendarAAdd = "calendar-a-add",
-  CalendarA = "calendar-a",
-  Calendar = "calendar",
+  UserCircleBlock = "user-circle-block",
+  UserCircleCode = "user-circle-code",
+  UserSqaureCode = "user-sqaure-code",
 }
 
 export const MNI_CODEPOINTS: { [key in Mni]: string } = {
-  [Mni.CalendarAAdd]: "61697",
-  [Mni.CalendarA]: "61698",
-  [Mni.Calendar]: "61699",
+  [Mni.UserCircleBlock]: "61697",
+  [Mni.UserCircleCode]: "61698",
+  [Mni.UserSqaureCode]: "61699",
 };

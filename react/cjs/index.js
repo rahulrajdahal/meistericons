@@ -1,3 +1,3 @@
-module.exports.CalendarAAddIcon=require('./CalendarAAddIcon.js');'
-module.exports.CalendarAIcon=require('./CalendarAIcon.js');'
-module.exports.CalendarIcon=require('./CalendarIcon.js');'
+module.exports.UserCircleBlockIcon=require('./UserCircleBlockIcon.js');'
+module.exports.UserCircleCodeIcon=require('./UserCircleCodeIcon.js');'
+module.exports.UserSqaureCodeIcon=require('./UserSqaureCodeIcon.js');'
