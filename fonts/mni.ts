@@ -10,7 +10,14 @@ export type MniId =
   | "calendar-lines"
   | "calendar-star"
   | "calendar"
-  | "clock-circle";
+  | "clock-circle"
+  | "cricket-ball"
+  | "football-a"
+  | "football"
+  | "hockey"
+  | "rugby-helbet"
+  | "tennis"
+  | "yoga-mat";
 
 export type MniKey =
   | "CalendarAAdd"
@@ -24,7 +31,14 @@ export type MniKey =
   | "CalendarLines"
   | "CalendarStar"
   | "Calendar"
-  | "ClockCircle";
+  | "ClockCircle"
+  | "CricketBall"
+  | "FootballA"
+  | "Football"
+  | "Hockey"
+  | "RugbyHelbet"
+  | "Tennis"
+  | "YogaMat";
 
 export enum Mni {
   CalendarAAdd = "calendar-a-add",
@@ -39,6 +53,13 @@ export enum Mni {
   CalendarStar = "calendar-star",
   Calendar = "calendar",
   ClockCircle = "clock-circle",
+  CricketBall = "cricket-ball",
+  FootballA = "football-a",
+  Football = "football",
+  Hockey = "hockey",
+  RugbyHelbet = "rugby-helbet",
+  Tennis = "tennis",
+  YogaMat = "yoga-mat",
 }
 
 export const MNI_CODEPOINTS: { [key in Mni]: string } = {
@@ -54,4 +75,11 @@ export const MNI_CODEPOINTS: { [key in Mni]: string } = {
   [Mni.CalendarStar]: "61706",
   [Mni.Calendar]: "61707",
   [Mni.ClockCircle]: "61708",
+  [Mni.CricketBall]: "61709",
+  [Mni.FootballA]: "61710",
+  [Mni.Football]: "61711",
+  [Mni.Hockey]: "61712",
+  [Mni.RugbyHelbet]: "61713",
+  [Mni.Tennis]: "61714",
+  [Mni.YogaMat]: "61715",
 };

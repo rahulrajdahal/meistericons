@@ -1,8 +1,8 @@
 @font-face {
     font-family: "mni";
-    src: url("./mni.eot?fdea28cff3b3a7bc4fcd569d4c1d529f#iefix") format("embedded-opentype"),
-url("./mni.woff2?fdea28cff3b3a7bc4fcd569d4c1d529f") format("woff2"),
-url("./mni.woff?fdea28cff3b3a7bc4fcd569d4c1d529f") format("woff");
+    src: url("./mni.eot?a4f206c54b72d6eab66857df9334b591#iefix") format("embedded-opentype"),
+url("./mni.woff2?a4f206c54b72d6eab66857df9334b591") format("woff2"),
+url("./mni.woff?a4f206c54b72d6eab66857df9334b591") format("woff");
 }
 
 i[class^="mni-"]:before, i[class*=" mni-"]:before {
@@ -51,4 +51,25 @@ i[class^="mni-"]:before, i[class*=" mni-"]:before {
 }
 .mni-clock-circle:before {
     content: "\f10c";
+}
+.mni-cricket-ball:before {
+    content: "\f10d";
+}
+.mni-football-a:before {
+    content: "\f10e";
+}
+.mni-football:before {
+    content: "\f10f";
+}
+.mni-hockey:before {
+    content: "\f110";
+}
+.mni-rugby-helbet:before {
+    content: "\f111";
+}
+.mni-tennis:before {
+    content: "\f112";
+}
+.mni-yoga-mat:before {
+    content: "\f113";
 }
