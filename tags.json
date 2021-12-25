@@ -1,266 +1,516 @@
 {
   "arrow-break-down": [
-    "arrow-break-down"
+    "arrow-break-down",
+    "arrow",
+    "break",
+    "down"
   ],
   "arrow-break-left": [
-    "arrow-break-left"
+    "arrow-break-left",
+    "arrow",
+    "break",
+    "left"
   ],
   "arrow-break-right": [
-    "arrow-break-right"
+    "arrow-break-right",
+    "arrow",
+    "break",
+    "right"
   ],
   "arrow-break-top": [
-    "arrow-break-top"
+    "arrow-break-top",
+    "arrow",
+    "break",
+    "top"
   ],
   "arrow-circle-down": [
-    "arrow-circle-down"
+    "arrow-circle-down",
+    "arrow",
+    "circle",
+    "down"
   ],
   "arrow-circle-downleft": [
-    "arrow-circle-downleft"
+    "arrow-circle-downleft",
+    "arrow",
+    "circle",
+    "downleft"
   ],
   "arrow-circle-downright": [
-    "arrow-circle-downright"
+    "arrow-circle-downright",
+    "arrow",
+    "circle",
+    "downright"
   ],
   "arrow-circle-left": [
-    "arrow-circle-left"
+    "arrow-circle-left",
+    "arrow",
+    "circle",
+    "left"
   ],
   "arrow-circle-right": [
-    "arrow-circle-right"
+    "arrow-circle-right",
+    "arrow",
+    "circle",
+    "right"
   ],
   "arrow-circle-top": [
-    "arrow-circle-top"
+    "arrow-circle-top",
+    "arrow",
+    "circle",
+    "top"
   ],
   "arrow-circle-topleft": [
-    "arrow-circle-topleft"
+    "arrow-circle-topleft",
+    "arrow",
+    "circle",
+    "topleft"
   ],
   "arrow-circle-topright": [
-    "arrow-circle-topright"
+    "arrow-circle-topright",
+    "arrow",
+    "circle",
+    "topright"
   ],
   "arrow-crash-down": [
-    "arrow-crash-down"
+    "arrow-crash-down",
+    "arrow",
+    "crash",
+    "down"
   ],
   "arrow-crash-left": [
-    "arrow-crash-left"
+    "arrow-crash-left",
+    "arrow",
+    "crash",
+    "left"
   ],
   "arrow-crash-right": [
-    "arrow-crash-right"
+    "arrow-crash-right",
+    "arrow",
+    "crash",
+    "right"
   ],
   "arrow-crash-top": [
-    "arrow-crash-top"
+    "arrow-crash-top",
+    "arrow",
+    "crash",
+    "top"
   ],
   "arrow-curved-downright": [
-    "arrow-curved-downright"
+    "arrow-curved-downright",
+    "arrow",
+    "curved",
+    "downright"
   ],
   "arrow-doublehead-d": [
-    "arrow-doublehead-d"
+    "arrow-doublehead-d",
+    "arrow",
+    "doublehead",
+    "d"
   ],
   "arrow-doublehead-d-a": [
-    "arrow-doublehead-d-a"
+    "arrow-doublehead-d-a",
+    "arrow",
+    "doublehead",
+    "d",
+    "a"
   ],
   "arrow-doublehead-h": [
-    "arrow-doublehead-h"
+    "arrow-doublehead-h",
+    "arrow",
+    "doublehead",
+    "h"
   ],
   "arrow-doublehead-v": [
-    "arrow-doublehead-v"
+    "arrow-doublehead-v",
+    "arrow",
+    "doublehead",
+    "v"
   ],
   "arrow-down": [
-    "arrow-down"
+    "arrow-down",
+    "arrow",
+    "down"
   ],
   "arrow-downleft": [
-    "arrow-downleft"
+    "arrow-downleft",
+    "arrow",
+    "downleft"
   ],
   "arrow-downright": [
-    "arrow-downright"
+    "arrow-downright",
+    "arrow",
+    "downright"
   ],
   "arrow-downwards": [
-    "arrow-downwards"
+    "arrow-downwards",
+    "arrow",
+    "downwards"
   ],
   "arrow-duo-down": [
-    "arrow-duo-down"
+    "arrow-duo-down",
+    "arrow",
+    "duo",
+    "down"
   ],
   "arrow-duo-left": [
-    "arrow-duo-left"
+    "arrow-duo-left",
+    "arrow",
+    "duo",
+    "left"
   ],
   "arrow-duo-right": [
-    "arrow-duo-right"
+    "arrow-duo-right",
+    "arrow",
+    "duo",
+    "right"
   ],
   "arrow-duo-top": [
-    "arrow-duo-top"
+    "arrow-duo-top",
+    "arrow",
+    "duo",
+    "top"
   ],
   "arrow-left": [
-    "arrow-left"
+    "arrow-left",
+    "arrow",
+    "left"
   ],
   "arrow-loop-left": [
-    "arrow-loop-left"
+    "arrow-loop-left",
+    "arrow",
+    "loop",
+    "left"
   ],
   "arrow-loop-right": [
-    "arrow-loop-right"
+    "arrow-loop-right",
+    "arrow",
+    "loop",
+    "right"
   ],
   "arrow-reverse-downleft": [
-    "arrow-reverse-downleft"
+    "arrow-reverse-downleft",
+    "arrow",
+    "reverse",
+    "downleft"
   ],
   "arrow-reverse-longh": [
-    "arrow-reverse-longh"
+    "arrow-reverse-longh",
+    "arrow",
+    "reverse",
+    "longh"
   ],
   "arrow-reverse-longv": [
-    "arrow-reverse-longv"
+    "arrow-reverse-longv",
+    "arrow",
+    "reverse",
+    "longv"
   ],
   "arrow-reverse-shorth": [
-    "arrow-reverse-shorth"
+    "arrow-reverse-shorth",
+    "arrow",
+    "reverse",
+    "shorth"
   ],
   "arrow-reverse-shortv": [
-    "arrow-reverse-shortv"
+    "arrow-reverse-shortv",
+    "arrow",
+    "reverse",
+    "shortv"
   ],
   "arrow-reverse-topleft": [
-    "arrow-reverse-topleft"
+    "arrow-reverse-topleft",
+    "arrow",
+    "reverse",
+    "topleft"
   ],
   "arrow-reverse-topright": [
-    "arrow-reverse-topright"
+    "arrow-reverse-topright",
+    "arrow",
+    "reverse",
+    "topright"
   ],
   "arrow-right": [
-    "arrow-right"
+    "arrow-right",
+    "arrow",
+    "right"
   ],
   "arrow-rounded-downleft": [
-    "arrow-rounded-downleft"
+    "arrow-rounded-downleft",
+    "arrow",
+    "rounded",
+    "downleft"
   ],
   "arrow-rounded-downright": [
-    "arrow-rounded-downright"
+    "arrow-rounded-downright",
+    "arrow",
+    "rounded",
+    "downright"
   ],
   "arrow-rounded-topleft": [
-    "arrow-rounded-topleft"
+    "arrow-rounded-topleft",
+    "arrow",
+    "rounded",
+    "topleft"
   ],
   "arrow-rounded-topright": [
-    "arrow-rounded-topright"
+    "arrow-rounded-topright",
+    "arrow",
+    "rounded",
+    "topright"
   ],
   "arrow-sort": [
-    "arrow-sort"
+    "arrow-sort",
+    "arrow",
+    "sort"
   ],
   "arrow-square-down": [
-    "arrow-square-down"
+    "arrow-square-down",
+    "arrow",
+    "square",
+    "down"
   ],
   "arrow-square-downleft": [
-    "arrow-square-downleft"
+    "arrow-square-downleft",
+    "arrow",
+    "square",
+    "downleft"
   ],
   "arrow-square-downright": [
-    "arrow-square-downright"
+    "arrow-square-downright",
+    "arrow",
+    "square",
+    "downright"
   ],
   "arrow-square-left": [
-    "arrow-square-left"
+    "arrow-square-left",
+    "arrow",
+    "square",
+    "left"
   ],
   "arrow-square-right": [
-    "arrow-square-right"
+    "arrow-square-right",
+    "arrow",
+    "square",
+    "right"
   ],
   "arrow-square-top": [
-    "arrow-square-top"
+    "arrow-square-top",
+    "arrow",
+    "square",
+    "top"
   ],
   "arrow-square-topleft": [
-    "arrow-square-topleft"
+    "arrow-square-topleft",
+    "arrow",
+    "square",
+    "topleft"
   ],
   "arrow-square-topright": [
-    "arrow-square-topright"
+    "arrow-square-topright",
+    "arrow",
+    "square",
+    "topright"
   ],
   "arrow-top": [
-    "arrow-top"
+    "arrow-top",
+    "arrow",
+    "top"
   ],
   "arrow-topleft": [
-    "arrow-topleft"
+    "arrow-topleft",
+    "arrow",
+    "topleft"
   ],
   "arrow-topright": [
-    "arrow-topright"
+    "arrow-topright",
+    "arrow",
+    "topright"
   ],
   "arrow-tv": [
-    "arrow-tv"
+    "arrow-tv",
+    "arrow",
+    "tv"
   ],
   "arrow-tv-double": [
-    "arrow-tv-double"
+    "arrow-tv-double",
+    "arrow",
+    "tv",
+    "double"
   ],
   "arrow-tv-triple": [
-    "arrow-tv-triple"
+    "arrow-tv-triple",
+    "arrow",
+    "tv",
+    "triple"
   ],
   "arrow-upwards": [
-    "arrow-upwards"
+    "arrow-upwards",
+    "arrow",
+    "upwards"
   ],
   "caret-double-left": [
-    "caret-double-left"
+    "caret-double-left",
+    "caret",
+    "double",
+    "left"
   ],
   "caret-double-right": [
-    "caret-double-right"
+    "caret-double-right",
+    "caret",
+    "double",
+    "right"
   ],
   "caret-double-right-1": [
-    "caret-double-right-1"
+    "caret-double-right-1",
+    "caret",
+    "double",
+    "right",
+    "1"
   ],
   "caret-double-top": [
-    "caret-double-top"
+    "caret-double-top",
+    "caret",
+    "double",
+    "top"
   ],
   "chevron-break-down": [
-    "chevron-break-down"
+    "chevron-break-down",
+    "chevron",
+    "break",
+    "down"
   ],
   "chevron-break-left": [
-    "chevron-break-left"
+    "chevron-break-left",
+    "chevron",
+    "break",
+    "left"
   ],
   "chevron-break-right": [
-    "chevron-break-right"
+    "chevron-break-right",
+    "chevron",
+    "break",
+    "right"
   ],
   "chevron-break-top": [
-    "chevron-break-top"
+    "chevron-break-top",
+    "chevron",
+    "break",
+    "top"
   ],
   "chevron-circle-down": [
-    "chevron-circle-down"
+    "chevron-circle-down",
+    "chevron",
+    "circle",
+    "down"
   ],
   "chevron-circle-left": [
-    "chevron-circle-left"
+    "chevron-circle-left",
+    "chevron",
+    "circle",
+    "left"
   ],
   "chevron-circle-right": [
-    "chevron-circle-right"
+    "chevron-circle-right",
+    "chevron",
+    "circle",
+    "right"
   ],
   "chevron-circle-top": [
-    "chevron-circle-top"
+    "chevron-circle-top",
+    "chevron",
+    "circle",
+    "top"
   ],
   "chevron-double-down": [
-    "chevron-double-down"
+    "chevron-double-down",
+    "chevron",
+    "double",
+    "down"
   ],
   "chevron-double-downleft": [
-    "chevron-double-downleft"
+    "chevron-double-downleft",
+    "chevron",
+    "double",
+    "downleft"
   ],
   "chevron-double-downright": [
-    "chevron-double-downright"
+    "chevron-double-downright",
+    "chevron",
+    "double",
+    "downright"
   ],
   "chevron-double-left": [
-    "chevron-double-left"
+    "chevron-double-left",
+    "chevron",
+    "double",
+    "left"
   ],
   "chevron-double-right": [
-    "chevron-double-right"
+    "chevron-double-right",
+    "chevron",
+    "double",
+    "right"
   ],
   "chevron-double-top": [
-    "chevron-double-top"
+    "chevron-double-top",
+    "chevron",
+    "double",
+    "top"
   ],
   "chevron-double-topleft": [
-    "chevron-double-topleft"
+    "chevron-double-topleft",
+    "chevron",
+    "double",
+    "topleft"
   ],
   "chevron-double-topright": [
-    "chevron-double-topright"
+    "chevron-double-topright",
+    "chevron",
+    "double",
+    "topright"
   ],
   "chevron-down": [
-    "chevron-down"
+    "chevron-down",
+    "chevron",
+    "down"
   ],
   "chevron-left": [
-    "chevron-left"
+    "chevron-left",
+    "chevron",
+    "left"
   ],
   "chevron-right": [
-    "chevron-right"
+    "chevron-right",
+    "chevron",
+    "right"
   ],
   "chevron-square-down": [
-    "chevron-square-down"
+    "chevron-square-down",
+    "chevron",
+    "square",
+    "down"
   ],
   "chevron-square-left": [
-    "chevron-square-left"
+    "chevron-square-left",
+    "chevron",
+    "square",
+    "left"
   ],
   "chevron-square-right": [
-    "chevron-square-right"
+    "chevron-square-right",
+    "chevron",
+    "square",
+    "right"
   ],
   "chevron-square-top": [
-    "chevron-square-top"
+    "chevron-square-top",
+    "chevron",
+    "square",
+    "top"
   ],
   "chevron-top": [
-    "chevron-top"
+    "chevron-top",
+    "chevron",
+    "top"
   ]
 }

@@ -19,7 +19,7 @@ module.exports = {
     {
       name: "removeAttrs",
       params: {
-        attrs: "(fill|stroke)",
+        attrs: "(fill|stroke|fill-rule|clip-rule)",
       },
     },
     {
