@@ -1,4 +1,48 @@
 {
+  "add-sqaure": [
+    "add-sqaure",
+    "add",
+    "sqaure"
+  ],
+  "apps": [
+    "apps",
+    "apps"
+  ],
+  "apps-a": [
+    "apps-a",
+    "apps",
+    "a"
+  ],
+  "apps-add": [
+    "apps-add",
+    "apps",
+    "add"
+  ],
+  "apps-add-a": [
+    "apps-add-a",
+    "apps",
+    "add",
+    "a"
+  ],
+  "apps-cross": [
+    "apps-cross",
+    "apps",
+    "cross"
+  ],
+  "archive": [
+    "archive",
+    "archive"
+  ],
+  "archive-add": [
+    "archive-add",
+    "archive",
+    "add"
+  ],
+  "archive-cross": [
+    "archive-cross",
+    "archive",
+    "cross"
+  ],
   "arrow-break-down": [
     "arrow-break-down",
     "arrow",
@@ -348,6 +392,38 @@
     "arrow",
     "upwards"
   ],
+  "bed": [
+    "bed",
+    "bed"
+  ],
+  "bookmark": [
+    "bookmark",
+    "bookmark"
+  ],
+  "bookmark-a": [
+    "bookmark-a",
+    "bookmark",
+    "a"
+  ],
+  "bookmark-add": [
+    "bookmark-add",
+    "bookmark",
+    "add"
+  ],
+  "bookmark-cross": [
+    "bookmark-cross",
+    "bookmark",
+    "cross"
+  ],
+  "bookmark-minus": [
+    "bookmark-minus",
+    "bookmark",
+    "minus"
+  ],
+  "bookmarks": [
+    "bookmarks",
+    "bookmarks"
+  ],
   "caret-double-left": [
     "caret-double-left",
     "caret",
@@ -372,6 +448,16 @@
     "caret",
     "double",
     "top"
+  ],
+  "check-circle": [
+    "check-circle",
+    "check",
+    "circle"
+  ],
+  "check-square": [
+    "check-square",
+    "check",
+    "square"
   ],
   "chevron-break-down": [
     "chevron-break-down",
@@ -512,5 +598,321 @@
     "chevron-top",
     "chevron",
     "top"
+  ],
+  "circle": [
+    "circle",
+    "circle"
+  ],
+  "circle-times": [
+    "circle-times",
+    "circle",
+    "times"
+  ],
+  "coins": [
+    "coins",
+    "coins"
+  ],
+  "cross-square": [
+    "cross-square",
+    "cross",
+    "square"
+  ],
+  "curved-rectangle": [
+    "curved-rectangle",
+    "curved",
+    "rectangle"
+  ],
+  "curved-rectangle-a": [
+    "curved-rectangle-a",
+    "curved",
+    "rectangle",
+    "a"
+  ],
+  "curved-square": [
+    "curved-square",
+    "curved",
+    "square"
+  ],
+  "cylinder": [
+    "cylinder",
+    "cylinder"
+  ],
+  "cylinder-a": [
+    "cylinder-a",
+    "cylinder",
+    "a"
+  ],
+  "dashboard": [
+    "dashboard",
+    "dashboard"
+  ],
+  "dashboard-square": [
+    "dashboard-square",
+    "dashboard",
+    "square"
+  ],
+  "dashed square": [
+    "dashed square",
+    "dashed square"
+  ],
+  "dashed-circle": [
+    "dashed-circle",
+    "dashed",
+    "circle"
+  ],
+  "dashed-square-a": [
+    "dashed-square-a",
+    "dashed",
+    "square",
+    "a"
+  ],
+  "delete": [
+    "delete",
+    "delete"
+  ],
+  "delete-a": [
+    "delete-a",
+    "delete",
+    "a"
+  ],
+  "emrald": [
+    "emrald",
+    "emrald"
+  ],
+  "equal-square": [
+    "equal-square",
+    "equal",
+    "square"
+  ],
+  "heptagon": [
+    "heptagon",
+    "heptagon"
+  ],
+  "hex-add": [
+    "hex-add",
+    "hex",
+    "add"
+  ],
+  "hex-cross": [
+    "hex-cross",
+    "hex",
+    "cross"
+  ],
+  "hex-cross-1": [
+    "hex-cross-1",
+    "hex",
+    "cross",
+    "1"
+  ],
+  "home-ch": [
+    "home-ch",
+    "home",
+    "ch"
+  ],
+  "home-circle": [
+    "home-circle",
+    "home",
+    "circle"
+  ],
+  "home-circle-1": [
+    "home-circle-1",
+    "home",
+    "circle",
+    "1"
+  ],
+  "home-circle-ch": [
+    "home-circle-ch",
+    "home",
+    "circle",
+    "ch"
+  ],
+  "home-empty": [
+    "home-empty",
+    "home",
+    "empty"
+  ],
+  "home-garage": [
+    "home-garage",
+    "home",
+    "garage"
+  ],
+  "home-garage-circle": [
+    "home-garage-circle",
+    "home",
+    "garage",
+    "circle"
+  ],
+  "home-garage-circle-ch": [
+    "home-garage-circle-ch",
+    "home",
+    "garage",
+    "circle",
+    "ch"
+  ],
+  "home-garage-line": [
+    "home-garage-line",
+    "home",
+    "garage",
+    "line"
+  ],
+  "home-largedoor": [
+    "home-largedoor",
+    "home",
+    "largedoor"
+  ],
+  "home-largedoor-circle": [
+    "home-largedoor-circle",
+    "home",
+    "largedoor",
+    "circle"
+  ],
+  "home-largedoor-circle-ch": [
+    "home-largedoor-circle-ch",
+    "home",
+    "largedoor",
+    "circle",
+    "ch"
+  ],
+  "home-minimal": [
+    "home-minimal",
+    "home",
+    "minimal"
+  ],
+  "intersection": [
+    "intersection",
+    "intersection"
+  ],
+  "mantra": [
+    "mantra",
+    "mantra"
+  ],
+  "meter": [
+    "meter",
+    "meter"
+  ],
+  "minus-square": [
+    "minus-square",
+    "minus",
+    "square"
+  ],
+  "no-entry": [
+    "no-entry",
+    "no",
+    "entry"
+  ],
+  "notification": [
+    "notification",
+    "notification"
+  ],
+  "notification-alert": [
+    "notification-alert",
+    "notification",
+    "alert"
+  ],
+  "notification-alert-a": [
+    "notification-alert-a",
+    "notification",
+    "alert",
+    "a"
+  ],
+  "notification-minimal": [
+    "notification-minimal",
+    "notification",
+    "minimal"
+  ],
+  "notification-minimal-alert": [
+    "notification-minimal-alert",
+    "notification",
+    "minimal",
+    "alert"
+  ],
+  "notification-minimal-alert-a": [
+    "notification-minimal-alert-a",
+    "notification",
+    "minimal",
+    "alert",
+    "a"
+  ],
+  "octagon": [
+    "octagon",
+    "octagon"
+  ],
+  "reactangle-half": [
+    "reactangle-half",
+    "reactangle",
+    "half"
+  ],
+  "rhombus": [
+    "rhombus",
+    "rhombus"
+  ],
+  "save": [
+    "save",
+    "save"
+  ],
+  "search": [
+    "search",
+    "search"
+  ],
+  "search-add": [
+    "search-add",
+    "search",
+    "add"
+  ],
+  "search-circle": [
+    "search-circle",
+    "search",
+    "circle"
+  ],
+  "search-cross": [
+    "search-cross",
+    "search",
+    "cross"
+  ],
+  "search-minus": [
+    "search-minus",
+    "search",
+    "minus"
+  ],
+  "search-square": [
+    "search-square",
+    "search",
+    "square"
+  ],
+  "settings-horizontal": [
+    "settings-horizontal",
+    "settings",
+    "horizontal"
+  ],
+  "settings-vertical": [
+    "settings-vertical",
+    "settings",
+    "vertical"
+  ],
+  "square": [
+    "square",
+    "square"
+  ],
+  "square-circle": [
+    "square-circle",
+    "square",
+    "circle"
+  ],
+  "star": [
+    "star",
+    "star"
+  ],
+  "target": [
+    "target",
+    "target"
+  ],
+  "verify": [
+    "verify",
+    "verify"
+  ],
+  "verify-a": [
+    "verify-a",
+    "verify",
+    "a"
   ]
 }
