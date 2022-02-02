@@ -1,8 +1,51 @@
 {
+  "Frame 471": [
+    "Frame 471",
+    "Frame 471"
+  ],
   "add-sqaure": [
     "add-sqaure",
     "add",
     "sqaure"
+  ],
+  "airpod-single": [
+    "airpod-single",
+    "airpod",
+    "single"
+  ],
+  "airpods": [
+    "airpods",
+    "airpods"
+  ],
+  "airpods-alt": [
+    "airpods-alt",
+    "airpods",
+    "alt"
+  ],
+  "align-center": [
+    "align-center",
+    "align",
+    "center"
+  ],
+  "align-justify": [
+    "align-justify",
+    "align",
+    "justify"
+  ],
+  "align-left": [
+    "align-left",
+    "align",
+    "left"
+  ],
+  "align-right": [
+    "align-right",
+    "align",
+    "right"
+  ],
+  "android-phone": [
+    "android-phone",
+    "android",
+    "phone"
   ],
   "apps": [
     "apps",
@@ -396,6 +439,10 @@
     "bed",
     "bed"
   ],
+  "bell": [
+    "bell",
+    "bell"
+  ],
   "bookmark": [
     "bookmark",
     "bookmark"
@@ -423,6 +470,85 @@
   "bookmarks": [
     "bookmarks",
     "bookmarks"
+  ],
+  "calendar": [
+    "calendar",
+    "calendar"
+  ],
+  "calendar-a": [
+    "calendar-a",
+    "calendar",
+    "a"
+  ],
+  "calendar-a-add": [
+    "calendar-a-add",
+    "calendar",
+    "a",
+    "add"
+  ],
+  "calendar-a-check": [
+    "calendar-a-check",
+    "calendar",
+    "a",
+    "check"
+  ],
+  "calendar-a-cross": [
+    "calendar-a-cross",
+    "calendar",
+    "a",
+    "cross"
+  ],
+  "calendar-a-dots": [
+    "calendar-a-dots",
+    "calendar",
+    "a",
+    "dots"
+  ],
+  "calendar-a-grid": [
+    "calendar-a-grid",
+    "calendar",
+    "a",
+    "grid"
+  ],
+  "calendar-add": [
+    "calendar-add",
+    "calendar",
+    "add"
+  ],
+  "calendar-check": [
+    "calendar-check",
+    "calendar",
+    "check"
+  ],
+  "calendar-code": [
+    "calendar-code",
+    "calendar",
+    "code"
+  ],
+  "calendar-cross": [
+    "calendar-cross",
+    "calendar",
+    "cross"
+  ],
+  "calendar-dash": [
+    "calendar-dash",
+    "calendar",
+    "dash"
+  ],
+  "calendar-dot": [
+    "calendar-dot",
+    "calendar",
+    "dot"
+  ],
+  "calendar-lines": [
+    "calendar-lines",
+    "calendar",
+    "lines"
+  ],
+  "calendar-star": [
+    "calendar-star",
+    "calendar",
+    "star"
   ],
   "caret-double-left": [
     "caret-double-left",
@@ -599,18 +725,137 @@
     "chevron",
     "top"
   ],
+  "chip": [
+    "chip",
+    "chip"
+  ],
   "circle": [
     "circle",
     "circle"
+  ],
+  "circle-1": [
+    "circle-1",
+    "circle",
+    "1"
+  ],
+  "circle-10": [
+    "circle-10",
+    "circle",
+    "10"
+  ],
+  "circle-11": [
+    "circle-11",
+    "circle",
+    "11"
+  ],
+  "circle-12": [
+    "circle-12",
+    "circle",
+    "12"
+  ],
+  "circle-13": [
+    "circle-13",
+    "circle",
+    "13"
+  ],
+  "circle-14": [
+    "circle-14",
+    "circle",
+    "14"
+  ],
+  "circle-15": [
+    "circle-15",
+    "circle",
+    "15"
+  ],
+  "circle-2": [
+    "circle-2",
+    "circle",
+    "2"
+  ],
+  "circle-3": [
+    "circle-3",
+    "circle",
+    "3"
+  ],
+  "circle-4": [
+    "circle-4",
+    "circle",
+    "4"
+  ],
+  "circle-5": [
+    "circle-5",
+    "circle",
+    "5"
+  ],
+  "circle-6": [
+    "circle-6",
+    "circle",
+    "6"
+  ],
+  "circle-7": [
+    "circle-7",
+    "circle",
+    "7"
+  ],
+  "circle-8": [
+    "circle-8",
+    "circle",
+    "8"
+  ],
+  "circle-9": [
+    "circle-9",
+    "circle",
+    "9"
   ],
   "circle-times": [
     "circle-times",
     "circle",
     "times"
   ],
+  "clock-circle": [
+    "clock-circle",
+    "clock",
+    "circle"
+  ],
+  "clock-sqaure": [
+    "clock-sqaure",
+    "clock",
+    "sqaure"
+  ],
+  "code-box": [
+    "code-box",
+    "code",
+    "box"
+  ],
+  "code-box-alt": [
+    "code-box-alt",
+    "code",
+    "box",
+    "alt"
+  ],
   "coins": [
     "coins",
     "coins"
+  ],
+  "copy": [
+    "copy",
+    "copy"
+  ],
+  "copy-a": [
+    "copy-a",
+    "copy",
+    "a"
+  ],
+  "copy-overlap": [
+    "copy-overlap",
+    "copy",
+    "overlap"
+  ],
+  "cricket-ball": [
+    "cricket-ball",
+    "cricket",
+    "ball"
   ],
   "cross-square": [
     "cross-square",
@@ -666,6 +911,10 @@
     "square",
     "a"
   ],
+  "database": [
+    "database",
+    "database"
+  ],
   "delete": [
     "delete",
     "delete"
@@ -683,6 +932,15 @@
     "equal-square",
     "equal",
     "square"
+  ],
+  "football": [
+    "football",
+    "football"
+  ],
+  "football-a": [
+    "football-a",
+    "football",
+    "a"
   ],
   "heptagon": [
     "heptagon",
@@ -703,6 +961,10 @@
     "hex",
     "cross",
     "1"
+  ],
+  "hockey": [
+    "hockey",
+    "hockey"
   ],
   "home-ch": [
     "home-ch",
@@ -782,23 +1044,297 @@
     "intersection",
     "intersection"
   ],
+  "iphone": [
+    "iphone",
+    "iphone"
+  ],
+  "kan-straight": [
+    "kan-straight",
+    "kan",
+    "straight"
+  ],
+  "key": [
+    "key",
+    "key"
+  ],
+  "laptop": [
+    "laptop",
+    "laptop"
+  ],
+  "laptop-add": [
+    "laptop-add",
+    "laptop",
+    "add"
+  ],
+  "laptop-block": [
+    "laptop-block",
+    "laptop",
+    "block"
+  ],
+  "laptop-check": [
+    "laptop-check",
+    "laptop",
+    "check"
+  ],
+  "laptop-code": [
+    "laptop-code",
+    "laptop",
+    "code"
+  ],
+  "laptop-cross": [
+    "laptop-cross",
+    "laptop",
+    "cross"
+  ],
+  "lock": [
+    "lock",
+    "lock"
+  ],
+  "lock-alt": [
+    "lock-alt",
+    "lock",
+    "alt"
+  ],
+  "lock-keyhole": [
+    "lock-keyhole",
+    "lock",
+    "keyhole"
+  ],
+  "lock-open": [
+    "lock-open",
+    "lock",
+    "open"
+  ],
+  "lock-partialopen": [
+    "lock-partialopen",
+    "lock",
+    "partialopen"
+  ],
   "mantra": [
     "mantra",
     "mantra"
   ],
+  "message": [
+    "message",
+    "message"
+  ],
+  "message-add": [
+    "message-add",
+    "message",
+    "add"
+  ],
+  "message-alt": [
+    "message-alt",
+    "message",
+    "alt"
+  ],
+  "message-circle": [
+    "message-circle",
+    "message",
+    "circle"
+  ],
+  "message-circle-add": [
+    "message-circle-add",
+    "message",
+    "circle",
+    "add"
+  ],
+  "message-circle-cross": [
+    "message-circle-cross",
+    "message",
+    "circle",
+    "cross"
+  ],
+  "message-code": [
+    "message-code",
+    "message",
+    "code"
+  ],
+  "message-cross": [
+    "message-cross",
+    "message",
+    "cross"
+  ],
+  "message-minimal": [
+    "message-minimal",
+    "message",
+    "minimal"
+  ],
+  "message-minimal-add": [
+    "message-minimal-add",
+    "message",
+    "minimal",
+    "add"
+  ],
+  "message-minimal-check": [
+    "message-minimal-check",
+    "message",
+    "minimal",
+    "check"
+  ],
+  "message-minimal-cross": [
+    "message-minimal-cross",
+    "message",
+    "minimal",
+    "cross"
+  ],
+  "message-search": [
+    "message-search",
+    "message",
+    "search"
+  ],
+  "message-user": [
+    "message-user",
+    "message",
+    "user"
+  ],
   "meter": [
     "meter",
     "meter"
+  ],
+  "mic": [
+    "mic",
+    "mic"
+  ],
+  "mic-alt": [
+    "mic-alt",
+    "mic",
+    "alt"
+  ],
+  "mic-circle": [
+    "mic-circle",
+    "mic",
+    "circle"
+  ],
+  "mic-circle-dashed": [
+    "mic-circle-dashed",
+    "mic",
+    "circle",
+    "dashed"
+  ],
+  "mic-empty": [
+    "mic-empty",
+    "mic",
+    "empty"
+  ],
+  "mic-square": [
+    "mic-square",
+    "mic",
+    "square"
+  ],
+  "mic-square-alt": [
+    "mic-square-alt",
+    "mic",
+    "square",
+    "alt"
   ],
   "minus-square": [
     "minus-square",
     "minus",
     "square"
   ],
+  "monitor": [
+    "monitor",
+    "monitor"
+  ],
+  "monitor-alt": [
+    "monitor-alt",
+    "monitor",
+    "alt"
+  ],
+  "monitor-back": [
+    "monitor-back",
+    "monitor",
+    "back"
+  ],
+  "monitor-download": [
+    "monitor-download",
+    "monitor",
+    "download"
+  ],
+  "monitor-mac": [
+    "monitor-mac",
+    "monitor",
+    "mac"
+  ],
+  "monitor-mac-alt": [
+    "monitor-mac-alt",
+    "monitor",
+    "mac",
+    "alt"
+  ],
+  "monitor-triangle": [
+    "monitor-triangle",
+    "monitor",
+    "triangle"
+  ],
+  "monitor-upload": [
+    "monitor-upload",
+    "monitor",
+    "upload"
+  ],
+  "mouse": [
+    "mouse",
+    "mouse"
+  ],
+  "mouse-alt": [
+    "mouse-alt",
+    "mouse",
+    "alt"
+  ],
+  "movie-add": [
+    "movie-add",
+    "movie",
+    "add"
+  ],
+  "movie-block": [
+    "movie-block",
+    "movie",
+    "block"
+  ],
+  "movie-check": [
+    "movie-check",
+    "movie",
+    "check"
+  ],
+  "movie-cross": [
+    "movie-cross",
+    "movie",
+    "cross"
+  ],
+  "movie-pause": [
+    "movie-pause",
+    "movie",
+    "pause"
+  ],
+  "nav": [
+    "nav",
+    "nav"
+  ],
+  "nav-alt": [
+    "nav-alt",
+    "nav",
+    "alt"
+  ],
+  "nav-diag": [
+    "nav-diag",
+    "nav",
+    "diag"
+  ],
   "no-entry": [
     "no-entry",
     "no",
     "entry"
+  ],
+  "note-locate": [
+    "note-locate",
+    "note",
+    "locate"
+  ],
+  "note-search": [
+    "note-search",
+    "note",
+    "search"
   ],
   "notification": [
     "notification",
@@ -837,18 +1373,217 @@
     "octagon",
     "octagon"
   ],
+  "para-add": [
+    "para-add",
+    "para",
+    "add"
+  ],
+  "para-block": [
+    "para-block",
+    "para",
+    "block"
+  ],
+  "para-check": [
+    "para-check",
+    "para",
+    "check"
+  ],
+  "para-circle": [
+    "para-circle",
+    "para",
+    "circle"
+  ],
+  "para-cross": [
+    "para-cross",
+    "para",
+    "cross"
+  ],
+  "para-play": [
+    "para-play",
+    "para",
+    "play"
+  ],
+  "para-search": [
+    "para-search",
+    "para",
+    "search"
+  ],
+  "phone-classic": [
+    "phone-classic",
+    "phone",
+    "classic"
+  ],
+  "pin": [
+    "pin",
+    "pin"
+  ],
+  "pin-add": [
+    "pin-add",
+    "pin",
+    "add"
+  ],
+  "pin-circle": [
+    "pin-circle",
+    "pin",
+    "circle"
+  ],
+  "pin-cross": [
+    "pin-cross",
+    "pin",
+    "cross"
+  ],
+  "play": [
+    "play",
+    "play"
+  ],
+  "play-circle": [
+    "play-circle",
+    "play",
+    "circle"
+  ],
+  "play-circle-dashed": [
+    "play-circle-dashed",
+    "play",
+    "circle",
+    "dashed"
+  ],
+  "play-equal": [
+    "play-equal",
+    "play",
+    "equal"
+  ],
+  "play-hex": [
+    "play-hex",
+    "play",
+    "hex"
+  ],
+  "play-pause": [
+    "play-pause",
+    "play",
+    "pause"
+  ],
+  "play-sqaure": [
+    "play-sqaure",
+    "play",
+    "sqaure"
+  ],
+  "play-square-dashed": [
+    "play-square-dashed",
+    "play",
+    "square",
+    "dashed"
+  ],
+  "printer": [
+    "printer",
+    "printer"
+  ],
+  "radio": [
+    "radio",
+    "radio"
+  ],
   "reactangle-half": [
     "reactangle-half",
     "reactangle",
     "half"
   ],
+  "reel": [
+    "reel",
+    "reel"
+  ],
+  "reel-add": [
+    "reel-add",
+    "reel",
+    "add"
+  ],
+  "reel-block": [
+    "reel-block",
+    "reel",
+    "block"
+  ],
+  "reel-check": [
+    "reel-check",
+    "reel",
+    "check"
+  ],
+  "reel-code": [
+    "reel-code",
+    "reel",
+    "code"
+  ],
+  "reel-cross": [
+    "reel-cross",
+    "reel",
+    "cross"
+  ],
+  "responsive": [
+    "responsive",
+    "responsive"
+  ],
   "rhombus": [
     "rhombus",
     "rhombus"
   ],
+  "rugby": [
+    "rugby",
+    "rugby"
+  ],
+  "rugby-helbet": [
+    "rugby-helbet",
+    "rugby",
+    "helbet"
+  ],
   "save": [
     "save",
     "save"
+  ],
+  "scan": [
+    "scan",
+    "scan"
+  ],
+  "scan-add": [
+    "scan-add",
+    "scan",
+    "add"
+  ],
+  "scan-block": [
+    "scan-block",
+    "scan",
+    "block"
+  ],
+  "scan-camera": [
+    "scan-camera",
+    "scan",
+    "camera"
+  ],
+  "scan-check": [
+    "scan-check",
+    "scan",
+    "check"
+  ],
+  "scan-code": [
+    "scan-code",
+    "scan",
+    "code"
+  ],
+  "scan-cross": [
+    "scan-cross",
+    "scan",
+    "cross"
+  ],
+  "scan-key": [
+    "scan-key",
+    "scan",
+    "key"
+  ],
+  "scan-lock": [
+    "scan-lock",
+    "scan",
+    "lock"
+  ],
+  "scan-search": [
+    "scan-search",
+    "scan",
+    "search"
   ],
   "search": [
     "search",
@@ -889,9 +1624,131 @@
     "settings",
     "vertical"
   ],
+  "shield": [
+    "shield",
+    "shield"
+  ],
+  "shield-add": [
+    "shield-add",
+    "shield",
+    "add"
+  ],
+  "shield-block": [
+    "shield-block",
+    "shield",
+    "block"
+  ],
+  "shield-check": [
+    "shield-check",
+    "shield",
+    "check"
+  ],
+  "shield-code": [
+    "shield-code",
+    "shield",
+    "code"
+  ],
+  "shield-cross": [
+    "shield-cross",
+    "shield",
+    "cross"
+  ],
+  "shield-image": [
+    "shield-image",
+    "shield",
+    "image"
+  ],
+  "shield-scroll": [
+    "shield-scroll",
+    "shield",
+    "scroll"
+  ],
+  "signal": [
+    "signal",
+    "signal"
+  ],
+  "speaker": [
+    "speaker",
+    "speaker"
+  ],
   "square": [
     "square",
     "square"
+  ],
+  "square-1": [
+    "square-1",
+    "square",
+    "1"
+  ],
+  "square-10": [
+    "square-10",
+    "square",
+    "10"
+  ],
+  "square-11": [
+    "square-11",
+    "square",
+    "11"
+  ],
+  "square-12": [
+    "square-12",
+    "square",
+    "12"
+  ],
+  "square-13": [
+    "square-13",
+    "square",
+    "13"
+  ],
+  "square-14": [
+    "square-14",
+    "square",
+    "14"
+  ],
+  "square-15": [
+    "square-15",
+    "square",
+    "15"
+  ],
+  "square-2": [
+    "square-2",
+    "square",
+    "2"
+  ],
+  "square-3": [
+    "square-3",
+    "square",
+    "3"
+  ],
+  "square-4": [
+    "square-4",
+    "square",
+    "4"
+  ],
+  "square-5": [
+    "square-5",
+    "square",
+    "5"
+  ],
+  "square-6": [
+    "square-6",
+    "square",
+    "6"
+  ],
+  "square-7": [
+    "square-7",
+    "square",
+    "7"
+  ],
+  "square-8": [
+    "square-8",
+    "square",
+    "8"
+  ],
+  "square-9": [
+    "square-9",
+    "square",
+    "9"
   ],
   "square-circle": [
     "square-circle",
@@ -906,6 +1763,84 @@
     "target",
     "target"
   ],
+  "tennis": [
+    "tennis",
+    "tennis"
+  ],
+  "tv": [
+    "tv",
+    "tv"
+  ],
+  "tv-alt": [
+    "tv-alt",
+    "tv",
+    "alt"
+  ],
+  "user-add": [
+    "user-add",
+    "user",
+    "add"
+  ],
+  "user-check": [
+    "user-check",
+    "user",
+    "check"
+  ],
+  "user-circle": [
+    "user-circle",
+    "user",
+    "circle"
+  ],
+  "user-circle-block": [
+    "user-circle-block",
+    "user",
+    "circle",
+    "block"
+  ],
+  "user-circle-code": [
+    "user-circle-code",
+    "user",
+    "circle",
+    "code"
+  ],
+  "user-cross": [
+    "user-cross",
+    "user",
+    "cross"
+  ],
+  "user-sqaure-block": [
+    "user-sqaure-block",
+    "user",
+    "sqaure",
+    "block"
+  ],
+  "user-sqaure-check": [
+    "user-sqaure-check",
+    "user",
+    "sqaure",
+    "check"
+  ],
+  "user-sqaure-code": [
+    "user-sqaure-code",
+    "user",
+    "sqaure",
+    "code"
+  ],
+  "user-square": [
+    "user-square",
+    "user",
+    "square"
+  ],
+  "user-square-add": [
+    "user-square-add",
+    "user",
+    "square",
+    "add"
+  ],
+  "users": [
+    "users",
+    "users"
+  ],
   "verify": [
     "verify",
     "verify"
@@ -914,5 +1849,14 @@
     "verify-a",
     "verify",
     "a"
+  ],
+  "video": [
+    "video",
+    "video"
+  ],
+  "yoga-mat": [
+    "yoga-mat",
+    "yoga",
+    "mat"
   ]
 }
