@@ -22,6 +22,11 @@
     "airpods",
     "alt"
   ],
+  "align-bottom": [
+    "align-bottom",
+    "align",
+    "bottom"
+  ],
   "align-center": [
     "align-center",
     "align",
@@ -41,6 +46,11 @@
     "align-right",
     "align",
     "right"
+  ],
+  "align-top": [
+    "align-top",
+    "align",
+    "top"
   ],
   "android-phone": [
     "android-phone",
@@ -435,6 +445,103 @@
     "arrow",
     "upwards"
   ],
+  "award": [
+    "award",
+    "award"
+  ],
+  "award-minimal": [
+    "award-minimal",
+    "award",
+    "minimal"
+  ],
+  "baby-carriage": [
+    "baby-carriage",
+    "baby",
+    "carriage"
+  ],
+  "bag": [
+    "bag",
+    "bag"
+  ],
+  "bag-add": [
+    "bag-add",
+    "bag",
+    "add"
+  ],
+  "bag-alt": [
+    "bag-alt",
+    "bag",
+    "alt"
+  ],
+  "bag-block": [
+    "bag-block",
+    "bag",
+    "block"
+  ],
+  "bag-check": [
+    "bag-check",
+    "bag",
+    "check"
+  ],
+  "bag-circle": [
+    "bag-circle",
+    "bag",
+    "circle"
+  ],
+  "bag-circle-1": [
+    "bag-circle-1",
+    "bag",
+    "circle",
+    "1"
+  ],
+  "bag-circle-add": [
+    "bag-circle-add",
+    "bag",
+    "circle",
+    "add"
+  ],
+  "bag-circle-block": [
+    "bag-circle-block",
+    "bag",
+    "circle",
+    "block"
+  ],
+  "bag-circle-check": [
+    "bag-circle-check",
+    "bag",
+    "circle",
+    "check"
+  ],
+  "bag-circle-code": [
+    "bag-circle-code",
+    "bag",
+    "circle",
+    "code"
+  ],
+  "bag-circle-cross": [
+    "bag-circle-cross",
+    "bag",
+    "circle",
+    "cross"
+  ],
+  "bag-code": [
+    "bag-code",
+    "bag",
+    "code"
+  ],
+  "bag-cross": [
+    "bag-cross",
+    "bag",
+    "cross"
+  ],
+  "bandaid": [
+    "bandaid",
+    "bandaid"
+  ],
+  "barchart": [
+    "barchart",
+    "barchart"
+  ],
   "bed": [
     "bed",
     "bed"
@@ -442,6 +549,40 @@
   "bell": [
     "bell",
     "bell"
+  ],
+  "board": [
+    "board",
+    "board"
+  ],
+  "board-add": [
+    "board-add",
+    "board",
+    "add"
+  ],
+  "board-block": [
+    "board-block",
+    "board",
+    "block"
+  ],
+  "board-chart": [
+    "board-chart",
+    "board",
+    "chart"
+  ],
+  "board-check": [
+    "board-check",
+    "board",
+    "check"
+  ],
+  "board-code": [
+    "board-code",
+    "board",
+    "code"
+  ],
+  "board-cross": [
+    "board-cross",
+    "board",
+    "cross"
   ],
   "bookmark": [
     "bookmark",
@@ -470,6 +611,92 @@
   "bookmarks": [
     "bookmarks",
     "bookmarks"
+  ],
+  "box": [
+    "box",
+    "box"
+  ],
+  "box-add": [
+    "box-add",
+    "box",
+    "add"
+  ],
+  "box-arrow-downleft": [
+    "box-arrow-downleft",
+    "box",
+    "arrow",
+    "downleft"
+  ],
+  "box-arrow-topleft": [
+    "box-arrow-topleft",
+    "box",
+    "arrow",
+    "topleft"
+  ],
+  "box-block": [
+    "box-block",
+    "box",
+    "block"
+  ],
+  "box-check": [
+    "box-check",
+    "box",
+    "check"
+  ],
+  "box-cross": [
+    "box-cross",
+    "box",
+    "cross"
+  ],
+  "box-cursor": [
+    "box-cursor",
+    "box",
+    "cursor"
+  ],
+  "box-download": [
+    "box-download",
+    "box",
+    "download"
+  ],
+  "box-up": [
+    "box-up",
+    "box",
+    "up"
+  ],
+  "braces": [
+    "braces",
+    "braces"
+  ],
+  "branch": [
+    "branch",
+    "branch"
+  ],
+  "branch-add": [
+    "branch-add",
+    "branch",
+    "add"
+  ],
+  "branch-check": [
+    "branch-check",
+    "branch",
+    "check"
+  ],
+  "branch-cross": [
+    "branch-cross",
+    "branch",
+    "cross"
+  ],
+  "bug": [
+    "bug",
+    "bug"
+  ],
+  "bulb": [
+    "bulb",
+    "bulb"
+  ],
+  "bullseye": [
+    "bullseye",
+    "bullseye"
   ],
   "calendar": [
     "calendar",
@@ -550,6 +777,35 @@
     "calendar",
     "star"
   ],
+  "camera": [
+    "camera",
+    "camera"
+  ],
+  "camera-alt": [
+    "camera-alt",
+    "camera",
+    "alt"
+  ],
+  "camera-alt-1": [
+    "camera-alt-1",
+    "camera",
+    "alt",
+    "1"
+  ],
+  "camera-minimal": [
+    "camera-minimal",
+    "camera",
+    "minimal"
+  ],
+  "card": [
+    "card",
+    "card"
+  ],
+  "card-alt": [
+    "card-alt",
+    "card",
+    "alt"
+  ],
   "caret-double-left": [
     "caret-double-left",
     "caret",
@@ -574,6 +830,11 @@
     "caret",
     "double",
     "top"
+  ],
+  "chart-square": [
+    "chart-square",
+    "chart",
+    "square"
   ],
   "check-circle": [
     "check-circle",
@@ -823,6 +1084,10 @@
     "clock",
     "sqaure"
   ],
+  "cloud": [
+    "cloud",
+    "cloud"
+  ],
   "code-box": [
     "code-box",
     "code",
@@ -833,6 +1098,48 @@
     "code",
     "box",
     "alt"
+  ],
+  "code-circle": [
+    "code-circle",
+    "code",
+    "circle"
+  ],
+  "code-circle-vertical": [
+    "code-circle-vertical",
+    "code",
+    "circle",
+    "vertical"
+  ],
+  "code-hex": [
+    "code-hex",
+    "code",
+    "hex"
+  ],
+  "code-hex-vertical": [
+    "code-hex-vertical",
+    "code",
+    "hex",
+    "vertical"
+  ],
+  "code-rectanlge": [
+    "code-rectanlge",
+    "code",
+    "rectanlge"
+  ],
+  "code-square": [
+    "code-square",
+    "code",
+    "square"
+  ],
+  "code-square-vertical": [
+    "code-square-vertical",
+    "code",
+    "square",
+    "vertical"
+  ],
+  "coin": [
+    "coin",
+    "coin"
   ],
   "coins": [
     "coins",
@@ -861,6 +1168,71 @@
     "cross-square",
     "cross",
     "square"
+  ],
+  "cup": [
+    "cup",
+    "cup"
+  ],
+  "cup-alt": [
+    "cup-alt",
+    "cup",
+    "alt"
+  ],
+  "cup-smooth": [
+    "cup-smooth",
+    "cup",
+    "smooth"
+  ],
+  "cup-smooth-alt": [
+    "cup-smooth-alt",
+    "cup",
+    "smooth",
+    "alt"
+  ],
+  "cursor": [
+    "cursor",
+    "cursor"
+  ],
+  "cursor-circle": [
+    "cursor-circle",
+    "cursor",
+    "circle"
+  ],
+  "cursor-circle-1": [
+    "cursor-circle-1",
+    "cursor",
+    "circle",
+    "1"
+  ],
+  "cursor-circle-dashed": [
+    "cursor-circle-dashed",
+    "cursor",
+    "circle",
+    "dashed"
+  ],
+  "cursor-sqaure-alt": [
+    "cursor-sqaure-alt",
+    "cursor",
+    "sqaure",
+    "alt"
+  ],
+  "cursor-sqaure-alt-dashed": [
+    "cursor-sqaure-alt-dashed",
+    "cursor",
+    "sqaure",
+    "alt",
+    "dashed"
+  ],
+  "cursor-square": [
+    "cursor-square",
+    "cursor",
+    "square"
+  ],
+  "cursor-square-dashed": [
+    "cursor-square-dashed",
+    "cursor",
+    "square",
+    "dashed"
   ],
   "curved-rectangle": [
     "curved-rectangle",
@@ -924,6 +1296,46 @@
     "delete",
     "a"
   ],
+  "design-align-center": [
+    "design-align-center",
+    "design",
+    "align",
+    "center"
+  ],
+  "design-align-left": [
+    "design-align-left",
+    "design",
+    "align",
+    "left"
+  ],
+  "design-align-right": [
+    "design-align-right",
+    "design",
+    "align",
+    "right"
+  ],
+  "ellipsis-double-h": [
+    "ellipsis-double-h",
+    "ellipsis",
+    "double",
+    "h"
+  ],
+  "ellipsis-double-v": [
+    "ellipsis-double-v",
+    "ellipsis",
+    "double",
+    "v"
+  ],
+  "ellipsis-h": [
+    "ellipsis-h",
+    "ellipsis",
+    "h"
+  ],
+  "ellipsis-v": [
+    "ellipsis-v",
+    "ellipsis",
+    "v"
+  ],
   "emrald": [
     "emrald",
     "emrald"
@@ -933,6 +1345,39 @@
     "equal",
     "square"
   ],
+  "flag": [
+    "flag",
+    "flag"
+  ],
+  "flag-alt": [
+    "flag-alt",
+    "flag",
+    "alt"
+  ],
+  "folder": [
+    "folder",
+    "folder"
+  ],
+  "folder-add": [
+    "folder-add",
+    "folder",
+    "add"
+  ],
+  "folder-block": [
+    "folder-block",
+    "folder",
+    "block"
+  ],
+  "folder-check": [
+    "folder-check",
+    "folder",
+    "check"
+  ],
+  "folder-cross": [
+    "folder-cross",
+    "folder",
+    "cross"
+  ],
   "football": [
     "football",
     "football"
@@ -941,6 +1386,19 @@
     "football-a",
     "football",
     "a"
+  ],
+  "git": [
+    "git",
+    "git"
+  ],
+  "git-alt": [
+    "git-alt",
+    "git",
+    "alt"
+  ],
+  "heartrate": [
+    "heartrate",
+    "heartrate"
   ],
   "heptagon": [
     "heptagon",
@@ -1040,6 +1498,92 @@
     "home",
     "minimal"
   ],
+  "id-circle": [
+    "id-circle",
+    "id",
+    "circle"
+  ],
+  "id-square": [
+    "id-square",
+    "id",
+    "square"
+  ],
+  "image": [
+    "image",
+    "image"
+  ],
+  "image-add": [
+    "image-add",
+    "image",
+    "add"
+  ],
+  "image-alt": [
+    "image-alt",
+    "image",
+    "alt"
+  ],
+  "image-block": [
+    "image-block",
+    "image",
+    "block"
+  ],
+  "image-check": [
+    "image-check",
+    "image",
+    "check"
+  ],
+  "image-circle-alt": [
+    "image-circle-alt",
+    "image",
+    "circle",
+    "alt"
+  ],
+  "image-cross": [
+    "image-cross",
+    "image",
+    "cross"
+  ],
+  "image-minimal": [
+    "image-minimal",
+    "image",
+    "minimal"
+  ],
+  "image-minimal-circle": [
+    "image-minimal-circle",
+    "image",
+    "minimal",
+    "circle"
+  ],
+  "image-mountains": [
+    "image-mountains",
+    "image",
+    "mountains"
+  ],
+  "image-mountains-circle": [
+    "image-mountains-circle",
+    "image",
+    "mountains",
+    "circle"
+  ],
+  "imahe-circle": [
+    "imahe-circle",
+    "imahe",
+    "circle"
+  ],
+  "inbox": [
+    "inbox",
+    "inbox"
+  ],
+  "inbox-circle": [
+    "inbox-circle",
+    "inbox",
+    "circle"
+  ],
+  "inbox-empty": [
+    "inbox-empty",
+    "inbox",
+    "empty"
+  ],
   "intersection": [
     "intersection",
     "intersection"
@@ -1056,6 +1600,10 @@
   "key": [
     "key",
     "key"
+  ],
+  "keypad": [
+    "keypad",
+    "keypad"
   ],
   "laptop": [
     "laptop",
@@ -1109,6 +1657,61 @@
     "lock-partialopen",
     "lock",
     "partialopen"
+  ],
+  "mail": [
+    "mail",
+    "mail"
+  ],
+  "mail-add": [
+    "mail-add",
+    "mail",
+    "add"
+  ],
+  "mail-alt": [
+    "mail-alt",
+    "mail",
+    "alt"
+  ],
+  "mail-branch": [
+    "mail-branch",
+    "mail",
+    "branch"
+  ],
+  "mail-branch-alt": [
+    "mail-branch-alt",
+    "mail",
+    "branch",
+    "alt"
+  ],
+  "mail-check": [
+    "mail-check",
+    "mail",
+    "check"
+  ],
+  "mail-code": [
+    "mail-code",
+    "mail",
+    "code"
+  ],
+  "mail-cross": [
+    "mail-cross",
+    "mail",
+    "cross"
+  ],
+  "mail-downright": [
+    "mail-downright",
+    "mail",
+    "downright"
+  ],
+  "mail-outline": [
+    "mail-outline",
+    "mail",
+    "outline"
+  ],
+  "mail-topleft": [
+    "mail-topleft",
+    "mail",
+    "topleft"
   ],
   "mantra": [
     "mantra",
@@ -1273,6 +1876,14 @@
     "monitor",
     "upload"
   ],
+  "moon": [
+    "moon",
+    "moon"
+  ],
+  "mountains": [
+    "mountains",
+    "mountains"
+  ],
   "mouse": [
     "mouse",
     "mouse"
@@ -1321,6 +1932,11 @@
     "nav",
     "diag"
   ],
+  "nine-key": [
+    "nine-key",
+    "nine",
+    "key"
+  ],
   "no-entry": [
     "no-entry",
     "no",
@@ -1331,10 +1947,34 @@
     "note",
     "locate"
   ],
+  "note-pinned": [
+    "note-pinned",
+    "note",
+    "pinned"
+  ],
+  "note-pinned-filled": [
+    "note-pinned-filled",
+    "note",
+    "pinned",
+    "filled"
+  ],
   "note-search": [
     "note-search",
     "note",
     "search"
+  ],
+  "notebook": [
+    "notebook",
+    "notebook"
+  ],
+  "notebook-open": [
+    "notebook-open",
+    "notebook",
+    "open"
+  ],
+  "notes": [
+    "notes",
+    "notes"
   ],
   "notification": [
     "notification",
@@ -1413,6 +2053,15 @@
     "phone",
     "classic"
   ],
+  "pie": [
+    "pie",
+    "pie"
+  ],
+  "pie-alt": [
+    "pie-alt",
+    "pie",
+    "alt"
+  ],
   "pin": [
     "pin",
     "pin"
@@ -1473,6 +2122,15 @@
     "square",
     "dashed"
   ],
+  "presentation": [
+    "presentation",
+    "presentation"
+  ],
+  "presentation-chart": [
+    "presentation-chart",
+    "presentation",
+    "chart"
+  ],
   "printer": [
     "printer",
     "printer"
@@ -1532,6 +2190,15 @@
     "rugby",
     "helbet"
   ],
+  "sanitizer": [
+    "sanitizer",
+    "sanitizer"
+  ],
+  "sanitizer-minimal": [
+    "sanitizer-minimal",
+    "sanitizer",
+    "minimal"
+  ],
   "save": [
     "save",
     "save"
@@ -1585,6 +2252,10 @@
     "scan",
     "search"
   ],
+  "scooter": [
+    "scooter",
+    "scooter"
+  ],
   "search": [
     "search",
     "search"
@@ -1623,6 +2294,11 @@
     "settings-vertical",
     "settings",
     "vertical"
+  ],
+  "seven-key": [
+    "seven-key",
+    "seven",
+    "key"
   ],
   "shield": [
     "shield",
@@ -1755,9 +2431,50 @@
     "square",
     "circle"
   ],
+  "stack": [
+    "stack",
+    "stack"
+  ],
+  "stack-alt": [
+    "stack-alt",
+    "stack",
+    "alt"
+  ],
   "star": [
     "star",
     "star"
+  ],
+  "stickynote": [
+    "stickynote",
+    "stickynote"
+  ],
+  "suitcase": [
+    "suitcase",
+    "suitcase"
+  ],
+  "suitcase-minimal": [
+    "suitcase-minimal",
+    "suitcase",
+    "minimal"
+  ],
+  "switch": [
+    "switch",
+    "switch"
+  ],
+  "switch-active": [
+    "switch-active",
+    "switch",
+    "active"
+  ],
+  "switch-add": [
+    "switch-add",
+    "switch",
+    "add"
+  ],
+  "switch-cross": [
+    "switch-cross",
+    "switch",
+    "cross"
   ],
   "target": [
     "target",
@@ -1767,6 +2484,14 @@
     "tennis",
     "tennis"
   ],
+  "terminal": [
+    "terminal",
+    "terminal"
+  ],
+  "tree": [
+    "tree",
+    "tree"
+  ],
   "tv": [
     "tv",
     "tv"
@@ -1775,6 +2500,24 @@
     "tv-alt",
     "tv",
     "alt"
+  ],
+  "underpants": [
+    "underpants",
+    "underpants"
+  ],
+  "underpants-button": [
+    "underpants-button",
+    "underpants",
+    "button"
+  ],
+  "union": [
+    "union",
+    "union"
+  ],
+  "union-3": [
+    "union-3",
+    "union",
+    "3"
   ],
   "user-add": [
     "user-add",
@@ -1853,6 +2596,10 @@
   "video": [
     "video",
     "video"
+  ],
+  "weighingmachine": [
+    "weighingmachine",
+    "weighingmachine"
   ],
   "yoga-mat": [
     "yoga-mat",
