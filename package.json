@@ -34,7 +34,8 @@
     "icons/",
     "react/",
     "icon-nodes.json",
-    "tags.json"
+    "tags.json",
+    "categories.json"
   ],
   "devDependencies": {
     "@babel/core": "^7.16.0",
