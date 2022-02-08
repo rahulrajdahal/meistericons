@@ -1,9 +1,6 @@
 {
-  "arrows": [
-    "arrow-break-down",
-    "arrow-break-up",
-    "arrow-break-left",
-    "arrow-break-right"
-  ],
-  "developer": ["archive-add", "airpods", "align-bottom", "align-center"]
+  "apps-cross": ["developer"],
+  "archive": ["developer"],
+  "archive-add": ["developer"],
+  "archive-cross": ["developer"]
 }
