@@ -9,6 +9,7 @@
     "optimize": "svgo -q -p 8 -f ./icons -o ./icons ",
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "add:tags": "node ./scripts/addTags.js",
+    "add:categories": "node ./scripts/addCategories.js",
     "build:react": "rimraf react && node ./scripts/build.js",
     "build": "yarn optimize & yarn fonts & yarn add:tags & yarn build:react"
   },

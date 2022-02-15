@@ -1,7 +1,7 @@
 node_modules/
 
-svg/raw
-svg/optimized
+raw/
+
 
 scripts/
 .changeset/
