@@ -11,7 +11,7 @@
     "add:tags": "node ./scripts/addTags.js",
     "add:categories": "node ./scripts/addCategories.js",
     "build:react": "rimraf react && node ./scripts/build.js",
-    "build": "yarn optimize & yarn fonts & yarn add:tags & yarn build:react"
+    "build": "yarn optimize & yarn fonts & yarn add:tags & yarn add:categories & yarn build:react"
   },
   "homepage": "https://github.com/Markaa10/meistericons#readme",
   "repository": {
