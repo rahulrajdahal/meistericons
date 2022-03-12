@@ -3,6 +3,10 @@
     "Frame 471",
     "Frame 471"
   ],
+  "Group": [
+    "Group",
+    "Group"
+  ],
   "add-sqaure": [
     "add-sqaure",
     "add",
@@ -791,11 +795,6 @@
     "camera",
     "alt",
     "1"
-  ],
-  "camera-minimal": [
-    "camera-minimal",
-    "camera",
-    "minimal"
   ],
   "card": [
     "card",
@@ -1592,14 +1591,14 @@
     "iphone",
     "iphone"
   ],
-  "kan-straight": [
-    "kan-straight",
-    "kan",
-    "straight"
-  ],
   "key": [
     "key",
     "key"
+  ],
+  "key-straight": [
+    "key-straight",
+    "key",
+    "straight"
   ],
   "keypad": [
     "keypad",
