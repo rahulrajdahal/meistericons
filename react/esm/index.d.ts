@@ -370,7 +370,6 @@ export { default as MovieCrossIcon } from './MovieCrossIcon';
 export { default as MoviePauseIcon } from './MoviePauseIcon';
 export { default as NavAltIcon } from './NavAltIcon';
 export { default as NavDiagIcon } from './NavDiagIcon';
-export { default as NavIcon } from './NavIcon';
 export { default as NineKeyIcon } from './NineKeyIcon';
 export { default as NoEntryIcon } from './NoEntryIcon';
 export { default as NoteLocateIcon } from './NoteLocateIcon';

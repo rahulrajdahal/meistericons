@@ -370,7 +370,6 @@ module.exports.MovieCrossIcon=require('./MovieCrossIcon.js');
 module.exports.MoviePauseIcon=require('./MoviePauseIcon.js');
 module.exports.NavAltIcon=require('./NavAltIcon.js');
 module.exports.NavDiagIcon=require('./NavDiagIcon.js');
-module.exports.NavIcon=require('./NavIcon.js');
 module.exports.NineKeyIcon=require('./NineKeyIcon.js');
 module.exports.NoEntryIcon=require('./NoEntryIcon.js');
 module.exports.NoteLocateIcon=require('./NoteLocateIcon.js');
