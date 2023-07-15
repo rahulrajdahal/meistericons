@@ -6,12 +6,14 @@
   "main": "./react/cjs/index.js",
   "module": "./react/esm/index.js",
   "scripts": {
+    "tsc": "tsc",
     "optimize": "svgo -q -p 8 -f ./icons -o ./icons ",
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
-    "add:tags": "node ./scripts/addTags.js",
-    "add:categories": "node ./scripts/addCategories.js",
-    "build:react": "rimraf react && node ./scripts/build.js",
-    "build": "yarn move:icons & yarn optimize & yarn fonts & yarn add:tags & yarn add:categories & yarn build:react"
+    "add:iconsToTags": "node ./dist/scripts/addIconsToTags.js",
+    "add:tagsToIcons": "node ./dist/scripts/addTagsToIcons.js",
+    "add:iconsToCategories": "node ./dist/scripts/addIconsToCategories.js",
+    "add:categoriesToIcons": "node ./dist/scripts/addCategoriesToIcons.js",
+    "build": "tsc & yarn optimize & yarn fonts & yarn add:iconsToTags & yarn add:tagsToIcons & yarn add:categoriesToIcons & yarn add:iconsToCategories"
   },
   "homepage": "https://github.com/Markaa10/meistericons#readme",
   "repository": {

@@ -1,9 +1,10 @@
 node_modules/
 
-raw/
+icons/
+dist/
+fonts/
 
+categories.json
+tags.json
 
-scripts/
-.changeset/
-.github/
-
+yarn.lock
