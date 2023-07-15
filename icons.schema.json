@@ -1,0 +1,19 @@
+{
+  "$id": "https://meistericons.com/icons.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Meistericons icon Schema",
+  "type": "object",
+  "properties": {
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "description": "JSON Schema for meistericons"
+}
