@@ -1,5 +1,5 @@
 import path from "path";
-import { readSvgMetaData, writeFile } from "./helpers";
+import { readSvgMetaData, writeFile } from "./helpers.js";
 
 const iconsDir = path.resolve(__dirname, "../../icons");
 const icons = readSvgMetaData(iconsDir);

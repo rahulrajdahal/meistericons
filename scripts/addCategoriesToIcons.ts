@@ -1,6 +1,6 @@
 import path from "path";
 import categories from "../categories.json";
-import { mergeArrays, readSvgMetaData, writeFile } from "./helpers";
+import { mergeArrays, readSvgMetaData, writeFile } from "./helpers.js";
 
 const iconsDir = path.resolve(__dirname, "../../icons");
 const icons = readSvgMetaData(iconsDir);
