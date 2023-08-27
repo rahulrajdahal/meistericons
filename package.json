@@ -1,20 +1,22 @@
 {
   "name": "meistericons",
-  "version": "0.1.43",
+  "version": "0.1.45",
   "description": "icons for you",
   "license": "MIT",
   "main": "./react/cjs/index.js",
   "module": "./react/esm/index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "tsc": "tsc",
     "optimize": "svgo -q -p 8 -f ./icons -o ./icons ",
-    "fonts": "fantasticon -n mni -p mni icons -o fonts",
+    "fonts": "fantasticon -n mni -p mni ./icons -o ./fonts",
     "add:iconsToTags": "node ./dist/scripts/addIconsToTags.js",
     "add:tagsToIcons": "node ./dist/scripts/addTagsToIcons.js",
     "add:iconsToCategories": "node ./dist/scripts/addIconsToCategories.js",
     "add:categoriesToIcons": "node ./dist/scripts/addCategoriesToIcons.js",
-    "build": "tsc & yarn optimize & yarn fonts & yarn add:iconsToTags & yarn add:tagsToIcons & yarn add:categoriesToIcons & yarn add:iconsToCategories"
+    "build:icons": "node ./dist/scripts/buildIcons.js",
+    "build:types": "node ./dist/scripts/buildTypes.js",
+    "build": "tsc & yarn optimize & yarn fonts & yarn add:iconsToTags & yarn add:tagsToIcons & yarn add:categoriesToIcons & yarn add:iconsToCategories & yarn build:icons & yarn build:types"
   },
   "homepage": "https://github.com/Markaa10/meistericons#readme",
   "repository": {
@@ -53,7 +55,7 @@
     "@types/react": "^18.2.15",
     "@types/terser": "^3.12.0",
     "camelcase": "^7.0.1",
-    "prettier": "^2.5.1",
+    "prettier": "^3.0.1",
     "react": "^18.2.0",
     "rimraf": "^3.0.2",
     "svgo": "^2.8.0",

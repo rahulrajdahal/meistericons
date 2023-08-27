@@ -1,16 +1,18 @@
-import React from "react";
+import React, { ForwardRefExoticComponent } from "react";
 import defaultAttributes from "./defaultAttributes.js";
-import { toKebabCase } from "./helpers.js";
+import { toKebabCase } from "../../scripts/helpers.js";
 
 export type IconNode = [
   elementName: keyof React.ReactSVG,
-  attrs: Record<string, string>
+  attrs: Record<string, string>,
 ][];
 
 type SVGAttributes = Partial<React.SVGProps<SVGSVGElement>>;
 type ComponentAttributes = React.RefAttributes<SVGSVGElement> & SVGAttributes;
 
-interface MeisterIconsProps extends ComponentAttributes {
+export type MeisterIcon = ForwardRefExoticComponent<MeisterIconsProps>;
+
+export interface MeisterIconsProps extends ComponentAttributes {
   size?: string | number;
 }
 

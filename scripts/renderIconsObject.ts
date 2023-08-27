@@ -10,7 +10,7 @@ export default (
   svgFiles
     .map((svgFile) => {
       const name = basename(svgFile, ".svg");
-      const svg = readSvg(svgFile, iconsDir);
+      const svg = readSvg( iconsDir,svgFile);
       const contents = parseSync(svg);
 
       if (!contents.children?.length) {
