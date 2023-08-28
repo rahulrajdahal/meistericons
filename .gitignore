@@ -1,5 +1,9 @@
 node_modules/
 
-yarn.lock
 fonts/
 icons/
+dist/
+
+yarn.lock
+
+

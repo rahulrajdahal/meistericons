@@ -9,11 +9,19 @@
   "scripts": {
     "optimize": "svgo -q -p 8 -f ./icons -o ./icons",
     "fonts": "fantasticon -n mni -p mni ./icons -o ./fonts",
-    "build": "tsc && yarn optimize && yarn fonts"
+    "build:icons": "node ./dist/scripts/buildIcons.js",
+    "build": "tsc && yarn optimize && yarn fonts && yarn build:icons"
   },
   "devDependencies": {
+    "@types/minimist": "^1.2.2",
     "@types/node": "^20.5.7",
+    "@types/react": "^18.2.21",
     "fantasticon": "^1.2.3",
-    "svgo": "^3.0.2"
+    "minimist": "^1.2.8",
+    "prettier": "^3.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svgo": "^3.0.2",
+    "svgson": "^5.3.1"
   }
 }
