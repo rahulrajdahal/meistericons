@@ -1,6 +1,6 @@
 {
   "name": "meistericons",
-  "version": "0.1.45",
+  "version": "0.1.46",
   "description": "icons for you",
   "license": "MIT",
   "main": "./react/cjs/index.js",
@@ -15,6 +15,7 @@
     "add:iconsToCategories": "node ./dist/scripts/addIconsToCategories.js",
     "add:categoriesToIcons": "node ./dist/scripts/addCategoriesToIcons.js",
     "build:icons": "node ./dist/scripts/buildIcons.js",
+    "build:icon-nodes": "node ./dist/scripts/createIconNodes.js",
     "build:types": "node ./dist/scripts/buildTypes.js",
     "build": "tsc & yarn optimize & yarn fonts & yarn add:iconsToTags & yarn add:tagsToIcons & yarn add:categoriesToIcons & yarn add:iconsToCategories & yarn build:icons & yarn build:types"
   },
