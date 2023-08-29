@@ -1,5 +1,5 @@
 import { basename } from "path";
-import { generateHashKey, hasDuplicateChildren, readSvg } from "./helpers";
+import { generateHashKey, hasDuplicateChildren, readSvg } from "./helpers.js";
 import { parseSync } from "svgson";
 
 export default (
@@ -17,9 +17,9 @@ export default (
         throw new Error(`${name}.svg has no children contents`);
       }
 
-      if (hasDuplicateChildren(contents.children)) {
-        throw new Error(`${name}.svg. Duplicated children found!`);
-      }
+      // if (hasDuplicateChildren(contents.children)) {
+      //   throw new Error(`${name}.svg. Duplicated children found!`);
+      // }
 
       if (renderUniqueKey) {
         contents.children = contents.children.map((child) => {

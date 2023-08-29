@@ -1,6 +1,6 @@
 import { existsSync, mkdirSync, promises } from "fs";
 import path from "path";
-import { readSvg, toPascalCase } from "./helpers";
+import { readSvg, toPascalCase } from "./helpers.js";
 import prettier from "prettier";
 
 export default ({
@@ -22,6 +22,7 @@ export default ({
 }) => {
   const icons = Object.keys(iconNodes);
   const iconsDistDir = path.join(outputDir, "icons");
+
 
   if (!existsSync(iconsDistDir)) {
     mkdirSync(iconsDistDir);

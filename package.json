@@ -1,15 +1,21 @@
 {
   "name": "meistericons",
+  "workspaces":[
+    "packages/build-tools"
+  ],
+  "private":"true",
   "version": "1.0.0",
   "description": "icons for your next project.",
-  "main": "index.js",
+  "main": "dist/main.cjs.js",
+  "module": "dist/main.esm.js",
   "repository": "https://github.com/rahulrajdahal/meistericons",
   "author": "rahulrajdahal",
-  "license": "MIT",
+  "license": "MIT","type": "module",
   "scripts": {
     "optimize": "svgo -q -p 8 -f ./icons -o ./icons",
     "fonts": "fantasticon -n mni -p mni ./icons -o ./fonts",
-    "build:icons": "node ./dist/scripts/buildIcons.js",
+    "build:icons": "node ./dist/scripts/buildIcons.js --output=./react --templateSrc=./exportTemplate.js --iconFileExtension=.js --exportFileName=index.js",
+    "build:types": "node ./dist/scripts/buildTypes.js --output=./react",
     "build": "tsc && yarn optimize && yarn fonts && yarn build:icons"
   },
   "devDependencies": {

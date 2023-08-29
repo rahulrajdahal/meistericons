@@ -1,5 +1,5 @@
 import path from "path";
-import { appendFile, resetFile, toPascalCase } from "./helpers";
+import { appendFile, resetFile, toPascalCase } from "./helpers.js";
 
 export default (
   inputEntry: any,

@@ -1,0 +1,18 @@
+{
+  "name": "meistericons-react",
+  "version": "1.0.0",
+  "description": "react icons for your next project.",
+  "main": "dist/cjs/meistericons-react.js",
+  "repository": "https://github.com/rahulrajdahal/meistericons",
+  "author": "rahulrajdahal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "react": "^18.2.0",
+    "rollup": "^3.28.1"
+  },
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js"
+  },
+  "typings": "dist/meistericons-react.d.ts"
+}
