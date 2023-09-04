@@ -17,7 +17,8 @@ export default (
     const componentName = toPascalCase(iconName);
     const importString = `export {default as ${componentName}} from './${toPascalCase(
       iconName
-    )}${iconFileExt}';\n`;
+    )}';\n`;
+    // ${iconFileExt}
     appendFile(importString, fileName, outputDir);
   });
   appendFile("\n", fileName, outputDir);

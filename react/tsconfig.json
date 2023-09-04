@@ -1,12 +1,22 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "CommonJS",
+    "target": "esnext",
+    "module": "esnext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "outDir": "dist"
-    ,"moduleResolution": "Node"
-  }
+    "moduleResolution": "Node",
+    "declaration": false,
+    "jsx": "react-jsx",
+    "outDir": "lib",
+    "skipDefaultLibCheck": true,
+    "noEmitOnError": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "sourceMap": true
+  },
+  "include": ["src/meistericons-react.ts"]
 }

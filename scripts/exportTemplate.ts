@@ -1,6 +1,6 @@
 export default ({ componentName, children }: any) => {
   return `
-    import createMeisterIcons from './createMeisterIcons';
+    import createMeisterIcons from '../src/createMeisterIcons';
   
     const ${componentName}=createMeisterIcons('${componentName}', ${JSON.stringify(
       children

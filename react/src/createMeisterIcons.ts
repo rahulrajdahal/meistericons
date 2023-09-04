@@ -1,13 +1,13 @@
 import React from "react";
-import { toKebabCase } from "../../scripts/helpers";
-import defaultAttributes from "../../scripts/defaultAttributes";
+import defaultAttributes from "./defaultAttributes.js";
+import { toKebabCase } from "./helpers.js";
 
 export type IconNode = [
   elementName: keyof React.ReactSVG,
   attrs: Record<string, string>,
 ][];
 
-type SVGAttributes = Partial<React.SVGProps<SVGSVGElement>>;
+export type SVGAttributes = Partial<React.SVGProps<SVGSVGElement>>;
 type ComponentAttributes = React.RefAttributes<SVGSVGElement> & SVGAttributes;
 
 export interface MeisterIconsProps extends ComponentAttributes {
