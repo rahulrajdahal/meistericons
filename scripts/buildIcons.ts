@@ -19,6 +19,12 @@ const buildIcons = async () => {
 
     const parsedSvg = parseSync(svgCode);
 
+    parsedSvg.children.forEach((child) => {
+      if (child.attributes.fill === "#000") {
+        child.attributes.fill = "currentColor";
+      }
+    });
+
     const iconNodes = iconFiles.reduce((acc: any, { name }: any) => {
       acc[iconFile] = parsedSvg.children.map(({ name, attributes }: any) => [
         name,

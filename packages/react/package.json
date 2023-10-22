@@ -1,9 +1,9 @@
 {
   "name": "meistericons-react",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "main": "./lib/cjs/meistericons-react.cjs.cjs",
   "main:umd": "./lib/umd/meistericons-react.umd.js",
-  "module": "./lib/esm/meistericons-react.ems.mjs",
+  "module": "./lib/esm/meistericons-react.esm.mjs",
   "type": "module",
   "scripts": {
     "bundle": "rollup -c ./rollup.config.mjs",

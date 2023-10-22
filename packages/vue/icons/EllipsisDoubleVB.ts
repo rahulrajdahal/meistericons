@@ -1,0 +1,8 @@
+
+  import createMeisterIcons from '../src/createMeisterIcons';
+
+  const EllipsisDoubleVB = createMeisterIcons("ellipsis-double-vB", [["path",{"fill":"currentColor","d":"M8.5 7.6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M8.5 5.1a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","d":"M8.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M8.5 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","d":"M8.5 19.4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M8.5 16.9a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","d":"M15.5 7.6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M15.5 5.1a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","d":"M15.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M15.5 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","d":"M15.5 19.4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M15.5 16.9a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z","clip-rule":"evenodd"}]])
+
+
+  export default EllipsisDoubleVB
+  

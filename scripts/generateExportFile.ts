@@ -5,7 +5,7 @@ import { resolve } from "path";
 
 export default (iconFile: string) => {
   const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = resolve(currentDir, "../../packages/react/icons");
+  const targetDir = resolve(currentDir, "../../packages/vue-latest/icons");
 
   const importIconString = `export {default as  ${toPascalCase(
     iconFile

@@ -7,7 +7,7 @@ export default (iconNodes: object) => {
   const paths = Object.values(iconNodes)[0];
 
   const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = resolve(currentDir, "../../packages/react/icons");
+  const targetDir = resolve(currentDir, "../../packages/vue-latest/icons");
 
   if (!existsSync(targetDir)) {
     mkdirSync(targetDir);
