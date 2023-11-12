@@ -2,6 +2,7 @@
   "name": "meistericons",
   "module": "index.ts",
   "type": "module",
+  "version": "0.1.49",
   "homepage": "https://github.com/rahulrajdahal/meistericons#readme",
   "repository": {
     "type": "git",
