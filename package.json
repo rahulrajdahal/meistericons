@@ -2,20 +2,36 @@
   "name": "meistericons",
   "module": "index.ts",
   "type": "module",
+  "homepage": "https://github.com/rahulrajdahal/meistericons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulrajdahal/meistericons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "mnicons",
+    "meistericons",
+    "mni"
+  ],
+  "files": [
+    "fonts/",
+    "icon-nodes.json",
+    "tags.json",
+    "categories.json"
+  ],
   "scripts": {
+    "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "optimize": "svgo -f ./icons -o ./icons",
     "build:icons": "bun run ./scripts/buildIcons.ts",
     "build:types": "bun run ./scripts/buildTypes.ts",
     "build": "bun build:icons && bun build:types"
   },
   "devDependencies": {
-    "@types/react": "^18.2.22",
-    "@types/react-dom": "^18.2.7",
     "bun-types": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
