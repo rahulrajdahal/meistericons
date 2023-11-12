@@ -1,4 +1,3 @@
-[
 {
   "id-circle": [
     [
@@ -10,8 +9,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "message-minimal-cross": [
     [
       "path",
@@ -22,8 +20,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "arrow-circle-topright": [
     [
       "path",
@@ -52,8 +49,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "movie-add": [
     [
       "path",
@@ -64,8 +60,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "monitor-mac-varB": [
     [
       "path",
@@ -101,8 +96,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "cursor-circle": [
     [
       "path",
@@ -131,8 +125,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "clock-circleB": [
     [
       "path",
@@ -159,8 +152,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "mouse-altB": [
     [
       "path",
@@ -187,8 +179,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "ellipsis-double-hB": [
     [
       "path",
@@ -286,8 +277,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "file-heart": [
     [
       "path",
@@ -316,8 +306,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "gameboy": [
     [
       "path",
@@ -353,8 +342,7 @@
         "d": "M15.5 15.75c-.2 0-.4-.1-.5-.2-.1-.1-.2-.3-.2-.5s.1-.4.2-.5c.2-.2.6-.3.8-.2.1 0 .2.1.2.2.1.1.2.3.2.5s-.1.4-.2.5c-.1.1-.2.1-.2.2h-.3Zm0 3.1c-.2 0-.4-.1-.5-.2-.1-.1-.2-.3-.2-.5 0-.1 0-.2.1-.3 0-.1.1-.2.2-.2.3-.3.8-.3 1.1 0 .1.1.2.3.2.5s-.1.4-.2.5c-.3.1-.5.2-.7.2Z"
       }
     ]
-  ]
-},{
+  ],
   "rhombusB": [
     [
       "path",
@@ -372,8 +360,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "caret-double-rightB": [
     [
       "path",
@@ -407,8 +394,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "hex-cross-1": [
     [
       "path",
@@ -437,8 +423,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "money-blockB": [
     [
       "path",
@@ -474,8 +459,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "crown-altB": [
     [
       "path",
@@ -500,8 +484,7 @@
         "d": "M12.103 13.512c.3 0 .5.1.7.3.2.2.3.4.3.7 0 .3-.1.5-.3.7-.4.4-1 .4-1.4 0-.2-.2-.3-.4-.3-.7 0-.3.1-.5.3-.7.2-.2.4-.3.7-.3Z"
       }
     ]
-  ]
-},{
+  ],
   "square-4B": [
     [
       "path",
@@ -528,8 +511,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "pinB": [
     [
       "path",
@@ -563,8 +545,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "caret-double-downright": [
     [
       "path",
@@ -575,8 +556,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "squareB": [
     [
       "path",
@@ -594,8 +574,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "like": [
     [
       "path",
@@ -615,8 +594,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "micB": [
     [
       "path",
@@ -661,8 +639,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "square-12-varB": [
     [
       "path",
@@ -689,8 +666,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "apps": [
     [
       "path",
@@ -701,8 +677,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "pin": [
     [
       "path",
@@ -713,8 +688,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "code-circleB": [
     [
       "path",
@@ -741,8 +715,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "branch-check": [
     [
       "path",
@@ -753,8 +726,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "walletB": [
     [
       "path",
@@ -797,8 +769,7 @@
         "d": "M16.5 13c-.3 0-.5-.1-.7-.3-.2-.2-.3-.5-.3-.7 0-.3.1-.6.3-.7.4-.4 1.1-.4 1.5 0 .2.2.3.5.3.7 0 .3-.1.5-.3.7-.2.2-.5.3-.8.3Z"
       }
     ]
-  ]
-},{
+  ],
   "chevron-square-leftB": [
     [
       "path",
@@ -825,8 +796,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "dumbell-altB": [
     [
       "path",
@@ -869,8 +839,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "parabola-down": [
     [
       "path",
@@ -890,8 +859,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "joystickB": [
     [
       "path",
@@ -925,8 +893,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "home-largedoor-circle-ch": [
     [
       "path",
@@ -937,8 +904,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "ellipsis-v-pill": [
     [
       "path",
@@ -956,8 +922,7 @@
         "d": "M11 7.2c0-.3.1-.5.3-.7.1-.1.2-.2.3-.2.1-.1.2-.1.4-.1.1 0 .2 0 .3.1.1.1.2.1.3.2.4.4.4 1 0 1.4 0 .1-.1.2-.3.2-.1.1-.2.1-.3.1-.3 0-.6-.1-.7-.3-.2-.2-.3-.4-.3-.7Zm0 4.7c0-.3.1-.5.3-.7.2-.2.4-.3.7-.3.2 0 .5.2.7.3.4.4.4 1 0 1.4-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.2-.1-.3-.4-.3-.7Zm0 4.8c0-.3.1-.5.3-.7.2-.2.4-.3.7-.3.3 0 .5.1.7.3.4.4.4 1 0 1.4-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.2-.2-.3-.4-.3-.7Z"
       }
     ]
-  ]
-},{
+  ],
   "circle-9B": [
     [
       "path",
@@ -1002,8 +967,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "circle-3B": [
     [
       "path",
@@ -1030,8 +994,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "circle-2B": [
     [
       "path",
@@ -1074,8 +1037,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "caret-double-left": [
     [
       "path",
@@ -1086,8 +1048,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "box-cross": [
     [
       "path",
@@ -1098,8 +1059,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "search-crossB": [
     [
       "path",
@@ -1144,8 +1104,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "Frame 2191": [
     [
       "path",
@@ -1188,8 +1147,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "bookmark": [
     [
       "path",
@@ -1200,8 +1158,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "parallelogram-toolB": [
     [
       "path",
@@ -1276,8 +1233,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "Frame 2184": [
     [
       "path",
@@ -1295,8 +1251,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "card-upload": [
     [
       "path",
@@ -1325,8 +1280,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "error-squareB": [
     [
       "path",
@@ -1351,8 +1305,7 @@
         "d": "M12.2 14c-.4 0-.8-.3-.8-.8v-6c0-.4.3-.7.8-.7s.8.3.8.8v6c-.1.4-.4.7-.8.7Zm0 3c-.1 0-.2 0-.3-.1-.1 0-.2-.1-.2-.2s-.2-.1-.2-.2c-.1-.1-.1-.2-.1-.2 0-.1 0-.2.1-.3 0-.1.1-.2.2-.2.1-.1.2-.1.2-.2.3-.1.6-.1.8.2l.2.2c0 .1.1.2.1.3 0 .2-.1.4-.2.5-.3.1-.4.2-.6.2Z"
       }
     ]
-  ]
-},{
+  ],
   "graphdownB": [
     [
       "path",
@@ -1427,8 +1380,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "user-circle-codeB": [
     [
       "path",
@@ -1471,8 +1423,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "add-sqaureB": [
     [
       "path",
@@ -1508,8 +1459,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "tetris2B": [
     [
       "path",
@@ -1545,8 +1495,7 @@
         "clip-rule": "evenodd"
       }
     ]
-  ]
-},{
+  ],
   "glass-half": [
     [
       "path",
@@ -1567,4 +1516,4 @@
       }
     ]
   ]
-}]
+}
