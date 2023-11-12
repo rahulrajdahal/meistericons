@@ -55,6 +55,8 @@ build/Release
 node_modules/
 jspm_packages/
 
+icons/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 
 web_modules/
@@ -72,6 +74,8 @@ web_modules/
 .eslintcache
 
 # Optional stylelint cache
+
+bun.lockb
 
 .stylelintcache
 

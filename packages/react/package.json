@@ -1,10 +1,24 @@
 {
   "name": "meistericons-react",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "./lib/cjs/meistericons-react.cjs.cjs",
   "main:umd": "./lib/umd/meistericons-react.umd.js",
   "module": "./lib/esm/meistericons-react.esm.mjs",
   "type": "module",
+  "author": "Rahul Raj Dahal",
+  "description": "icons for your project.",
+  "homepage": "https://github.com/rahulrajdahal/meistericons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulrajdahal/meistericons.git"
+  },
+  "keywords": [
+    "icons",
+    "mni",
+    "meistericons",
+    "meistericons-react",
+    "svg"
+  ],
   "scripts": {
     "bundle": "rollup -c ./rollup.config.mjs",
     "build": "bun bundle"
@@ -13,8 +27,10 @@
     "lib"
   ],
   "exports": {
-    "require": "./lib/cjs/meistericons-react.cjs.cjs",
-    "import": "./lib/esm/meistericons-react.esm.mjs"
+    ".": {
+      "require": "./lib/cjs/meistericons-react.cjs.cjs",
+      "import": "./lib/es/meistericons-react.esm.mjs"
+    }
   },
   "typings": "./lib/meistericons-react.d.ts",
   "devDependencies": {
@@ -30,6 +46,7 @@
     "react-dom": "^18.2.0",
     "rollup-plugin-esbuild": "^5.0.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-visualizer": "^5.9.2",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
@@ -38,5 +55,6 @@
   },
   "dependencies": {
     "camelcase": "^8.0.0"
-  }
+  },
+  "license": "MIT"
 }
