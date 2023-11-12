@@ -1,8 +1,7 @@
 import { resolve } from "path";
 import { getCurrentDir, readIconFiles, readSvgCode } from "./helpers";
 import { parseSync } from "svgson";
-import { pathToFileURL } from "bun";
-import { appendFileSync, writeFileSync } from "fs";
+import { appendFileSync } from "fs";
 import generateIconFile from "./generateIconFile";
 import generateExportFile from "./generateExportFile";
 
