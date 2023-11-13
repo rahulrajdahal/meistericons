@@ -9,7 +9,7 @@ const buildIcons = async () => {
   const currentDir = getCurrentDir(import.meta.url);
   const iconsDir = resolve(currentDir, "../../icons");
 
-  const iconFiles = readIconFiles(iconsDir);
+  const iconFiles = readIconFiles(iconsDir).sort();
 
   iconFiles.forEach(async (iconFile) => {
     const svgFile = resolve(iconsDir, `${iconFile}.svg`);

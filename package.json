@@ -29,6 +29,7 @@
     "optimize": "svgo -f ./icons -o ./icons",
     "build:icons": "bun run ./scripts/buildIcons.ts",
     "build:tags": "bun run ./scripts/addTags.ts",
+    "build:categories": "bun run ./scripts/addCategories.ts",
     "build:types": "bun run ./scripts/buildTypes.ts",
     "build": "bun build:icons && bun build:types"
   },

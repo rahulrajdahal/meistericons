@@ -1,6 +1,6 @@
 import { getCurrentDir, readIconFiles } from "./helpers";
 import path from "path";
-import { appendFileSync, writeFileSync } from "fs";
+import { appendFileSync } from "fs";
 
 const currentDir = getCurrentDir(import.meta.url);
 const iconsDir = path.resolve(currentDir, "../../icons");
