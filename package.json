@@ -2,7 +2,7 @@
   "name": "meistericons",
   "module": "index.ts",
   "type": "module",
-  "version": "0.1.51",
+  "version": "0.1.52",
   "homepage": "https://github.com/rahulrajdahal/meistericons#readme",
   "repository": {
     "type": "git",
@@ -28,12 +28,14 @@
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "optimize": "svgo -f ./icons -o ./icons",
     "build:icons": "bun run ./scripts/buildIcons.ts",
+    "build:tags": "bun run ./scripts/addTags.ts",
     "build:types": "bun run ./scripts/buildTypes.ts",
     "build": "bun build:icons && bun build:types"
   },
   "devDependencies": {
+    "@types/node": "^20.9.0",
     "bun-types": "latest",
-    "typescript": "^5.0.0"
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "fantasticon": "^2.0.0",

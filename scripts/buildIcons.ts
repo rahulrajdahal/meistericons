@@ -35,11 +35,7 @@ const buildIcons = async () => {
 
     const iconNodesJson = resolve(currentDir, "../../icon-nodes.json");
 
-    appendFileSync(
-      iconNodesJson,
-      `${JSON.stringify(iconNodes, null, 2)},`,
-      "utf-8"
-    );
+    appendFileSync(iconNodesJson, `${JSON.stringify(iconNodes, null, 2)},`);
     generateIconFile(iconNodes);
     generateExportFile(iconFile);
   });

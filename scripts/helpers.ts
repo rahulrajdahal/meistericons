@@ -1,3 +1,4 @@
+import path from "path";
 import { fileURLToPath, resolve } from "bun";
 import { readdirSync } from "fs";
 
@@ -22,3 +23,11 @@ export const readSvgCode = async (file: string) => {
   const svg = Bun.file(file);
   return await svg.text();
 };
+
+export const readAllMetadata = (dir: string) =>
+  readdirSync(dir)
+    // .map((iconFile) => iconFile.replace(/.svg/, ""))
+    .reduce((acc: any, fileName, i) => {
+      acc[path.basename(fileName, ".svg")] = readSvgCode(fileName);
+      return acc;
+    }, {});
