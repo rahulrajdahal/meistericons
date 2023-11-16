@@ -1,6 +1,6 @@
 import { existsSync, mkdirSync, writeFileSync } from "fs";
 import { join, resolve } from "path";
-import { getCurrentDir, toKebabCase, toPascalCase } from "./helpers";
+import { getCurrentDir, toPascalCase } from "./helpers";
 
 export default (iconNodes: object) => {
   const name = Object.keys(iconNodes)[0];

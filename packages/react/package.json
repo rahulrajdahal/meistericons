@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "meistericons-react",
   "version": "1.0.10",
   "main": "./lib/cjs/meistericons-react.cjs.cjs",
@@ -21,7 +22,8 @@
   ],
   "scripts": {
     "bundle": "rollup -c ./rollup.config.mjs",
-    "build": "bun bundle"
+    "build": "bun bundle",
+    "build:icons": "build-icons --port=8000"
   },
   "files": [
     "lib"

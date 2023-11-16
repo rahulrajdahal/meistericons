@@ -28,14 +28,16 @@
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "optimize": "svgo -f ./icons -o ./icons",
     "build:icons": "bun run ./scripts/buildIcons.ts",
-    "build:tags": "bun run ./scripts/addTags.ts",
-    "build:categories": "bun run ./scripts/addCategories.ts",
+    "add:tags": "bun run ./scripts/addTags.ts",
+    "add:categories": "bun run ./scripts/addCategories.ts",
     "build:types": "bun run ./scripts/buildTypes.ts",
-    "build": "bun build:icons && bun build:types"
+    "build": "bun fonts && bun optimize && build:icons && bun add:tags && bun add:categories && bun build:types"
   },
   "devDependencies": {
+    "@types/minimist": "^1.2.5",
     "@types/node": "^20.9.0",
     "bun-types": "latest",
+    "minimist": "^1.2.8",
     "typescript": "^5.2.2"
   },
   "dependencies": {
