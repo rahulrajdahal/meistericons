@@ -1,10 +1,9 @@
 {
-  "private": true,
   "name": "meistericons-react",
-  "version": "1.0.10",
+  "version": "1.0.17",
   "main": "./lib/cjs/meistericons-react.cjs.cjs",
   "main:umd": "./lib/umd/meistericons-react.umd.js",
-  "module": "./lib/esm/meistericons-react.esm.mjs",
+  "module": "./lib/es/meistericons-react.es.mjs",
   "type": "module",
   "author": "Rahul Raj Dahal",
   "description": "icons for your project.",
@@ -22,17 +21,15 @@
   ],
   "scripts": {
     "bundle": "rollup -c ./rollup.config.mjs",
-    "build": "bun bundle",
-    "build:icons": "build-icons --port=8000"
+    "build:icons": "../../scripts/buildIcons.ts --outdir=./icons",
+    "build": "bun bundle"
   },
   "files": [
     "lib"
   ],
   "exports": {
-    ".": {
-      "require": "./lib/cjs/meistericons-react.cjs.cjs",
-      "import": "./lib/es/meistericons-react.esm.mjs"
-    }
+    "require": "./lib/cjs/meistericons-react.cjs.cjs",
+    "import": "./lib/es/meistericons-react.es.mjs"
   },
   "typings": "./lib/meistericons-react.d.ts",
   "devDependencies": {

@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const SquareDiagHalf = createMeisterIcons("square-diag-half", [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M9 3.75C6.114 3.75 3.75 6.114 3.75 9v6c0 2.886 2.364 5.25 5.25 5.25h6c2.886 0 5.25-2.364 5.25-5.25V9c0-2.886-2.364-5.25-5.25-5.25H9ZM2.25 9c0-3.714 3.036-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"m5.23 4.17 14.5 14.5-1.06 1.06-14.5-14.5 1.06-1.06Z","clip-rule":"evenodd"}]])
+  const SquareDiagHalf = createMeisterIcons("square-diag-half", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9 3.75C6.11421 3.75 3.75 6.11421 3.75 9V15C3.75 17.8858 6.11421 20.25 9 20.25H15C17.8858 20.25 20.25 17.8858 20.25 15V9C20.25 6.11421 17.8858 3.75 15 3.75H9ZM2.25 9C2.25 5.28579 5.28579 2.25 9 2.25H15C18.7142 2.25 21.75 5.28579 21.75 9V15C21.75 18.7142 18.7142 21.75 15 21.75H9C5.28579 21.75 2.25 18.7142 2.25 15V9Z","fill":"black"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.23034 4.16968L19.7303 18.6697L18.6697 19.7303L4.16968 5.23034L5.23034 4.16968Z","fill":"black"}]])
 
 
   export default SquareDiagHalf

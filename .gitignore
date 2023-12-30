@@ -174,3 +174,7 @@ dist
 
 # IntelliJ based IDEs
 .idea
+
+
+docs/.vitepress/dist 
+docs/.vitepress/cache 

@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const PlaySqaureB = createMeisterIcons("play-sqaureB", [["path",{"fill":"currentColor","d":"M15 21H9c-3.3 0-6-2.7-6-6V9c0-3.3 2.7-6 6-6h6c3.3 0 6 2.7 6 6v6c0 3.3-2.7 6-6 6Z"}],["path",{"fill":"#fff","d":"m14.5 11.1-4-2.3c-.7-.4-1.5.1-1.5.9v4.6c0 .8.8 1.3 1.5.9l4-2.3c.7-.4.7-1.4 0-1.8Z"}]])
+  const PlaySqaureB = createMeisterIcons("play-sqaureB", [["path",{"d":"M15 21H9C5.7 21 3 18.3 3 15V9C3 5.7 5.7 3 9 3H15C18.3 3 21 5.7 21 9V15C21 18.3 18.3 21 15 21Z","fill":"black"}],["path",{"d":"M14.5 11.1L10.5 8.79996C9.8 8.39996 9 8.89996 9 9.69996V14.3C9 15.1 9.8 15.6 10.5 15.2L14.5 12.9C15.2 12.5 15.2 11.5 14.5 11.1Z","fill":"white"}]])
 
 
   export default PlaySqaureB

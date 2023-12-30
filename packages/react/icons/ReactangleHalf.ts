@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ReactangleHalf = createMeisterIcons("reactangle-half", [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M5.75 7A3.262 3.262 0 0 1 9 3.75h6A3.262 3.262 0 0 1 18.25 7v4.25H5.75V7Zm0 5.75V17A3.262 3.262 0 0 0 9 20.25h6A3.262 3.262 0 0 0 18.25 17v-4.25H5.75ZM9 2.25A4.762 4.762 0 0 0 4.25 7v10A4.762 4.762 0 0 0 9 21.75h6A4.762 4.762 0 0 0 19.75 17V7A4.762 4.762 0 0 0 15 2.25H9Z","clip-rule":"evenodd"}]])
+  const ReactangleHalf = createMeisterIcons("reactangle-half", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.75 7C5.75 5.21421 7.21421 3.75 9 3.75H15C16.7858 3.75 18.25 5.21421 18.25 7V11.25H5.75V7ZM5.75 12.75V17C5.75 18.7858 7.21421 20.25 9 20.25H15C16.7858 20.25 18.25 18.7858 18.25 17V12.75H5.75ZM9 2.25C6.38579 2.25 4.25 4.38579 4.25 7V17C4.25 19.6142 6.38579 21.75 9 21.75H15C17.6142 21.75 19.75 19.6142 19.75 17V7C19.75 4.38579 17.6142 2.25 15 2.25H9Z","fill":"black"}]])
 
 
   export default ReactangleHalf

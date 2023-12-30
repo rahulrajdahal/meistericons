@@ -1,9 +1,9 @@
 {
   "name": "meistericons-vue-latest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/cjs/meistericons-vue-latest.cjs.cjs",
   "main:umd": "./lib/umd/meistericons-vue-latest.umd.js",
-  "module": "./lib/esm/meistericons-vue-latest.esm.mjs",
+  "module": "./lib/es/meistericons-vue-latest.es.mjs",
   "type": "module",
   "scripts": {
     "bundle": "rollup -c ./rollup.config.mjs",
@@ -16,7 +16,7 @@
   "typings": "./lib/meistericons-vue-latest.d.ts",
   "exports": {
     "require": "./lib/cjs/meistericons-vue-latest.cjs.cjs",
-    "import": "./lib/esm/meistericons-vue-latest.esm.mjs"
+    "import": "./lib/es/meistericons-vue-latest.es.mjs"
   },
   "dependencies": {
     "vue": "^3.3.4"

@@ -1,4 +1,7 @@
-| meistericons
+# meistericons [![Npm package daily downloads](https://badgen.net/npm/dm/meistericons)](https://npmjs.com/package/meistericons)
+
+[![Npm package version](https://badgen.net/npm/v/meistericons)](https://npmjs.com/package/meistericons)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## Usage
 
@@ -75,3 +78,4 @@ import {ArrowDown} from "meistericons-vue-latest"
 </template>
 
 ```
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)

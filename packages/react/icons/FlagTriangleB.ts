@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const FlagTriangleB = createMeisterIcons("flag-triangleB", [["path",{"fill":"currentColor","d":"m16.713 10.62-9.8 4.6V4.32c0-.2.2-.3.3-.2l9.5 5.4c.5.2.5.9 0 1.1Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M7.663 5.238v8.8l8.48-3.98-8.48-4.82Zm-.024-1.739c-.341-.253-.753-.183-1-.035a.992.992 0 0 0-.476.855V16.4l10.852-5.093c1.086-.456 1.097-1.982.031-2.46L7.64 3.5Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M7.013 14.47a.75.75 0 0 1 .75.75v4.7a.75.75 0 0 1-1.5 0v-4.7a.75.75 0 0 1 .75-.75Z","clip-rule":"evenodd"}]])
+  const FlagTriangleB = createMeisterIcons("flag-triangleB", [["path",{"d":"M16.7126 10.6193L6.9126 15.2193V4.31931C6.9126 4.11931 7.1126 4.01931 7.2126 4.11931L16.7126 9.51931C17.2126 9.71931 17.2126 10.4193 16.7126 10.6193Z","fill":"black"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.6626 5.23785V14.0388L16.1429 10.0582L7.6626 5.23785ZM7.63901 3.49905C7.29803 3.24555 6.88583 3.31578 6.63923 3.46375C6.3501 3.63722 6.1626 3.95677 6.1626 4.31937V16.3999L17.0149 11.306C18.1012 10.8496 18.1117 9.3235 17.0464 8.84643L7.63901 3.49905Z","fill":"black"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.0127 14.4695C7.42691 14.4695 7.7627 14.8053 7.7627 15.2195V19.9195C7.7627 20.3337 7.42691 20.6695 7.0127 20.6695C6.59848 20.6695 6.2627 20.3337 6.2627 19.9195V15.2195C6.2627 14.8053 6.59848 14.4695 7.0127 14.4695Z","fill":"black"}]])
 
 
   export default FlagTriangleB

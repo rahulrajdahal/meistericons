@@ -4,22 +4,31 @@ import sourcemaps from "rollup-plugin-sourcemaps";
 import esbuild, { minify } from "rollup-plugin-esbuild";
 import pkg from "./package.json" assert { type: "json" };
 
-const inputs = [{ format: "esm" }, { format: "cjs" }, { format: "umd" }];
+const inputs = [{ format: "es" }, { format: "cjs" }, { format: "umd" }];
+
+const outputFileExt = (format) => {
+  switch (format) {
+    case "es":
+      return "mjs";
+
+    case "cjs":
+      return "cjs";
+
+    default:
+      return "js";
+  }
+};
 
 const output = inputs.map(({ format }) => ({
-  file: `lib/${format}/meistericons-vue.${format}.${
-    format === "esm" ? "m" : format === "cjs" ? "c" : ""
-  }js`,
-  sourcemap: true,
+  file: `lib/${format}/meistericons-vue.${format}.${outputFileExt(format)}`,
+  // sourcemap: true,
 }));
 
 const minifyOutput = inputs.map(({ format }) => ({
   name: pkg.name,
-  file: `lib/${format}/meistericons-vue.${format}.min.${
-    format == "esm" ? "m" : format === "cjs" ? "c" : ""
-  }js`,
+  file: `lib/${format}/meistericons-vue.${format}.min.${outputFileExt(format)}`,
   plugins: [minify()],
-  sourcemap: true,
+  // sourcemap: true,
 }));
 
 export default {

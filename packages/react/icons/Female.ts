@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Female = createMeisterIcons("female", [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M11.9 3.45a5.45 5.45 0 1 0 0 10.9 5.45 5.45 0 0 0 0-10.9ZM4.95 8.9a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M11.9 14.35a.75.75 0 0 1 .75.75v5.8a.75.75 0 0 1-1.5 0v-5.8a.75.75 0 0 1 .75-.75Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M8.55 18a.75.75 0 0 1 .75-.75h5.3a.75.75 0 0 1 0 1.5H9.3a.75.75 0 0 1-.75-.75Z","clip-rule":"evenodd"}]])
+  const Female = createMeisterIcons("female", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 3.65002C8.99005 3.65002 6.55 6.09007 6.55 9.10002C6.55 12.11 8.99005 14.55 12 14.55C15.01 14.55 17.45 12.11 17.45 9.10002C17.45 6.09007 15.01 3.65002 12 3.65002ZM5.05 9.10002C5.05 5.26165 8.16162 2.15002 12 2.15002C15.8384 2.15002 18.95 5.26165 18.95 9.10002C18.95 12.9384 15.8384 16.05 12 16.05C8.16162 16.05 5.05 12.9384 5.05 9.10002Z","fill":"black"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 14.55C12.4142 14.55 12.75 14.8858 12.75 15.3V21.1C12.75 21.5143 12.4142 21.85 12 21.85C11.5858 21.85 11.25 21.5143 11.25 21.1V15.3C11.25 14.8858 11.5858 14.55 12 14.55Z","fill":"black"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M8.65001 18.2001C8.65001 17.7859 8.9858 17.4501 9.40001 17.4501H14.7C15.1142 17.4501 15.45 17.7859 15.45 18.2001C15.45 18.6143 15.1142 18.9501 14.7 18.9501H9.40001C8.9858 18.9501 8.65001 18.6143 8.65001 18.2001Z","fill":"black"}]])
 
 
   export default Female

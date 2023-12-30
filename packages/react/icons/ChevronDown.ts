@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ChevronDown = createMeisterIcons("chevron-down", [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M5.82 8.82a.75.75 0 0 1 1.06 0l5 5a.24.24 0 0 0 .17.08.239.239 0 0 0 .168-.079l4.896-4.996a.75.75 0 1 1 1.072 1.05L13.28 14.88a1.716 1.716 0 0 1-2.46 0l-5-5a.75.75 0 0 1 0-1.06Z","clip-rule":"evenodd"}]])
+  const ChevronDown = createMeisterIcons("chevron-down", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.81965 8.81956C6.11254 8.52667 6.58741 8.52667 6.88031 8.81956L11.8803 13.8196C11.9441 13.8834 12.0051 13.8999 12.05 13.8999C12.0943 13.8999 12.1545 13.8837 12.2177 13.8215L17.1143 8.82494C17.4042 8.52911 17.8791 8.52431 18.1749 8.81423C18.4708 9.10415 18.4756 9.579 18.1856 9.87484L13.2803 14.8802C12.5874 15.5731 11.5125 15.5731 10.8196 14.8802L5.81965 9.88022C5.52675 9.58733 5.52675 9.11245 5.81965 8.81956Z","fill":"black"}]])
 
 
   export default ChevronDown

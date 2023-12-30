@@ -1,9 +1,9 @@
 {
   "name": "meistericons-vue",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "./lib/cjs/meistericons-vue.cjs.cjs",
   "main:umd": "./lib/umd/meistericons-vue.umd.js",
-  "module": "./lib/esm/meistericons-vue.esm.mjs",
+  "module": "./lib/es/meistericons-vue.es.mjs",
   "type": "module",
   "license": "MIT",
   "scripts": {
@@ -15,7 +15,7 @@
   ],
   "exports": {
     "require": "./lib/cjs/meistericons-vue.cjs.cjs",
-    "import": "./lib/esm/meistericons-vue.esm.mjs"
+    "import": "./lib/es/meistericons-vue.es.mjs"
   },
   "typings": "./lib/meistericons-vue.d.ts",
   "devDependencies": {
