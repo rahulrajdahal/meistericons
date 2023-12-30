@@ -1,5 +1,5 @@
 import { appendFileSync } from "fs";
-import {  toPascalCase } from "./helpers";
+import { toPascalCase } from "./helpers";
 import { resolve } from "path";
 
 export default (iconFile: string, targetDir: string, ext: string) => {

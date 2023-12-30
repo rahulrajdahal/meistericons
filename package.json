@@ -27,10 +27,15 @@
   "scripts": {
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "optimize": "svgo -f ./icons -o ./icons",
-    "build:icons": "bun run ./scripts/buildIcons.ts",
-    "build:icons-react": "bun run ./scripts/buildIcons.ts --outdir=./packages/react/icons --ext=js",
+    "remove:icons-react": "rm -rf ./packages/react/icons",
+    "build:icons-react": "bun run remove:icons-react && bun run ./scripts/buildIcons.ts --outdir=./packages/react/icons --ext=ts",
+    "remove:icons-vue": "rm -rf ./packages/vue/icons",
+    "build:icons-vue": "bun run remove:icons-vue && bun run ./scripts/buildIcons.ts --outdir=./packages/vue/icons --ext=ts",
+    "remove:icons-vue-latest": "rm -rf ./packages/vue-latest/icons",
+    "build:icons-vue-latest": "bun run remove:icons-vue-latest && bun run ./scripts/buildIcons.ts --outdir=./packages/vue-latest/icons --ext=ts",
     "add:tags": "bun run ./scripts/addTags.ts",
     "add:categories": "bun run ./scripts/addCategories.ts",
+    "build:icons": "bun run build:icons-react && bun run build:icons-vue && bun run build:icons-vue-latest",
     "build:types": "bun run ./scripts/buildTypes.ts",
     "build": "bun fonts && bun optimize && build:icons && bun add:tags && bun add:categories && bun build:types"
   },
