@@ -31,7 +31,10 @@
     "add:tags": "bun run ./scripts/addTags.ts",
     "add:categories": "bun run ./scripts/addCategories.ts",
     "build:types": "bun run ./scripts/buildTypes.ts",
-    "build": "bun fonts && bun optimize && build:icons && bun add:tags && bun add:categories && bun build:types"
+    "build": "bun fonts && bun optimize && build:icons && bun add:tags && bun add:categories && bun build:types",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.5",

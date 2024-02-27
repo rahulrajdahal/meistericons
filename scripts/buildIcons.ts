@@ -2,6 +2,7 @@ import crypto from 'crypto';
 import { appendFileSync, readdirSync } from "fs";
 import path, { resolve } from "path";
 import { parseSync } from "svgson";
+import generateDoc from './generateDoc';
 import generateExportFile from "./generateExportFile";
 import generateIconFile from "./generateIconFile";
 import { getCurrentDir, readIconFiles, readSvgCode } from "./helpers";
@@ -10,7 +11,7 @@ const currentDir = getCurrentDir(import.meta.url);
 const iconsDir = resolve(currentDir, "../../icons");
 const buildIcons = async () => {
   let totalIcons = 0
-  
+
   readdirSync(iconsDir).forEach(async (category: string) => {
     const categoryDir = path.resolve(iconsDir, category);
     const iconCategories = readIconFiles(categoryDir).sort((a, b) => a.localeCompare(b))
@@ -49,14 +50,15 @@ const buildIcons = async () => {
       appendFileSync(iconNodesJson, `${JSON.stringify(iconNodes, null, 2)},`);
       generateIconFile(iconNodes);
       generateExportFile(iconFile);
+      await generateDoc();
     });
 
-totalIcons+=iconCategories.length
+    totalIcons += iconCategories.length
 
-console.log(`Generated ${iconCategories.length} icons for ${category} category`);
+    console.log(`Generated ${iconCategories.length} icons for ${category} category`);
 
-})
-console.log(`Generated ${totalIcons} icons.`);
+  })
+  console.log(`Generated ${totalIcons} icons.`);
 
 
 
