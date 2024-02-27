@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Cross = createMeisterIcons("cross", [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M18.18 5.82a.75.75 0 0 1 0 1.06l-11.3 11.3a.75.75 0 1 1-1.06-1.06l11.3-11.3a.75.75 0 0 1 1.06 0Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M5.82 5.82a.75.75 0 0 1 1.06 0l11.3 11.3a.75.75 0 0 1-1.06 1.06L5.82 6.88a.75.75 0 0 1 0-1.06Z","clip-rule":"evenodd"}]])
+  const Cross = createMeisterIcons("cross", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M18.1803 5.81965C18.4732 6.11254 18.4732 6.58741 18.1803 6.88031L6.88033 18.1803C6.58744 18.4732 6.11256 18.4732 5.81967 18.1803C5.52678 17.8874 5.52678 17.4125 5.81967 17.1196L17.1197 5.81965C17.4126 5.52675 17.8874 5.52675 18.1803 5.81965Z","fill":"black","key":"c8520fa80a42b256c9f3744dc35e5da152c9f2f8"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.81967 5.81965C6.11256 5.52675 6.58744 5.52675 6.88033 5.81965L18.1803 17.1196C18.4732 17.4125 18.4732 17.8874 18.1803 18.1803C17.8874 18.4732 17.4126 18.4732 17.1197 18.1803L5.81967 6.88031C5.52678 6.58741 5.52678 6.11254 5.81967 5.81965Z","fill":"black","key":"b8516276c510cd72e529548b202de89e1ed63505"}]])
 
 
   export default Cross

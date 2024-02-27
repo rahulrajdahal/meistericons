@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const PieB = createMeisterIcons("pieB", [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M12 3.75A8.213 8.213 0 0 0 3.75 12a8.209 8.209 0 0 0 7.5 8.217V14A2.756 2.756 0 0 1 14 11.25h6.217A8.209 8.209 0 0 0 12 3.75ZM2.25 12A9.713 9.713 0 0 1 12 2.25 9.713 9.713 0 0 1 21.75 12v.75H14c-.686 0-1.25.564-1.25 1.25v7.75H12A9.713 9.713 0 0 1 2.25 12Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","d":"M21 12c0 5-4 9-9 9v-7c0-1.1.9-2 2-2h7Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M14 12.75c-.686 0-1.25.564-1.25 1.25v6.217a8.204 8.204 0 0 0 7.467-7.467H14ZM11.25 14A2.756 2.756 0 0 1 14 11.25h7.75V12A9.713 9.713 0 0 1 12 21.75h-.75V14Z","clip-rule":"evenodd"}]])
+  const PieB = createMeisterIcons("pieB", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 3.75C7.41421 3.75 3.75 7.41421 3.75 12C3.75 16.3328 7.02112 19.843 11.25 20.217V14C11.25 12.4858 12.4858 11.25 14 11.25H20.217C19.843 7.02112 16.3328 3.75 12 3.75ZM2.25 12C2.25 6.58579 6.58579 2.25 12 2.25C17.4142 2.25 21.75 6.58579 21.75 12V12.75H14C13.3142 12.75 12.75 13.3142 12.75 14V21.75H12C6.58579 21.75 2.25 17.4142 2.25 12Z","fill":"black","key":"90565184f8eaa7ac90c1439ee1394d01ced1f0a0"}],["path",{"d":"M21 12C21 17 17 21 12 21V14C12 12.9 12.9 12 14 12H21Z","fill":"black","key":"9f042f3ae2d58ad3e9781869ffbbae4f328af931"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M14 12.75C13.3142 12.75 12.75 13.3142 12.75 14V20.217C16.732 19.8648 19.8648 16.732 20.217 12.75H14ZM11.25 14C11.25 12.4858 12.4858 11.25 14 11.25H21.75V12C21.75 17.4142 17.4142 21.75 12 21.75H11.25V14Z","fill":"black","key":"bfa426abe8982078687810e1789b03a3e4f06df2"}]])
 
 
   export default PieB

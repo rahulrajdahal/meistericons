@@ -26,7 +26,7 @@
   ],
   "scripts": {
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
-    "optimize": "svgo -f ./icons -o ./icons",
+    "optimize": "bun run ./scripts/optimizeIcons.ts",
     "build:icons": "bun run ./scripts/buildIcons.ts",
     "add:tags": "bun run ./scripts/addTags.ts",
     "add:categories": "bun run ./scripts/addCategories.ts",
@@ -38,7 +38,8 @@
     "@types/node": "^20.9.0",
     "bun-types": "latest",
     "minimist": "^1.2.8",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitepress": "^1.0.0-rc.44"
   },
   "dependencies": {
     "fantasticon": "^2.0.0",

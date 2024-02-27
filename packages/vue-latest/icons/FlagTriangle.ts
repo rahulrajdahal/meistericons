@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const FlagTriangle = createMeisterIcons("flag-triangle", [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M7.68 5.238v8.8l8.481-3.98-8.48-4.82Zm0 10.458v4.223a.75.75 0 0 1-1.5 0V4.32c0-.362.188-.682.477-.855.247-.148.66-.218 1 .035l9.452 5.373.007.004c.482.289.73.774.7 1.275a1.366 1.366 0 0 1-.75 1.14l-.008.003-9.377 4.402Z","clip-rule":"evenodd"}]])
+  const FlagTriangle = createMeisterIcons("flag-triangle", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.68066 5.23785V14.0388L16.161 10.0582L7.68066 5.23785ZM7.68066 15.6958V19.9194C7.68066 20.3336 7.34488 20.6694 6.93066 20.6694C6.51645 20.6694 6.18066 20.3336 6.18066 19.9194V4.31937C6.18066 3.95677 6.36816 3.63722 6.65729 3.46375C6.9039 3.31578 7.3161 3.24555 7.65707 3.49905L17.109 8.8717L17.1165 8.87625C17.5978 9.16498 17.8463 9.65025 17.8169 10.1509C17.7891 10.6229 17.5134 11.0665 17.0661 11.2902L17.0578 11.2943L7.68066 15.6958Z","fill":"black","key":"8f5a4b8a598d67cb2d596d66f4223964f882f75b"}]])
 
 
   export default FlagTriangle

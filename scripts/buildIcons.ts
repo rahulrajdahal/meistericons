@@ -1,46 +1,65 @@
-import { resolve } from "path";
-import { getCurrentDir, readIconFiles, readSvgCode } from "./helpers";
+import crypto from 'crypto';
+import { appendFileSync, readdirSync } from "fs";
+import path, { resolve } from "path";
 import { parseSync } from "svgson";
-import { appendFileSync } from "fs";
-import generateIconFile from "./generateIconFile";
 import generateExportFile from "./generateExportFile";
+import generateIconFile from "./generateIconFile";
+import { getCurrentDir, readIconFiles, readSvgCode } from "./helpers";
 
+const currentDir = getCurrentDir(import.meta.url);
+const iconsDir = resolve(currentDir, "../../icons");
 const buildIcons = async () => {
-  const currentDir = getCurrentDir(import.meta.url);
-  const iconsDir = resolve(currentDir, "../../icons");
+  let totalIcons = 0
+  
+  readdirSync(iconsDir).forEach(async (category: string) => {
+    const categoryDir = path.resolve(iconsDir, category);
+    const iconCategories = readIconFiles(categoryDir).sort((a, b) => a.localeCompare(b))
 
-  const iconFiles = readIconFiles(iconsDir).sort();
+    iconCategories.forEach(async (iconFile) => {
+      const svgFile = resolve(iconsDir, `${category}/${iconFile}.svg`);
 
-  iconFiles.forEach(async (iconFile) => {
-    const svgFile = resolve(iconsDir, `${iconFile}.svg`);
+      const svgCode = await readSvgCode(svgFile);
 
-    const svgCode = await readSvgCode(svgFile);
+      const parsedSvg = parseSync(svgCode);
 
-    const parsedSvg = parseSync(svgCode);
 
-    parsedSvg.children.forEach((child) => {
-      if (child.attributes.fill === "#000") {
-        child.attributes.fill = "currentColor";
-      }
+      parsedSvg.children.forEach((child) => {
+
+        if (!child.attributes.key) {
+          child.attributes.key = crypto.randomBytes(20).toString('hex');
+        }
+
+
+        if (child.attributes.fill === "#000") {
+          child.attributes.fill = "currentColor";
+        }
+      });
+
+      const iconNodes = iconCategories.reduce((acc: any, { name }: any) => {
+        acc[iconFile] = parsedSvg.children.map(({ name, attributes }: any) => [
+          name,
+          attributes,
+        ]);
+
+        return acc;
+      }, {});
+
+      const iconNodesJson = resolve(currentDir, "../../icon-nodes.json");
+
+      appendFileSync(iconNodesJson, `${JSON.stringify(iconNodes, null, 2)},`);
+      generateIconFile(iconNodes);
+      generateExportFile(iconFile);
     });
 
-    const iconNodes = iconFiles.reduce((acc: any, { name }: any) => {
-      acc[iconFile] = parsedSvg.children.map(({ name, attributes }: any) => [
-        name,
-        attributes,
-      ]);
+totalIcons+=iconCategories.length
 
-      return acc;
-    }, {});
+console.log(`Generated ${iconCategories.length} icons for ${category} category`);
 
-    const iconNodesJson = resolve(currentDir, "../../icon-nodes.json");
+})
+console.log(`Generated ${totalIcons} icons.`);
 
-    appendFileSync(iconNodesJson, `${JSON.stringify(iconNodes, null, 2)},`);
-    generateIconFile(iconNodes);
-    generateExportFile(iconFile);
-  });
 
-  console.log(`Generated ${iconFiles.length} icons`);
+
 };
 
 buildIcons();

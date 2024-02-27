@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const CardB = createMeisterIcons("cardB", [["path",{"fill":"currentColor","d":"M21 7v3H3V7c0-1.1.9-2 2-2h14c1 0 2 .8 2 2Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M5 5.75c-.686 0-1.25.564-1.25 1.25v2.25h16.5V7c0-.738-.615-1.25-1.25-1.25H5ZM2.25 7A2.756 2.756 0 0 1 5 4.25h14c1.365 0 2.75 1.088 2.75 2.75v3.75H2.25V7Z","clip-rule":"evenodd"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M2.25 9.25h19.5V17A2.756 2.756 0 0 1 19 19.75H5A2.756 2.756 0 0 1 2.25 17V9.25Zm1.5 1.5V17c0 .686.564 1.25 1.25 1.25h14c.686 0 1.25-.564 1.25-1.25v-6.25H3.75Z","clip-rule":"evenodd"}]])
+  const CardB = createMeisterIcons("cardB", [["path",{"d":"M21 7V10H3V7C3 5.9 3.9 5 5 5H19C20 5 21 5.8 21 7Z","fill":"black","key":"0196a0a73d084769446f2b3c8e0a63de027b4d48"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5 5.75C4.31421 5.75 3.75 6.31421 3.75 7V9.25H20.25V7C20.25 6.26211 19.6354 5.75 19 5.75H5ZM2.25 7C2.25 5.48579 3.48579 4.25 5 4.25H19C20.3646 4.25 21.75 5.33789 21.75 7V10.75H2.25V7Z","fill":"black","key":"b6dad03d726dc9873c5222ec8410c36c4259cdbe"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M2.25 9.25H21.75V17C21.75 18.5142 20.5142 19.75 19 19.75H5C3.48579 19.75 2.25 18.5142 2.25 17V9.25ZM3.75 10.75V17C3.75 17.6858 4.31421 18.25 5 18.25H19C19.6858 18.25 20.25 17.6858 20.25 17V10.75H3.75Z","fill":"black","key":"e3339816b1e9bcb46cb4f0b1feaa8f657ed1ce38"}]])
 
 
   export default CardB

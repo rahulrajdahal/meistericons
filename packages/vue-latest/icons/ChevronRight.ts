@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ChevronRight = createMeisterIcons("chevron-right", [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M8.82 18.18a.75.75 0 0 1 0-1.06l5-5a.24.24 0 0 0 .08-.17.238.238 0 0 0-.078-.168L8.825 6.886a.75.75 0 0 1 1.05-1.072l5.005 4.905a1.716 1.716 0 0 1 0 2.461l-5 5a.75.75 0 0 1-1.06 0Z","clip-rule":"evenodd"}]])
+  const ChevronRight = createMeisterIcons("chevron-right", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M8.81968 18.1802C8.52679 17.8873 8.52679 17.4125 8.81968 17.1196L13.8197 12.1196C13.8835 12.0557 13.9 11.9947 13.9 11.9499C13.9 11.9055 13.8839 11.8453 13.8216 11.7822L8.82506 6.88556C8.52923 6.59564 8.52443 6.12079 8.81435 5.82496C9.10427 5.52912 9.57912 5.52432 9.87496 5.81424L14.8804 10.7195C15.5733 11.4124 15.5732 12.4873 14.8803 13.1802L9.88034 18.1802C9.58745 18.4731 9.11257 18.4731 8.81968 18.1802Z","fill":"black","key":"5d06f4ea3024cbc882dfce6d400828ef03b15b88"}]])
 
 
   export default ChevronRight
