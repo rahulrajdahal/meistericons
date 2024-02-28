@@ -5,7 +5,7 @@ name: NPM Package Publish
 
 on:
   release:
-    types: [published]
+    types: [published,released]
 
 jobs:
   build:
