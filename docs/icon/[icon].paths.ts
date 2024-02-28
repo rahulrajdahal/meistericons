@@ -24,6 +24,7 @@ export default {
         const content = `# Icon
 
 ${icon.replace('.svg', '')}
+
 <div class='icon_icon'>
 ${getSvgCode(`icons/${category}/${icon}`)}
 </div>
