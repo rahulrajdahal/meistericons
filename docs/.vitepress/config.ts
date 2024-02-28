@@ -21,5 +21,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/rahulrajdahal/meistericons' }
     ]
-  }
+  },
+  base: '/meistericons'
 })
