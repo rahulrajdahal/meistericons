@@ -1,19 +1,16 @@
----
-outline: deep
----
 # How to Use
 
 ## React
 
 ### Installation - React
 
-```npm
+```sh
 npm i meistericons-react --save
 ```
 
 ### Usage
 
-```jsx|tsx
+```jsx
 import {Add} from 'meistericons-react'
 
 export default ()=>{
@@ -25,15 +22,13 @@ export default ()=>{
 
 ### Installation - Vue
 
-```npm
-
+```sh
 npm install meistericons-vue --save-dev
 ```
 
 ### Usage - Vue
 
-```jsx|tsx
-
+```jsx
 <script>
 import {ArrowDown} from "meistericons-vue"
 
@@ -53,14 +48,13 @@ export default {
 
 ### Installation - Vue3
 
-```npm
-
+```sh
 npm install meistericons-vue-latest --save-dev
 ```
 
 ### Usage - Vue 3
 
-```jsx|tsx
+```jsx
 <script>
 import {ArrowDown} from "meistericons-vue-latest"
 </script>
