@@ -5,7 +5,7 @@ name: Github Package Publish
 
 on:
   release:
-    types: [published,released]
+    types: [published, released]
 
 jobs:
   build:
