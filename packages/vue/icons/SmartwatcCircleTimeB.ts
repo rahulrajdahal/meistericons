@@ -1,8 +1,0 @@
-
-  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
-
-  const SmartwatcCircleTimeB = createMeisterIcons("smartwatc-circle-timeB", [["path",{"fill":"currentColor","d":"M12 19.4a7.3 7.3 0 1 0 0-14.6 7.3 7.3 0 0 0 0 14.6Z","key":"ab9313a59e9a9cae83be63d5a0554d590bd9e883"}],["path",{"fill":"currentColor","d":"M12 5.55a6.55 6.55 0 1 0 0 13.1 6.55 6.55 0 0 0 0-13.1ZM3.95 12.1a8.05 8.05 0 1 1 16.1 0 8.05 8.05 0 0 1-16.1 0Z","key":"b66544ce2f689897ef227728322657775e2fb1ed"}],["path",{"fill":"#fff","d":"M12 8.45a.75.75 0 0 1 .75.75v2.9c0 .162.085.385.236.626l1.444 1.444a.75.75 0 0 1-1.06 1.06l-1.553-1.552-.041-.062c-.225-.337-.526-.89-.526-1.516V9.2a.75.75 0 0 1 .75-.75Z","key":"08001cf500d70bd877107a5ca3be344cded4cd4e"}],["path",{"fill":"currentColor","d":"M9.4 3.15a.575.575 0 0 0-.55.55V6a.75.75 0 1 1-1.5 0V3.7c0-1.114.936-2.05 2.05-2.05h5.453l.053.008c1.012.144 1.844.914 1.844 2.042V6a.75.75 0 0 1-1.5 0V3.7c0-.261-.155-.484-.51-.55H9.4ZM8 17.45a.75.75 0 0 1 .75.75v2.1c0 .286.264.55.55.55h5.4c.286 0 .55-.264.55-.55v-2.1a.75.75 0 0 1 1.5 0v2.1c0 1.114-.936 2.05-2.05 2.05H9.3a2.073 2.073 0 0 1-2.05-2.05v-2.1a.75.75 0 0 1 .75-.75Z","key":"dade00129b607e3086188dfcaad8f0a90db500c2"}]])
-
-
-  export default SmartwatcCircleTimeB
-  

@@ -1,8 +1,0 @@
-
-  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
-
-  const Circle14AltVarB = createMeisterIcons("circle-14-alt-varB", [["path",{"fill":"currentColor","d":"M3.783 11.25h7.467V3.783a8.204 8.204 0 0 0-7.467 7.467ZM2.25 12A9.713 9.713 0 0 1 12 2.25h.75v10.5H2.25V12Z","key":"ab2e07f8034e54cb331848fb4bbe228a21538e3e"}],["path",{"fill":"currentColor","d":"M21 12h-9V3c2.5 0 4.7 1 6.4 2.6C19.9 7.2 21 9.5 21 12Z","key":"523dc00b3d3fe3dc5f5f774428de0ba17276eb50"}],["path",{"fill":"currentColor","d":"M11.25 2.25H12c2.71 0 5.09 1.087 6.914 2.804l.017.016.016.017C20.558 6.805 21.75 9.283 21.75 12v.75h-10.5V2.25Zm1.5 1.533v7.467h7.464c-.19-1.985-1.117-3.803-2.345-5.12-1.399-1.31-3.146-2.172-5.119-2.347Z","key":"4fd7165ba678c3f4ec1ce695f52245bab31418d4"}],["path",{"fill":"currentColor","d":"M11.25 11.25h10.5V12c0 2.71-1.087 5.09-2.804 6.914l-.008.008-.008.008c-1.74 1.741-4.232 2.82-6.93 2.82h-.75v-10.5Zm1.5 1.5v7.467c2.002-.175 3.813-1.045 5.112-2.34 1.314-1.4 2.18-3.15 2.355-5.127H12.75Z","key":"2915f6947832832a6a1bbf8fe142cd8311cbef5c"}],["path",{"fill":"currentColor","d":"M12 12v9c-2.5 0-4.7-1-6.4-2.6C4 16.8 3 14.5 3 12h9Z","key":"021e59147aad702f788771dd95c4443d8cb25be3"}],["path",{"fill":"currentColor","d":"M2.25 11.25h10.5v10.5H12c-2.71 0-5.09-1.087-6.914-2.804l-.008-.008-.008-.008C3.329 17.19 2.25 14.698 2.25 12v-.75Zm1.533 1.5c.175 2.002 1.045 3.813 2.34 5.112 1.4 1.314 3.15 2.18 5.127 2.355V12.75H3.783Z","key":"8edaeac423feff42f642a1be8fcbdfef99db43fa"}]])
-
-
-  export default Circle14AltVarB
-  
