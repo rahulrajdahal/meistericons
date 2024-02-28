@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Square15 = createMeisterIcons("square-15", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9 3.75C6.11421 3.75 3.75 6.11421 3.75 9V11.25H11.25V3.75H9ZM12.75 3.75V11.25H20.25V9C20.25 6.11421 17.8858 3.75 15 3.75H12.75ZM11.25 12.75H3.75V15C3.75 17.8858 6.11421 20.25 9 20.25H11.25V12.75ZM12.75 20.25V12.75H20.25V15C20.25 17.8858 17.8858 20.25 15 20.25H12.75ZM2.25 9C2.25 5.28579 5.28579 2.25 9 2.25H15C18.7142 2.25 21.75 5.28579 21.75 9V15C21.75 18.7142 18.7142 21.75 15 21.75H9C5.28579 21.75 2.25 18.7142 2.25 15V9Z","fill":"black","key":"ed49328bfcbd62f814e40f63b563c8b9d1d52c77"}]])
+  const Square15 = createMeisterIcons("square-15", [["path",{"fill":"currentColor","d":"M9 3.75C6.114 3.75 3.75 6.114 3.75 9v2.25h7.5v-7.5H9Zm3.75 0v7.5h7.5V9c0-2.886-2.364-5.25-5.25-5.25h-2.25Zm-1.5 9h-7.5V15c0 2.886 2.364 5.25 5.25 5.25h2.25v-7.5Zm1.5 7.5v-7.5h7.5V15c0 2.886-2.364 5.25-5.25 5.25h-2.25ZM2.25 9c0-3.714 3.036-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9Z","key":"319cd4aff8486e5ff54ce0e8d19348f449e74cc9"}]])
 
 
   export default Square15

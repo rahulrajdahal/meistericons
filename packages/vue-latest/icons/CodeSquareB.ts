@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const CodeSquareB = createMeisterIcons("code-squareB", [["path",{"d":"M3 17V7C3 4.8 4.8 3 7 3H17C19.2 3 21 4.8 21 7V17C21 19.2 19.2 21 17 21H7C4.7 21 3 19.2 3 17Z","fill":"black","stroke":"black","stroke-width":"1.5","stroke-miterlimit":"10","key":"e26f8a8b48e374c6fd3239890bc25fa2c262d936"}],["path",{"d":"M13.7999 10L15.1999 11.5C15.4999 11.8 15.4999 12.2 15.1999 12.5L13.7999 13.9","stroke":"white","stroke-width":"1.5","stroke-miterlimit":"10","stroke-linecap":"round","key":"81f14080a7cd9b5dc8f99b0aa8f74cd50ec25da8"}],["path",{"d":"M10.1 13.9L8.69998 12.5C8.39998 12.2 8.39998 11.8 8.69998 11.5L10.1 10.1","stroke":"white","stroke-width":"1.5","stroke-miterlimit":"10","stroke-linecap":"round","key":"ecf94ce6c20e14d90a3ea715a4492446e75f4cc9"}]])
+  const CodeSquareB = createMeisterIcons("code-squareB", [["path",{"fill":"currentColor","stroke":"#000","stroke-miterlimit":"10","stroke-width":"1.5","d":"M3 17V7c0-2.2 1.8-4 4-4h10c2.2 0 4 1.8 4 4v10c0 2.2-1.8 4-4 4H7c-2.3 0-4-1.8-4-4Z","key":"d47ec31cbf8d6c1dcbaf11662e1fff6ee77ef9ed"}],["path",{"stroke":"#fff","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"1.5","d":"m13.8 10 1.4 1.5c.3.3.3.7 0 1l-1.4 1.4m-3.7 0-1.4-1.4c-.3-.3-.3-.7 0-1l1.4-1.4","key":"4718e3c71033a5cc8f19053f64eca9f2c56231e0"}]])
 
 
   export default CodeSquareB

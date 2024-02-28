@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const MonitorAlt = createMeisterIcons("monitor-alt", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.75 7C3.75 5.21421 5.21421 3.75 7 3.75H17C18.7858 3.75 20.25 5.21421 20.25 7V12.25H3.75V7ZM2.25 13V7C2.25 4.38579 4.38579 2.25 7 2.25H17C19.6142 2.25 21.75 4.38579 21.75 7V13C21.75 15.6142 19.6142 17.75 17 17.75H12.75V20.25H16.5C16.9142 20.25 17.25 20.5858 17.25 21C17.25 21.4142 16.9142 21.75 16.5 21.75H7.5C7.08579 21.75 6.75 21.4142 6.75 21C6.75 20.5858 7.08579 20.25 7.5 20.25H11.25V17.75H7C4.38579 17.75 2.25 15.6142 2.25 13ZM20.1619 13.75C19.8205 15.1781 18.5279 16.25 17 16.25H7C5.47206 16.25 4.17954 15.1781 3.83814 13.75H20.1619Z","fill":"black","key":"9ae42583dff084bded089b4f2d0665f7a5d929ee"}]])
+  const MonitorAlt = createMeisterIcons("monitor-alt", [["path",{"fill":"currentColor","d":"M3.75 7A3.262 3.262 0 0 1 7 3.75h10A3.262 3.262 0 0 1 20.25 7v5.25H3.75V7Zm-1.5 6V7A4.762 4.762 0 0 1 7 2.25h10A4.762 4.762 0 0 1 21.75 7v6A4.762 4.762 0 0 1 17 17.75h-4.25v2.5h3.75a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1 0-1.5h3.75v-2.5H7A4.762 4.762 0 0 1 2.25 13Zm17.912.75A3.266 3.266 0 0 1 17 16.25H7a3.266 3.266 0 0 1-3.162-2.5h16.324Z","key":"134e0bdced442878853580a0caf8834564810fb7"}]])
 
 
   export default MonitorAlt

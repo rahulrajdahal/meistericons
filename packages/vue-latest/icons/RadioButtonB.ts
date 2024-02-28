@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const RadioButtonB = createMeisterIcons("radio-buttonB", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 3.75C7.44365 3.75 3.75 7.44365 3.75 12C3.75 16.5563 7.44365 20.25 12 20.25C16.5563 20.25 20.25 16.5563 20.25 12C20.25 7.44365 16.5563 3.75 12 3.75ZM2.25 12C2.25 6.61522 6.61522 2.25 12 2.25C17.3848 2.25 21.75 6.61522 21.75 12C21.75 17.3848 17.3848 21.75 12 21.75C6.61522 21.75 2.25 17.3848 2.25 12Z","fill":"black","key":"61f19a13b6142e157d685c4165d8bc73c1999cc5"}],["path",{"d":"M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z","fill":"black","key":"4c21dfd024d610835ff4d9f10b7f43f43a3c0215"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 7.75C9.65279 7.75 7.75 9.65279 7.75 12C7.75 14.3472 9.65279 16.25 12 16.25C14.3472 16.25 16.25 14.3472 16.25 12C16.25 9.65279 14.3472 7.75 12 7.75ZM6.25 12C6.25 8.82436 8.82436 6.25 12 6.25C15.1756 6.25 17.75 8.82436 17.75 12C17.75 15.1756 15.1756 17.75 12 17.75C8.82436 17.75 6.25 15.1756 6.25 12Z","fill":"black","key":"ccc742e9cc57686d82c65f6f6b5f8e1f2fa6a3ce"}]])
+  const RadioButtonB = createMeisterIcons("radio-buttonB", [["path",{"fill":"currentColor","d":"M12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5ZM2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Z","key":"8c11313a85295390f335c1699bc971982c57b1d1"}],["path",{"fill":"currentColor","d":"M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z","key":"7cdf01bbf7270a6f311f3e6e7a9e2ea0b533930d"}],["path",{"fill":"currentColor","d":"M12 7.75a4.25 4.25 0 1 0 0 8.5 4.25 4.25 0 0 0 0-8.5ZM6.25 12a5.75 5.75 0 1 1 11.5 0 5.75 5.75 0 0 1-11.5 0Z","key":"8c7fd8a3baa0134f600e20a6aaef413f00017941"}]])
 
 
   export default RadioButtonB

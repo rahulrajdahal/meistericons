@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const ArrowCircleTopleftB = createMeisterIcons("arrow-circle-topleftB", [["path",{"fill":"currentColor","d":"M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"}],["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5ZM2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Z","clip-rule":"evenodd"}],["path",{"fill":"#fff","fill-rule":"evenodd","d":"M14.796 14.842a.75.75 0 0 1-1.06 0l-4.243-4.243a.75.75 0 1 1 1.06-1.06l4.243 4.242a.75.75 0 0 1 0 1.06Z","clip-rule":"evenodd"}],["path",{"fill":"#fff","fill-rule":"evenodd","d":"M14.238 9.432a.75.75 0 0 1-.75.75h-3.28v3.281a.75.75 0 1 1-1.5 0V9.927c0-.697.547-1.245 1.245-1.245h3.535a.75.75 0 0 1 .75.75Z","clip-rule":"evenodd"}]])
+  const ArrowCircleTopleftB = createMeisterIcons("arrow-circle-topleftB", [["path",{"fill":"currentColor","d":"M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z","key":"4765727b78941c2db8b07708b2256a3ae948ea4d"}],["path",{"fill":"currentColor","d":"M12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5ZM2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Z","key":"3fef9077b70cce1b2aa638b7c7db9de22b559731"}],["path",{"fill":"#fff","d":"M14.796 14.842a.75.75 0 0 1-1.06 0l-4.243-4.243a.75.75 0 1 1 1.06-1.06l4.243 4.242a.75.75 0 0 1 0 1.06Z","key":"eedff97a5c90aa832436c60531c90f6a82de4233"}],["path",{"fill":"#fff","d":"M14.238 9.433a.75.75 0 0 1-.75.75h-3.28v3.28a.75.75 0 1 1-1.5 0V9.927c0-.697.547-1.245 1.245-1.245h3.535a.75.75 0 0 1 .75.75Z","key":"49f4eccc5bef83d04e1b5e70ed9f280150adde17"}]])
 
 
   export default ArrowCircleTopleftB

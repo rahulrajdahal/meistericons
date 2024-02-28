@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Square12VarB = createMeisterIcons("square-12-varB", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7 3.75C5.21421 3.75 3.75 5.21421 3.75 7V17C3.75 18.7981 5.12646 20.25 7 20.25H11.25V3.75H7ZM2.25 7C2.25 4.38579 4.38579 2.25 7 2.25H12.75V21.75H7C4.27354 21.75 2.25 19.6019 2.25 17V7Z","fill":"black","key":"9ca04265b0c48c03e579ec6d72e47cdcb750dd06"}],["path",{"d":"M12 21V3H17C19.2 3 21 4.8 21 7V17C21 19.2 19.2 21 17 21H12Z","fill":"black","key":"efe34b96293e4a1a4a65cd5f03f9c974ed817ced"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11.25 2.25H17C19.6142 2.25 21.75 4.38579 21.75 7V17C21.75 19.6142 19.6142 21.75 17 21.75H11.25V2.25ZM12.75 3.75V20.25H17C18.7858 20.25 20.25 18.7858 20.25 17V7C20.25 5.21421 18.7858 3.75 17 3.75H12.75Z","fill":"black","key":"bd830be4f49438c56ef65a799ad4738e52920d73"}]])
+  const Square12VarB = createMeisterIcons("square-12-varB", [["path",{"fill":"currentColor","d":"M7 3.75A3.262 3.262 0 0 0 3.75 7v10c0 1.798 1.376 3.25 3.25 3.25h4.25V3.75H7ZM2.25 7A4.762 4.762 0 0 1 7 2.25h5.75v19.5H7c-2.726 0-4.75-2.148-4.75-4.75V7Z","key":"714010e497ed7cbf9e926ada938584880b370ef3"}],["path",{"fill":"currentColor","d":"M12 21V3h5c2.2 0 4 1.8 4 4v10c0 2.2-1.8 4-4 4h-5Z","key":"989717535b5f4b842cabe9cec73003f29b4d3054"}],["path",{"fill":"currentColor","d":"M11.25 2.25H17A4.762 4.762 0 0 1 21.75 7v10A4.762 4.762 0 0 1 17 21.75h-5.75V2.25Zm1.5 1.5v16.5H17A3.262 3.262 0 0 0 20.25 17V7A3.262 3.262 0 0 0 17 3.75h-4.25Z","key":"b56e19f6285cd7a33a335d5d316d26164d2f051c"}]])
 
 
   export default Square12VarB

@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const CardAltB = createMeisterIcons("card-altB", [["path",{"d":"M21 9H3C3 6.8 4.8 5 7 5H17C19.2 5 21 6.7 21 9Z","fill":"black","key":"3ac83644a698fc32d93cd9b56beb0bb76545d018"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.83814 8.25H20.1688C19.8397 6.77044 18.5482 5.75 17 5.75H7C5.47206 5.75 4.17954 6.8219 3.83814 8.25ZM2.25 9C2.25 6.38579 4.38579 4.25 7 4.25H17C19.6019 4.25 21.75 6.27354 21.75 9V9.75H2.25V9Z","fill":"black","key":"010e1893e8035fb804fe51434b4a45fc62d1b280"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M2.25 8.25H21.75V15C21.75 17.6142 19.6142 19.75 17 19.75H7C4.38579 19.75 2.25 17.6142 2.25 15V8.25ZM3.75 9.75V15C3.75 16.7858 5.21421 18.25 7 18.25H17C18.7858 18.25 20.25 16.7858 20.25 15V9.75H3.75Z","fill":"black","key":"de393ea2e8be382a9de29c2d7e92a45a7a65a1fd"}]])
+  const CardAltB = createMeisterIcons("card-altB", [["path",{"fill":"currentColor","d":"M21 9H3c0-2.2 1.8-4 4-4h10c2.2 0 4 1.7 4 4Z","key":"75054cfaf374cf199bd1cf128c5da7ca697a7d49"}],["path",{"fill":"currentColor","d":"M3.838 8.25h16.33c-.328-1.48-1.62-2.5-3.168-2.5H7a3.266 3.266 0 0 0-3.162 2.5ZM2.25 9A4.762 4.762 0 0 1 7 4.25h10c2.602 0 4.75 2.024 4.75 4.75v.75H2.25V9Z","key":"d282234476b4aa3ad952f98a06a051872f9e51c3"}],["path",{"fill":"currentColor","d":"M2.25 8.25h19.5V15A4.762 4.762 0 0 1 17 19.75H7A4.762 4.762 0 0 1 2.25 15V8.25Zm1.5 1.5V15A3.262 3.262 0 0 0 7 18.25h10A3.262 3.262 0 0 0 20.25 15V9.75H3.75Z","key":"01de3e96f389960bd4a9142df61496ca2c112369"}]])
 
 
   export default CardAltB

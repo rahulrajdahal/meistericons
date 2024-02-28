@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const SuitcaseMinimal = createMeisterIcons("suitcase-minimal", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M8.75 5.25C8.75 4.56421 9.31421 4 10 4H14C14.6858 4 15.25 4.56421 15.25 5.25V6H8.75V5.25ZM7.25 6V5.25C7.25 3.73579 8.48579 2.5 10 2.5H14C15.5142 2.5 16.75 3.73579 16.75 5.25V6H17C19.6142 6 21.75 8.13579 21.75 10.75V16.75C21.75 19.3642 19.6142 21.5 17 21.5H7C4.38579 21.5 2.25 19.3642 2.25 16.75V10.75C2.25 8.13579 4.38579 6 7 6H7.25ZM3.75 10.75C3.75 8.96421 5.21421 7.5 7 7.5H17C18.7858 7.5 20.25 8.96421 20.25 10.75V16.75C20.25 18.5358 18.7858 20 17 20H7C5.21421 20 3.75 18.5358 3.75 16.75V10.75Z","fill":"black","key":"eb35c1d79056da36776b5a97ece6ff15d7732182"}],["path",{"d":"M16 20.75H8","stroke":"black","stroke-width":"1.5","stroke-miterlimit":"10","key":"a00ad8a9a7bf6e9a579ef3fc83a0d66a5d34e01e"}]])
+  const SuitcaseMinimal = createMeisterIcons("suitcase-minimal", [["path",{"fill":"currentColor","d":"M8.75 5.25C8.75 4.564 9.314 4 10 4h4c.686 0 1.25.564 1.25 1.25V6h-6.5v-.75ZM7.25 6v-.75A2.756 2.756 0 0 1 10 2.5h4a2.756 2.756 0 0 1 2.75 2.75V6H17a4.762 4.762 0 0 1 4.75 4.75v6A4.762 4.762 0 0 1 17 21.5H7a4.762 4.762 0 0 1-4.75-4.75v-6A4.762 4.762 0 0 1 7 6h.25Zm-3.5 4.75A3.262 3.262 0 0 1 7 7.5h10a3.262 3.262 0 0 1 3.25 3.25v6A3.262 3.262 0 0 1 17 20H7a3.262 3.262 0 0 1-3.25-3.25v-6Z","key":"6386bec7e90dd55359f50d9395ee0c5c53d2ad62"}],["path",{"stroke":"#000","stroke-miterlimit":"10","stroke-width":"1.5","d":"M16 20.75H8","key":"55f09bea43f667cab9f3de341d9e4c36ee9c0414"}]])
 
 
   export default SuitcaseMinimal

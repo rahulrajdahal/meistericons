@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Signal = createMeisterIcons("signal", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M17.5 6.75C17.5 6.33579 17.1642 6 16.75 6C16.3358 6 16 6.33579 16 6.75V17.75C16 18.1642 16.3358 18.5 16.75 18.5C17.1642 18.5 17.5 18.1642 17.5 17.75V6.75ZM11.75 10C12.1642 10 12.5 10.3358 12.5 10.75V17.75C12.5 18.1642 12.1642 18.5 11.75 18.5C11.3358 18.5 11 18.1642 11 17.75V10.75C11 10.3358 11.3358 10 11.75 10ZM6.75 14C7.16421 14 7.5 14.3358 7.5 14.75V17.75C7.5 18.1642 7.16421 18.5 6.75 18.5C6.33579 18.5 6 18.1642 6 17.75V14.75C6 14.3358 6.33579 14 6.75 14Z","fill":"black","key":"7ff8234f6d10dc8b05f4e8296be67fcc3aa8287f"}]])
+  const Signal = createMeisterIcons("signal", [["path",{"fill":"currentColor","d":"M17.5 6.75a.75.75 0 0 0-1.5 0v11a.75.75 0 0 0 1.5 0v-11ZM11.75 10a.75.75 0 0 1 .75.75v7a.75.75 0 0 1-1.5 0v-7a.75.75 0 0 1 .75-.75Zm-5 4a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 .75-.75Z","key":"981d03fa3ab6e8d70df2237152efbdc7401f16ee"}]])
 
 
   export default Signal

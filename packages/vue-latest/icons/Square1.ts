@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Square1 = createMeisterIcons("square-1", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.75 7C3.75 5.21421 5.21421 3.75 7 3.75H17C18.7981 3.75 20.25 5.12646 20.25 7V7.25H3.75V7ZM3.75 8.75V17C3.75 18.7858 5.21421 20.25 7 20.25H17C18.7858 20.25 20.25 18.7858 20.25 17V8.75H3.75ZM7 2.25C4.38579 2.25 2.25 4.38579 2.25 7V17C2.25 19.6142 4.38579 21.75 7 21.75H17C19.6142 21.75 21.75 19.6142 21.75 17V7C21.75 4.27354 19.6019 2.25 17 2.25H7Z","fill":"black","key":"defc06bb1fea810b535e772b1fa6c1437fb32cad"}]])
+  const Square1 = createMeisterIcons("square-1", [["path",{"fill":"currentColor","d":"M3.75 7A3.262 3.262 0 0 1 7 3.75h10c1.798 0 3.25 1.376 3.25 3.25v.25H3.75V7Zm0 1.75V17A3.262 3.262 0 0 0 7 20.25h10A3.262 3.262 0 0 0 20.25 17V8.75H3.75ZM7 2.25A4.762 4.762 0 0 0 2.25 7v10A4.762 4.762 0 0 0 7 21.75h10A4.762 4.762 0 0 0 21.75 17V7c0-2.726-2.148-4.75-4.75-4.75H7Z","key":"4b104115ad5727f064a79aa262423e7286c723e1"}]])
 
 
   export default Square1

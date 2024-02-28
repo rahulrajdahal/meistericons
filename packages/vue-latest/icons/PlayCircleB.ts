@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const PlayCircleB = createMeisterIcons("play-circleB", [["path",{"d":"M12 21C7 21 3 17 3 12C3 7 7 3 12 3C17 3 21 7 21 12C21 17 17 21 12 21Z","fill":"black","key":"8967d06eb7805ae1c49217ec8f6b14d107258388"}],["path",{"d":"M15 11.1L11 8.79999C10.3 8.39999 9.5 8.89999 9.5 9.69999V14.3C9.5 15.1 10.3 15.6 11 15.2L15 12.9C15.7 12.5 15.7 11.5 15 11.1Z","fill":"white","key":"ee4d44a05c0463e90871c2b66e4248dce013ead7"}]])
+  const PlayCircleB = createMeisterIcons("play-circleB", [["path",{"fill":"currentColor","d":"M12 21c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9Z","key":"7f21df5ad2c9cf991bb238755fcba61a05246878"}],["path",{"fill":"#fff","d":"m15 11.1-4-2.3c-.7-.4-1.5.1-1.5.9v4.6c0 .8.8 1.3 1.5.9l4-2.3c.7-.4.7-1.4 0-1.8Z","key":"77dac9086105c20dc088b68e5c0d9492a23b1dc3"}]])
 
 
   export default PlayCircleB

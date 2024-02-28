@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Circle3 = createMeisterIcons("circle-3", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.75 12C3.75 7.41421 7.41421 3.75 12 3.75C13.1566 3.75 14.2546 3.9831 15.25 4.40529V19.5619C14.2478 20.0037 13.1475 20.25 12 20.25C7.41421 20.25 3.75 16.5858 3.75 12ZM16.75 18.7047C18.8544 17.1953 20.25 14.7314 20.25 12C20.25 9.18844 18.8726 6.7233 16.75 5.23665V18.7047ZM12 2.25C6.58579 2.25 2.25 6.58579 2.25 12C2.25 17.4142 6.58579 21.75 12 21.75C17.3142 21.75 21.75 17.3142 21.75 12C21.75 6.58579 17.4142 2.25 12 2.25Z","fill":"black","key":"dfe0094a24a2f84cce2717cf8b0e8fa46f2b64ea"}]])
+  const Circle3 = createMeisterIcons("circle-3", [["path",{"fill":"currentColor","d":"M3.75 12A8.213 8.213 0 0 1 12 3.75c1.157 0 2.255.233 3.25.655v15.157a8.043 8.043 0 0 1-3.25.688A8.213 8.213 0 0 1 3.75 12Zm13 6.705c2.104-1.51 3.5-3.974 3.5-6.705a8.216 8.216 0 0 0-3.5-6.763v13.468ZM12 2.25A9.713 9.713 0 0 0 2.25 12 9.713 9.713 0 0 0 12 21.75c5.314 0 9.75-4.436 9.75-9.75A9.713 9.713 0 0 0 12 2.25Z","key":"7afd9e427fbb5f72d944b806f7c0397502e4337d"}]])
 
 
   export default Circle3

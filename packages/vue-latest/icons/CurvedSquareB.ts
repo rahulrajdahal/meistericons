@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const CurvedSquareB = createMeisterIcons("curved-squareB", [["path",{"d":"M15 21H9C5.7 21 3 18.3 3 15V9C3 5.7 5.7 3 9 3H15C18.3 3 21 5.7 21 9V15C21 18.3 18.3 21 15 21Z","fill":"black","key":"f72d54755e083757367dd61f4384b54901bcc32c"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9 3.75C6.11421 3.75 3.75 6.11421 3.75 9V15C3.75 17.8858 6.11421 20.25 9 20.25H15C17.8858 20.25 20.25 17.8858 20.25 15V9C20.25 6.11421 17.8858 3.75 15 3.75H9ZM2.25 9C2.25 5.28579 5.28579 2.25 9 2.25H15C18.7142 2.25 21.75 5.28579 21.75 9V15C21.75 18.7142 18.7142 21.75 15 21.75H9C5.28579 21.75 2.25 18.7142 2.25 15V9Z","fill":"black","key":"c820248fc48b03afb8bacd63e56dfb3f19910618"}]])
+  const CurvedSquareB = createMeisterIcons("curved-squareB", [["path",{"fill":"currentColor","d":"M15 21H9c-3.3 0-6-2.7-6-6V9c0-3.3 2.7-6 6-6h6c3.3 0 6 2.7 6 6v6c0 3.3-2.7 6-6 6Z","key":"572f8b367a8f230916caaafaf25f008ea646192d"}],["path",{"fill":"currentColor","d":"M9 3.75C6.114 3.75 3.75 6.114 3.75 9v6c0 2.886 2.364 5.25 5.25 5.25h6c2.886 0 5.25-2.364 5.25-5.25V9c0-2.886-2.364-5.25-5.25-5.25H9ZM2.25 9c0-3.714 3.036-6.75 6.75-6.75h6c3.714 0 6.75 3.036 6.75 6.75v6c0 3.714-3.036 6.75-6.75 6.75H9c-3.714 0-6.75-3.036-6.75-6.75V9Z","key":"cab2a7eb063aea1e0eded7e0138bd8af379e0098"}]])
 
 
   export default CurvedSquareB

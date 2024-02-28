@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const LockB = createMeisterIcons("lockB", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 3.75C10.2142 3.75 8.75 5.21421 8.75 7V10.5H7.25V7C7.25 4.38579 9.38579 2.25 12 2.25C13.3282 2.25 14.5118 2.85114 15.3303 3.66967C16.1489 4.4882 16.75 5.67184 16.75 7V10.5H15.25V7C15.25 6.12815 14.8511 5.3118 14.2697 4.73033C13.6882 4.14886 12.8718 3.75 12 3.75Z","fill":"black","key":"fe1ad2996b4c5c7ba005d0bbd6e47ed43b78d857"}],["path",{"d":"M12 21C15.3137 21 18 18.3137 18 15C18 11.6863 15.3137 9 12 9C8.68629 9 6 11.6863 6 15C6 18.3137 8.68629 21 12 21Z","fill":"black","key":"de0e5472fd387826b27d9fe6b46141f9b5dde6b6"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 9.75C9.10051 9.75 6.75 12.1005 6.75 15C6.75 17.8995 9.1005 20.25 12 20.25C14.8995 20.25 17.25 17.8995 17.25 15C17.25 12.1005 14.8995 9.75 12 9.75ZM5.25 15C5.25 11.2721 8.27208 8.25 12 8.25C15.7279 8.25 18.75 11.2721 18.75 15C18.75 18.7279 15.7279 21.75 12 21.75C8.27208 21.75 5.25 18.7279 5.25 15Z","fill":"black","key":"0c34443ad5d177e4b3d2c3a7d490076368f6698e"}]])
+  const LockB = createMeisterIcons("lockB", [["path",{"fill":"currentColor","d":"M12 3.75A3.262 3.262 0 0 0 8.75 7v3.5h-1.5V7A4.762 4.762 0 0 1 12 2.25c1.328 0 2.512.601 3.33 1.42.819.818 1.42 2.002 1.42 3.33v3.5h-1.5V7c0-.872-.399-1.688-.98-2.27-.582-.581-1.398-.98-2.27-.98Z","key":"9112d5ad34155d635043cfc83c72cbb86d1db1d7"}],["path",{"fill":"currentColor","d":"M12 21a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z","key":"a1ff311477ba4ebc6fb8988d752a2aaab2bbe25e"}],["path",{"fill":"currentColor","d":"M12 9.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5ZM5.25 15a6.75 6.75 0 1 1 13.5 0 6.75 6.75 0 0 1-13.5 0Z","key":"516eff606f5a383548c91d3c1c25cb83095f37c8"}]])
 
 
   export default LockB

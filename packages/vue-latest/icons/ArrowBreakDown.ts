@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const ArrowBreakDown = createMeisterIcons("arrow-break-down", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 4.30005C12.4142 4.30005 12.75 4.63584 12.75 5.05005V18.95C12.75 19.3643 12.4142 19.7 12 19.7C11.5858 19.7 11.25 19.3643 11.25 18.95V5.05005C11.25 4.63584 11.5858 4.30005 12 4.30005Z","fill":"black","key":"d812c03e3638ad73b4cac9045bd3e2eb0ef03f7e"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.76439 13.1251C6.05431 12.8292 6.52916 12.8244 6.825 13.1144L11.8304 18.0197C11.8942 18.0835 11.9552 18.1 12 18.1C12.0449 18.1 12.1059 18.0835 12.1697 18.0197L17.0697 13.1197C17.3626 12.8268 17.8375 12.8268 18.1304 13.1197C18.4233 13.4126 18.4233 13.8875 18.1304 14.1804L13.2304 19.0804C12.5385 19.7722 11.4657 19.7732 10.7728 19.0834L5.7751 14.1857C5.47927 13.8958 5.47447 13.4209 5.76439 13.1251Z","fill":"black","key":"373075820d3f058a4bc13b1db93ffd79c0c8873c"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.25 5.05005C5.25 4.63584 5.58579 4.30005 6 4.30005H18C18.4142 4.30005 18.75 4.63584 18.75 5.05005C18.75 5.46426 18.4142 5.80005 18 5.80005H6C5.58579 5.80005 5.25 5.46426 5.25 5.05005Z","fill":"black","key":"69305fbb55cbffed893d51c6af20ea546c5adff8"}]])
+  const ArrowBreakDown = createMeisterIcons("arrow-break-down", [["path",{"fill":"currentColor","d":"M12 4.3a.75.75 0 0 1 .75.75v13.9a.75.75 0 1 1-1.5 0V5.05A.75.75 0 0 1 12 4.3Z","key":"ad967da292a83fd6d9ddae655474ff48ae37e163"}],["path",{"fill":"currentColor","d":"M5.764 13.125a.75.75 0 0 1 1.061-.01l5.005 4.905a.24.24 0 0 0 .17.08.24.24 0 0 0 .17-.08l4.9-4.9a.75.75 0 0 1 1.06 1.06l-4.9 4.9a1.716 1.716 0 0 1-2.457.003l-4.998-4.897a.75.75 0 0 1-.01-1.06ZM5.25 5.05A.75.75 0 0 1 6 4.3h12a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75Z","key":"3daac8157bf6cca7727a3d184ea6128253eefd58"}]])
 
 
   export default ArrowBreakDown

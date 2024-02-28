@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Italics = createMeisterIcons("italics", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M14.9107 4.14674C15.2991 4.29069 15.4973 4.72225 15.3533 5.11064L10.0533 19.4106C9.90936 19.799 9.47781 19.9972 9.08941 19.8532C8.70102 19.7093 8.50285 19.2777 8.6468 18.8894L13.9468 4.58935C14.0908 4.20095 14.5223 4.00279 14.9107 4.14674Z","fill":"black","key":"5a453bc2613d4e311981b8dcad57c0fd79a977f7"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9.5 4.85001C9.5 4.43579 9.83579 4.10001 10.25 4.10001H18.95C19.3642 4.10001 19.7 4.43579 19.7 4.85001C19.7 5.26422 19.3642 5.60001 18.95 5.60001H10.25C9.83579 5.60001 9.5 5.26422 9.5 4.85001Z","fill":"black","key":"1d27e670c7079c851f962700f67236eb970b0f0d"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4.30005 19.15C4.30005 18.7358 4.63584 18.4 5.05005 18.4H13.65C14.0643 18.4 14.4 18.7358 14.4 19.15C14.4 19.5642 14.0643 19.9 13.65 19.9H5.05005C4.63584 19.9 4.30005 19.5642 4.30005 19.15Z","fill":"black","key":"39a87339cb1bda227dff0296fde9ea22b303aba8"}]])
+  const Italics = createMeisterIcons("italics", [["path",{"fill":"currentColor","d":"M14.91 4.147a.75.75 0 0 1 .443.964l-5.3 14.3a.75.75 0 1 1-1.406-.522l5.3-14.3a.75.75 0 0 1 .964-.442Z","key":"dbf54a12b4fb2468f521e1f9d923bccb70baf8e1"}],["path",{"fill":"currentColor","d":"M9.5 4.85a.75.75 0 0 1 .75-.75h8.7a.75.75 0 0 1 0 1.5h-8.7a.75.75 0 0 1-.75-.75Zm-5.2 14.3a.75.75 0 0 1 .75-.75h8.6a.75.75 0 1 1 0 1.5h-8.6a.75.75 0 0 1-.75-.75Z","key":"df6a03d307950b552d14d6f2fe735ede1e80f784"}]])
 
 
   export default Italics

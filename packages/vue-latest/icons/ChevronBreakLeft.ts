@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const ChevronBreakLeft = createMeisterIcons("chevron-break-left", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M16.8803 5.86969C17.1732 6.16259 17.1732 6.63746 16.8803 6.93035L11.9804 11.8303L11.45 11.3L11.9804 11.8303C11.9165 11.8942 11.9 11.9552 11.9 12C11.9 12.0448 11.9165 12.1058 11.9804 12.1697L11.45 12.7L11.9804 12.1697L16.8803 17.0697C17.1732 17.3626 17.1732 17.8374 16.8803 18.1303C16.5874 18.4232 16.1125 18.4232 15.8197 18.1303L10.9197 13.2303C10.2268 12.5374 10.2268 11.4626 10.9197 10.7697L15.8197 5.8697C16.1125 5.5768 16.5874 5.5768 16.8803 5.86969Z","fill":"black","key":"2db2f924c8ab60682608e08d9aac0fb628b31d6c"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.65002 5.25C8.06424 5.25 8.40002 5.58579 8.40002 6V18C8.40002 18.4142 8.06424 18.75 7.65002 18.75C7.23581 18.75 6.90002 18.4142 6.90002 18V6C6.90002 5.58579 7.23581 5.25 7.65002 5.25Z","fill":"black","key":"ed5cb65460a82877b6d8f0a825d6bd223d180a41"}]])
+  const ChevronBreakLeft = createMeisterIcons("chevron-break-left", [["path",{"fill":"currentColor","d":"M16.88 5.87a.75.75 0 0 1 0 1.06l-4.9 4.9-.53-.53.53.53a.24.24 0 0 0-.08.17.24.24 0 0 0 .08.17l-.53.53.53-.53 4.9 4.9a.75.75 0 1 1-1.06 1.06l-4.9-4.9a1.716 1.716 0 0 1 0-2.46l4.9-4.9a.75.75 0 0 1 1.06 0Zm-9.23-.62A.75.75 0 0 1 8.4 6v12a.75.75 0 0 1-1.5 0V6a.75.75 0 0 1 .75-.75Z","key":"cc149ceef1d7ed88e733135693c0b858b3efe30c"}]])
 
 
   export default ChevronBreakLeft

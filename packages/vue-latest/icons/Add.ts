@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Add = createMeisterIcons("add", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 3.25C12.4142 3.25 12.75 3.58579 12.75 4V20C12.75 20.4142 12.4142 20.75 12 20.75C11.5858 20.75 11.25 20.4142 11.25 20V4C11.25 3.58579 11.5858 3.25 12 3.25Z","fill":"black","key":"77e0a9d8d18ada717ea2e277e759483b2e9d3623"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H20C20.4142 11.25 20.75 11.5858 20.75 12C20.75 12.4142 20.4142 12.75 20 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12Z","fill":"black","key":"1cd85adc0a5f88ef069a16c0fcfc5c5ada46df3b"}]])
+  const Add = createMeisterIcons("add", [["path",{"fill":"currentColor","d":"M12 3.25a.75.75 0 0 1 .75.75v16a.75.75 0 0 1-1.5 0V4a.75.75 0 0 1 .75-.75Z","key":"7cb44a99e9c7fbde122eb7893bed8c81c3665b77"}],["path",{"fill":"currentColor","d":"M3.25 12a.75.75 0 0 1 .75-.75h16a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1-.75-.75Z","key":"4d7fe31516ea62ec5eaf3e5fe8d653d68dbb87cf"}]])
 
 
   export default Add

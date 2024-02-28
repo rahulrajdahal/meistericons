@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const FolderB = createMeisterIcons("folderB", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M2.25 6.25H17C19.6019 6.25 21.75 8.27354 21.75 11V17C21.75 19.6142 19.6142 21.75 17 21.75H7C4.38579 21.75 2.25 19.6142 2.25 17V6.25ZM3.75 7.75V17C3.75 18.7858 5.21421 20.25 7 20.25H17C18.7858 20.25 20.25 18.7858 20.25 17V11C20.25 9.12646 18.7981 7.75 17 7.75H3.75Z","fill":"black","key":"c1457991e2574322f1961be4feb406f1f7570e51"}],["path",{"d":"M16 7H3V4.2C3 3.5 3.6 3 4.2 3H12.3C13.3 3 14.3 3.6 14.7 4.5L16 7Z","fill":"black","key":"dbc4c42cf10a2ea3b070963b263d6e2f6f5f6001"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.88997 3.88276C3.80109 3.9667 3.75 4.07472 3.75 4.2V6.25H14.7647L14.024 4.82561L14.0146 4.8046C13.746 4.20006 13.0315 3.75 12.3 3.75H4.2C4.10383 3.75 3.98498 3.79303 3.88997 3.88276ZM2.25 4.2C2.25 3.04597 3.22675 2.25 4.2 2.25H12.3C13.5605 2.25 14.8379 2.99053 15.3752 4.17289L17.2353 7.75H2.25V4.2Z","fill":"black","key":"8c728bf87106e9615c0520a60458ce3db8c0410a"}]])
+  const FolderB = createMeisterIcons("folderB", [["path",{"fill":"currentColor","d":"M2.25 6.25H17c2.602 0 4.75 2.024 4.75 4.75v6A4.762 4.762 0 0 1 17 21.75H7A4.762 4.762 0 0 1 2.25 17V6.25Zm1.5 1.5V17A3.262 3.262 0 0 0 7 20.25h10A3.262 3.262 0 0 0 20.25 17v-6c0-1.874-1.452-3.25-3.25-3.25H3.75Z","key":"b2627f93c7800517df8750d863376aa1cdbdf454"}],["path",{"fill":"currentColor","d":"M16 7H3V4.2C3 3.5 3.6 3 4.2 3h8.1c1 0 2 .6 2.4 1.5L16 7Z","key":"b6cd69fe9cb652c44376861e2d8a1c6f67adb1d0"}],["path",{"fill":"currentColor","d":"M3.89 3.883a.427.427 0 0 0-.14.317v2.05h11.015l-.741-1.424-.01-.021C13.747 4.2 13.033 3.75 12.3 3.75H4.2a.47.47 0 0 0-.31.133ZM2.25 4.2c0-1.154.977-1.95 1.95-1.95h8.1c1.26 0 2.538.74 3.075 1.923l1.86 3.577H2.25V4.2Z","key":"30007f4f4fc3c6cd8a3f21c86e5ea5b74610b849"}]])
 
 
   export default FolderB

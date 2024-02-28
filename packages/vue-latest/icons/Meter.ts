@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Meter = createMeisterIcons("meter", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 3.75C7.44365 3.75 3.75 7.44365 3.75 12C3.75 16.5563 7.44365 20.25 12 20.25C16.5563 20.25 20.25 16.5563 20.25 12C20.25 7.44365 16.5563 3.75 12 3.75ZM2.25 12C2.25 6.61522 6.61522 2.25 12 2.25C17.3848 2.25 21.75 6.61522 21.75 12C21.75 17.3848 17.3848 21.75 12 21.75C6.61522 21.75 2.25 17.3848 2.25 12Z","fill":"black","key":"906aad0f311656466f13ef4c4f4a27b6e129d405"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M15.5303 8.46967C15.8232 8.76256 15.8232 9.23744 15.5303 9.53033L12.5303 12.5303C12.2374 12.8232 11.7626 12.8232 11.4697 12.5303C11.1768 12.2374 11.1768 11.7626 11.4697 11.4697L14.4697 8.46967C14.7626 8.17678 15.2374 8.17678 15.5303 8.46967Z","fill":"black","key":"b2d1ddfaf8a1360c13df4db4aeba2a10476e034a"}]])
+  const Meter = createMeisterIcons("meter", [["path",{"fill":"currentColor","d":"M12 3.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5ZM2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Z","key":"4cfa12d4a58ffff408a2aebdd312acfa3438733a"}],["path",{"fill":"currentColor","d":"M15.53 8.47a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l3-3a.75.75 0 0 1 1.06 0Z","key":"f34bcd48e14795e6a3b0be4bc45218bc37681689"}]])
 
 
   export default Meter

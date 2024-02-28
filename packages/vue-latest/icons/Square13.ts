@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Square13 = createMeisterIcons("square-13", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.75 7C3.75 5.21421 5.21421 3.75 7 3.75H17C18.7858 3.75 20.25 5.21421 20.25 7V11.25H3.75V7ZM3.75 12.75V17C3.75 18.7981 5.12646 20.25 7 20.25H17C18.7858 20.25 20.25 18.7858 20.25 17V12.75H3.75ZM7 2.25C4.38579 2.25 2.25 4.38579 2.25 7V17C2.25 19.6019 4.27354 21.75 7 21.75H17C19.6142 21.75 21.75 19.6142 21.75 17V7C21.75 4.38579 19.6142 2.25 17 2.25H7Z","fill":"black","key":"caf9f84b8cde24d33a702af3ac6a0ee7ac068f7c"}]])
+  const Square13 = createMeisterIcons("square-13", [["path",{"fill":"currentColor","d":"M3.75 7A3.262 3.262 0 0 1 7 3.75h10A3.262 3.262 0 0 1 20.25 7v4.25H3.75V7Zm0 5.75V17c0 1.798 1.376 3.25 3.25 3.25h10A3.262 3.262 0 0 0 20.25 17v-4.25H3.75ZM7 2.25A4.762 4.762 0 0 0 2.25 7v10c0 2.602 2.024 4.75 4.75 4.75h10A4.762 4.762 0 0 0 21.75 17V7A4.762 4.762 0 0 0 17 2.25H7Z","key":"4f8d2882f7a2c769be2446ce33560b013582326b"}]])
 
 
   export default Square13

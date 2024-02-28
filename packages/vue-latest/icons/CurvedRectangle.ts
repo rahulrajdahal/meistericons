@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const CurvedRectangle = createMeisterIcons("curved-rectangle", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9 3.75C7.21421 3.75 5.75 5.21421 5.75 7V17C5.75 18.7858 7.21421 20.25 9 20.25H15C16.7858 20.25 18.25 18.7858 18.25 17V7C18.25 5.21421 16.7858 3.75 15 3.75H9ZM4.25 7C4.25 4.38579 6.38579 2.25 9 2.25H15C17.6142 2.25 19.75 4.38579 19.75 7V17C19.75 19.6142 17.6142 21.75 15 21.75H9C6.38579 21.75 4.25 19.6142 4.25 17V7Z","fill":"black","key":"8cc2ab84eb538981fd4983091b37f4662a8b6a0f"}]])
+  const CurvedRectangle = createMeisterIcons("curved-rectangle", [["path",{"fill":"currentColor","d":"M9 3.75A3.262 3.262 0 0 0 5.75 7v10A3.262 3.262 0 0 0 9 20.25h6A3.262 3.262 0 0 0 18.25 17V7A3.262 3.262 0 0 0 15 3.75H9ZM4.25 7A4.762 4.762 0 0 1 9 2.25h6A4.762 4.762 0 0 1 19.75 7v10A4.762 4.762 0 0 1 15 21.75H9A4.762 4.762 0 0 1 4.25 17V7Z","key":"5dc5722eaf10ad994cab00986f70754392dba5e8"}]])
 
 
   export default CurvedRectangle

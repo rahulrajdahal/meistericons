@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Tetris3 = createMeisterIcons("tetris3", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.34998 11.2498H12.75V18.6498H5.34998V11.2498ZM6.84998 12.7498V17.1498H11.25V12.7498H6.84998Z","fill":"black","key":"c6c35be72f93610b285a3385776c7cc209f4d261"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.34998 5.34985H12.75V12.7499H5.34998V5.34985ZM6.84998 6.84985V11.2499H11.25V6.84985H6.84998Z","fill":"black","key":"d868e415adb6bcb6c6042d45712c78736bc9b71e"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11.25 5.34985H18.65V12.7499H11.25V5.34985ZM12.75 6.84985V11.2499H17.15V6.84985H12.75Z","fill":"black","key":"6d5865840fd51aa79204142734409c81e22c3964"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11.25 11.2498H18.65V18.6498H11.25V11.2498ZM12.75 12.7498V17.1498H17.15V12.7498H12.75Z","fill":"black","key":"92f7286cd1372d23369ce974f807a3ced2164f03"}]])
+  const Tetris3 = createMeisterIcons("tetris3", [["path",{"fill":"currentColor","d":"M5.35 11.25h7.4v7.4h-7.4v-7.4Zm1.5 1.5v4.4h4.4v-4.4h-4.4Z","key":"dac20b69e4391b7185718cf9eee70659b16ce56a"}],["path",{"fill":"currentColor","d":"M5.35 5.35h7.4v7.4h-7.4v-7.4Zm1.5 1.5v4.4h4.4v-4.4h-4.4Z","key":"f1428a2f416bcdc8eb36f17a79f63d72037c7a80"}],["path",{"fill":"currentColor","d":"M11.25 5.35h7.4v7.4h-7.4v-7.4Zm1.5 1.5v4.4h4.4v-4.4h-4.4Z","key":"85c708d4a83ef647e8edda4d4be305e94b12ee52"}],["path",{"fill":"currentColor","d":"M11.25 11.25h7.4v7.4h-7.4v-7.4Zm1.5 1.5v4.4h4.4v-4.4h-4.4Z","key":"0d39b0697935bac1e272dfebaadae79ec5044959"}]])
 
 
   export default Tetris3

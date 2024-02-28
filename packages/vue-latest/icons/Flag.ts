@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Flag = createMeisterIcons("flag", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7 4.75C6.31421 4.75 5.75 5.31421 5.75 6V13.25H17C17.6858 13.25 18.25 12.6858 18.25 12V6C18.25 5.31421 17.6858 4.75 17 4.75H7ZM5.75 14.75H17C18.5142 14.75 19.75 13.5142 19.75 12V6C19.75 4.48579 18.5142 3.25 17 3.25H7C5.48579 3.25 4.25 4.48579 4.25 6V20C4.25 20.4142 4.58579 20.75 5 20.75C5.41421 20.75 5.75 20.4142 5.75 20V14.75Z","fill":"black","key":"29294c666f831c301ecbfc55859424d0bc921057"}]])
+  const Flag = createMeisterIcons("flag", [["path",{"fill":"currentColor","d":"M7 4.75c-.686 0-1.25.564-1.25 1.25v7.25H17c.686 0 1.25-.564 1.25-1.25V6c0-.686-.564-1.25-1.25-1.25H7Zm-1.25 10H17A2.756 2.756 0 0 0 19.75 12V6A2.756 2.756 0 0 0 17 3.25H7A2.756 2.756 0 0 0 4.25 6v14a.75.75 0 0 0 1.5 0v-5.25Z","key":"6154d1f58798ea14d687fad56de6c2b3dceead0f"}]])
 
 
   export default Flag

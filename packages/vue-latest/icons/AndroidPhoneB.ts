@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const AndroidPhoneB = createMeisterIcons("android-phoneB", [["path",{"d":"M15 21H9C6.8 21 5 19.2 5 17V7C5 4.8 6.8 3 9 3H15C17.2 3 19 4.8 19 7V17C19 19.2 17.2 21 15 21Z","fill":"black","key":"a6bf42c4a8963e914980260ab9e58080ffbeaeda"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9 3.75C7.21421 3.75 5.75 5.21421 5.75 7V17C5.75 18.7858 7.21421 20.25 9 20.25H15C16.7858 20.25 18.25 18.7858 18.25 17V7C18.25 5.21421 16.7858 3.75 15 3.75H9ZM4.25 7C4.25 4.38579 6.38579 2.25 9 2.25H15C17.6142 2.25 19.75 4.38579 19.75 7V17C19.75 19.6142 17.6142 21.75 15 21.75H9C6.38579 21.75 4.25 19.6142 4.25 17V7Z","fill":"black","key":"155a783e99c3741b211588ec1175ce898c9eb3a9"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M10.75 18C10.75 17.5858 11.0858 17.25 11.5 17.25H12.5C12.9142 17.25 13.25 17.5858 13.25 18C13.25 18.4142 12.9142 18.75 12.5 18.75H11.5C11.0858 18.75 10.75 18.4142 10.75 18Z","fill":"white","key":"9590a7c49d52d70d08bc9d248892c28b2c11161c"}]])
+  const AndroidPhoneB = createMeisterIcons("android-phoneB", [["path",{"fill":"currentColor","d":"M15 21H9c-2.2 0-4-1.8-4-4V7c0-2.2 1.8-4 4-4h6c2.2 0 4 1.8 4 4v10c0 2.2-1.8 4-4 4Z","key":"62dad4b23f34ba4312dca1048f3a9fd4b9d4970c"}],["path",{"fill":"currentColor","d":"M9 3.75A3.262 3.262 0 0 0 5.75 7v10A3.262 3.262 0 0 0 9 20.25h6A3.262 3.262 0 0 0 18.25 17V7A3.262 3.262 0 0 0 15 3.75H9ZM4.25 7A4.762 4.762 0 0 1 9 2.25h6A4.762 4.762 0 0 1 19.75 7v10A4.762 4.762 0 0 1 15 21.75H9A4.762 4.762 0 0 1 4.25 17V7Z","key":"20b4387838888e3196530877e5f8a33156f74ae3"}],["path",{"fill":"#fff","d":"M10.75 18a.75.75 0 0 1 .75-.75h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1-.75-.75Z","key":"8e505a0780cdbac193629c0e5525056ee0c613da"}]])
 
 
   export default AndroidPhoneB

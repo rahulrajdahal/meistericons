@@ -27,6 +27,7 @@
   "scripts": {
     "fonts": "fantasticon -n mni -p mni icons -o fonts",
     "optimize": "bun run ./scripts/optimizeIcons.ts",
+    "create:release": "bun run ./scripts/generateRelease.ts",
     "build:icons": "bun run ./scripts/buildIcons.ts",
     "add:tags": "bun run ./scripts/addTags.ts",
     "add:categories": "bun run ./scripts/addCategories.ts",

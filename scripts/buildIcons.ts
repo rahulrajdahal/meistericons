@@ -9,6 +9,8 @@ import { getCurrentDir, readIconFiles, readSvgCode } from "./helpers";
 
 const currentDir = getCurrentDir(import.meta.url);
 const iconsDir = resolve(currentDir, "../../icons");
+
+
 const buildIcons = async () => {
   let totalIcons = 0
 
@@ -49,9 +51,13 @@ const buildIcons = async () => {
 
       appendFileSync(iconNodesJson, `${JSON.stringify(iconNodes, null, 2)},`);
       generateIconFile(iconNodes);
+      generateIconFile(iconNodes, 'vue');
+      generateIconFile(iconNodes, 'vue-latest');
       generateExportFile(iconFile);
-      await generateDoc();
+      generateExportFile(iconFile, 'vue');
+      generateExportFile(iconFile, 'vue-latest');
     });
+    await generateDoc();
 
     totalIcons += iconCategories.length
 

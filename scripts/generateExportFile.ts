@@ -1,11 +1,10 @@
 import { appendFileSync } from "fs";
-import { IconNode } from "../packages/react/src/createMeisterIcons";
-import { getCurrentDir, toPascalCase } from "./helpers";
 import { resolve } from "path";
+import { getCurrentDir, toPascalCase } from "./helpers";
 
-export default (iconFile: string) => {
+export default (iconFile: string, iconPackage: string = 'react') => {
   const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = resolve(currentDir, "../../packages/vue-latest/icons");
+  const targetDir = resolve(currentDir, `../../packages/${iconPackage}/icons`);
 
   const importIconString = `export {default as  ${toPascalCase(
     iconFile

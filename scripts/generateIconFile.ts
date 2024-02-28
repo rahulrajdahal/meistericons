@@ -2,12 +2,12 @@ import { existsSync, mkdirSync, writeFileSync } from "fs";
 import { join, resolve } from "path";
 import { getCurrentDir, toPascalCase } from "./helpers";
 
-export default (iconNodes: object) => {
+export default (iconNodes: object, iconPackage: string = 'react') => {
   const name = Object.keys(iconNodes)[0];
   const paths = Object.values(iconNodes)[0];
 
   const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = resolve(currentDir, "../../packages/vue-latest/icons");
+  const targetDir = resolve(currentDir, `../../packages/${iconPackage}/icons`);
 
   if (!existsSync(targetDir)) {
     mkdirSync(targetDir);

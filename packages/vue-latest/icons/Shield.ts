@@ -1,7 +1,7 @@
 
-  import createMeisterIcons from '../src/createMeisterIcons';
+  import createMeisterIcons from '../src/MasdcreateMeisterIcons';
 
-  const Shield = createMeisterIcons("shield", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.5 4.25C5.71421 4.25 4.25 5.71421 4.25 7.5V12C4.25 16.2858 7.71421 19.75 12 19.75C16.1858 19.75 19.75 16.1858 19.75 12V7.5C19.75 5.71421 18.2858 4.25 16.5 4.25H7.5ZM2.75 7.5C2.75 4.88579 4.88579 2.75 7.5 2.75H16.5C19.1142 2.75 21.25 4.88579 21.25 7.5V12C21.25 17.0142 17.0142 21.25 12 21.25C6.88579 21.25 2.75 17.1142 2.75 12V7.5Z","fill":"black","key":"7a1e30e9dad5fa8327662051dedc1605903288c9"}]])
+  const Shield = createMeisterIcons("shield", [["path",{"fill":"currentColor","d":"M7.5 4.25A3.262 3.262 0 0 0 4.25 7.5V12A7.743 7.743 0 0 0 12 19.75c4.186 0 7.75-3.564 7.75-7.75V7.5a3.262 3.262 0 0 0-3.25-3.25h-9ZM2.75 7.5A4.762 4.762 0 0 1 7.5 2.75h9a4.762 4.762 0 0 1 4.75 4.75V12c0 5.014-4.236 9.25-9.25 9.25A9.243 9.243 0 0 1 2.75 12V7.5Z","key":"f9cd8ef0e0524f81d2bea6a2139807cd1141dfa6"}]])
 
 
   export default Shield
