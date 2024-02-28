@@ -8,7 +8,6 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Icons', link: '/' },
@@ -17,14 +16,7 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'All Icons', link: '/icons' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+      { text: 'All Icons', link: '/icons' },
     ],
 
     socialLinks: [
