@@ -1,7 +1,13 @@
 import { readFileSync, readdirSync } from "fs";
+import { resolve } from "path";
+import { fileURLToPath } from "url";
 
 export default {
+
   paths() {
+    const currentDir = fileURLToPath(new URL(import.meta.url));
+    const iconsDir = resolve(currentDir, "../../icons");
+
     const toCamelCase = (string: string) =>
       string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2) =>
         p2 ? p2.toUpperCase() : p1.toLowerCase()
@@ -12,7 +18,7 @@ export default {
 
     const getSvgCode = (icon: string) => readFileSync(icon, 'utf8')
 
-    const icons = readdirSync("icons").map((category: string) =>
+    const icons = readdirSync(iconsDir).map((category: string) =>
       readdirSync(`icons/${category}`).map((icon) => {
 
         const content = `# Icon
