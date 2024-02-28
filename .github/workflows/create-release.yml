@@ -39,7 +39,6 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
