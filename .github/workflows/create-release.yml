@@ -22,8 +22,12 @@ jobs:
           tag_name: ${{ github.ref  }}
           release_name: Release Docsversionupdate - ${{ github.ref  }}
           body: |
-            Changes in this Release
-            - First Change
-            - Second Change
+            Icons update 
+            - Added +5 icons
+            - Added variantions for icons
+            
+            Documentation update
+            - Added documentation individual icons.
+            - Added documentation for how to use
           draft: false
           prerelease: false

@@ -92,13 +92,5 @@ readdirSync(iconsDir).forEach(async (category: string) => {
 
 console.log(`Generated ${typesFileName} file with`, totalIcons, "icons");
 
-// iconFiles.forEach((iconFile) => {
-//   const namePascal = toPascalCase(iconFile);
 
-//   appendFileSync(
-//     path.resolve(targetDir, typesFileName),
-//     `export declare const ${namePascal}: ${pkg === 'react' ? 'MeisterIcon;' : vueReturnType}\n`,
-//     "utf-8"
-//   );
-// });
 
