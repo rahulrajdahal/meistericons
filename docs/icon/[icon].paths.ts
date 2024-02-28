@@ -5,7 +5,7 @@ export default {
 
   paths() {
 
-    const iconsDir = resolve("./", "/icon");
+    const iconsDir = resolve("", "/icon");
 
     const toCamelCase = (string: string) =>
       string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2) =>
