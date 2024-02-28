@@ -1,12 +1,11 @@
 import { readFileSync, readdirSync } from "fs";
 import { resolve } from "path";
-import { fileURLToPath } from "url";
 
 export default {
 
   paths() {
-    const currentDir = fileURLToPath(new URL(import.meta.url));
-    const iconsDir = resolve(currentDir, "../../../icons");
+
+    const iconsDir = resolve("./", "/icon");
 
     const toCamelCase = (string: string) =>
       string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2) =>
