@@ -6,7 +6,7 @@ export default {
 
   paths() {
     const currentDir = fileURLToPath(new URL(import.meta.url));
-    const iconsDir = resolve(currentDir, "../../../../icons");
+    const iconsDir = resolve(currentDir, "../../../icons");
 
     const toCamelCase = (string: string) =>
       string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2) =>
