@@ -1,8 +1,8 @@
 on:
-    push:
+  push:
     # Sequence of patterns matched against refs/tags
-      tags:
-      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+    tags:
+      - "v*" # Push events to matching v*, i.e. v1.0, v20.15.10
 
 name: Create Release
 
@@ -20,12 +20,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
           tag_name: ${{ github.ref  }}
-          release_name: Release Docsversionupdate - ${{ github.ref  }}
+          release_name: ${{ github.ref  }} - Release Docs Version Update
           body: |
             Icons update 
             - Added +5 icons
             - Added variantions for icons
-            
+
             Documentation update
             - Added documentation individual icons.
             - Added documentation for how to use
