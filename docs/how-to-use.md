@@ -13,7 +13,7 @@ npm i meistericons-react --save
 
 ### Usage
 
-```jsx/tsx
+```jsx|tsx
 import {Add} from 'meistericons-react'
 
 export default ()=>{
@@ -25,10 +25,47 @@ export default ()=>{
 
 ### Installation - Vue
 
-### Usage
+```npm
+
+npm install meistericons-vue --save-dev
+```
+
+### Usage - Vue
+
+```jsx|tsx
+
+<script>
+import {ArrowDown} from "meistericons-vue"
+
+
+export default {
+    name:'My Component',
+    components: {ArrowDown}
+}
+</script>
+
+<template>
+    <ArrowDown/>
+</template>
+```
 
 ## Vue3
 
 ### Installation - Vue3
 
-### Usage
+```npm
+
+npm install meistericons-vue-latest --save-dev
+```
+
+### Usage - Vue 3
+
+```jsx|tsx
+<script>
+import {ArrowDown} from "meistericons-vue-latest"
+</script>
+
+<template>
+    <ArrowDown/>
+</template>
+```
