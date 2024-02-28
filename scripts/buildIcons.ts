@@ -61,7 +61,7 @@ const buildIcons = async () => {
 
     totalIcons += iconCategories.length
 
-    console.log(`Generated ${iconCategories.length} icons for ${category} category`);
+    console.log(`Generated ${iconCategories.length} iconzs for ${category} category`);
 
   })
   console.log(`Generated ${totalIcons} icons.`);
