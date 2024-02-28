@@ -4,12 +4,11 @@ layout: home
 
 hero:
   name: "Meistericons"
-  text: "Awesome icons library for your next project."
-  tagline: My great project tagline
+  text: "Over 1500+ Open-Source Icons for your next BIG project."
   actions:
     - theme: brand
       text: Get Started
-      link: /get-started
+      link: /icons
     - theme: alt
       text: Docs
       link: /how-to-use

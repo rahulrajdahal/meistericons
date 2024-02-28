@@ -3,10 +3,32 @@ outline: deep
 ---
 # How to Use
 
-<script setup>
-import Search from './components/Search.vue'
-</script>
+## React
 
-<Search />
+### Installation - React
 
-## npm
+```npm
+npm i meistericons-react --save
+```
+
+### Usage
+
+```jsx/tsx
+import {Add} from 'meistericons-react'
+
+export default ()=>{
+    return <Add/>
+}
+```
+
+## Vue
+
+### Installation - Vue
+
+### Usage
+
+## Vue3
+
+### Installation - Vue3
+
+### Usage
