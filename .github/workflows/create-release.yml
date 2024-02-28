@@ -28,7 +28,7 @@ jobs:
 
             Documentation update
             - Added documentation individual icons.
-            - Added documentation for how to use
+            - Added documentation for how to use s
           draft: false
           prerelease: false
   build_github_package:
