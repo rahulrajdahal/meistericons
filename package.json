@@ -1,9 +1,9 @@
 {
-  "name": "meistericons",
+  "name": "@rahulrajdahal/meistericons",
   "module": "index.ts",
   "type": "module",
   "version": "0.1.56",
-  "homepage": "https://github.com/rahulrajdahal/meistericons#readme",
+  "homepage": "https://rahulrajdahal.github.io/meistericons",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rahulrajdahal/meistericons.git"
