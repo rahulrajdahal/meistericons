@@ -20,7 +20,7 @@ name: Create Release
 
 jobs:
   build:
-    name: Create Release
+    name: Create Release - ${githubRef}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -32,12 +32,12 @@ jobs:
           GITHUB_TOKEN: ${githubToken} # This token is provided by Actions, you do not need to create your own token
         with:
           tag_name: ${githubRef}
-          release_name: Release ${releaseName} - ${githubRef}
+          release_name: ${releaseName} - ${githubRef}
           body: |
             Changes in this Release
             - First Change
             - Second Change
-          draft: false
+          draft: true
           prerelease: false`
 
 writeFileSync(resolve(targetDir, `./create-release.yml`), template, "utf-8");

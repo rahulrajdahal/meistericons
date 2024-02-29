@@ -29,5 +29,5 @@ jobs:
             Documentation update
             - Added documentation individual icons.
             - Added documentation for how to use s
-          draft: false
+          draft: true
           prerelease: false
