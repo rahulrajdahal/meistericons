@@ -25,9 +25,6 @@ export default {
 
 ${icon.replace('.svg', '')}
 
-<div class='icon_icon'>
-${getSvgCode(`icons/${category}/${icon}`)}
-</div>
 
 ## Installation
 
