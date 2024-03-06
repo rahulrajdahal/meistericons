@@ -1,0 +1,17 @@
+{
+  "name": "@mni/build-tools",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "optimize": "bun run ./optimizeIcons.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "svgo": "^3.2.0"
+  }
+}

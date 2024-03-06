@@ -1,62 +1,15 @@
 {
   "name": "meistericons",
+  "private": true,
   "module": "index.ts",
   "type": "module",
-  "version": "0.1.61",
-  "homepage": "https://rahulrajdahal.github.io/meistericons",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rahulrajdahal/meistericons.git"
-  },
-  "bugs": {
-    "url": "https://github.com/rahulrajdahal/meistericons/issues"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "keywords": [
-    "icons",
-    "svg",
-    "mnicons",
-    "meistericons",
-    "mni"
+  "workspaces": [
+    "packages/*"
   ],
-  "files": [
-    "fonts/",
-    "icon-nodes.json",
-    "tags.json",
-    "categories.json"
-  ],
-  "scripts": {
-    "fonts": "fantasticon -n mni -p mni icons -o fonts",
-    "optimize": "bun run ./scripts/optimizeIcons.ts",
-    "build:icons": "bun run ./scripts/buildIcons.ts",
-    "build:types": "bun run ./scripts/buildTypes.ts",
-    "create:release": "bun run ./scripts/generateRelease.ts",
-    "add:tags": "bun run ./scripts/addTags.ts",
-    "add:categories": "bun run ./scripts/addCategories.ts",
-    "build": "bun fonts && bun optimize && build:icons && bun add:tags && bun add:categories && bun build:types",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
   "devDependencies": {
-    "@types/bun": "^1.0.8",
-    "@types/minimist": "^1.2.5",
-    "@types/node": "^20.9.0",
-    "bun-types": "latest",
-    "debounce": "^2.0.0",
-    "minimist": "^1.2.8",
-    "typescript": "^5.2.2",
-    "vitepress": "^1.0.0-rc.44"
+    "bun-types": "latest"
   },
-  "dependencies": {
-    "fantasticon": "^2.0.0",
-    "htmlparser2": "^9.1.0",
-    "node-html-parser": "^6.1.12",
-    "rollup": "^3.29.2",
-    "svgo": "^3.0.2",
-    "svgson": "^5.3.1",
-    "vue": "^3.4.21"
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

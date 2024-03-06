@@ -1,0 +1,14 @@
+{
+  "name": "@mni/static",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "build-tools": "workspace:*"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
