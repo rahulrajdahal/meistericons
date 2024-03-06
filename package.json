@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "optimize": "bun run ./packages/build-tools/optimizeIcons.ts",
-    "build:fonts": "bun run ./packages/build-tools/generateFonts.ts && fantasticon -n mni -p mni ./packages/build-tools/fontIcons -o ./packages/static/fonts && rm -r ./packages/build-tools/fontIcons"
+    "build:fonts": "bun run ./packages/build-tools/generateFonts.ts && fantasticon -n mni -p mni ./packages/build-tools/fontIcons -o ./packages/static/fonts && rm -r ./packages/build-tools/fontIcons",
+    "build:icons": "rm -r ./packages/static/icon-nodes.json && bun run ./packages/build-tools/buildIcons.ts && bun run ./packages/build-tools/generateIconNodes.ts"
   },
   "workspaces": [
     "packages/*"

@@ -1,15 +1,7 @@
 {
-  "name": "@mni/static",
+  "name": "@mni/react",
   "module": "index.ts",
   "type": "module",
-  "bin": "build-tools",
-  "files": [
-    "icons",
-    "fonts"
-  ],
-  "dependencies": {
-    "@mni/build-tools": "workspace:*"
-  },
   "devDependencies": {
     "bun-types": "latest"
   },

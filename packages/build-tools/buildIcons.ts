@@ -3,6 +3,7 @@ import { appendFileSync, readdirSync } from 'fs';
 import getCliArguments from 'minimist';
 import path, { resolve } from "path";
 import { parseSync } from "svgson";
+import generateDoc from './generateDoc';
 import { getCurrentDir, readIconFiles, readSvgCode } from "./helpers";
 
 const { outDir } = getCliArguments(process.argv.slice(2))
@@ -23,12 +24,10 @@ const buildIcons = async () => {
     const categoryDir = path.resolve(iconsDir, category);
     const iconCategories = readIconFiles(categoryDir).sort((a, b) => a.localeCompare(b))
 
-
-
-
-    for (const iconFile of iconCategories) {
+    iconCategories.forEach(async (iconFile) => {
 
       const svgFile = resolve(iconsDir, `${category}/${iconFile}.svg`);
+
 
       const svgCode = await readSvgCode(svgFile);
 
@@ -57,33 +56,30 @@ const buildIcons = async () => {
       }, {});
 
       appendFileSync(iconNodesJson, `${JSON.stringify(iconNodes, null, 2)},\n`);
+      // console.log((iconNodesTemplate), 'jsoncontent')
+      // generateIconFile(iconNodes);
+      // generateIconFile(iconNodes, 'vue');
+      // generateIconFile(iconNodes, 'vue-latest');
+      // generateExportFile(iconFile);
+      // generateExportFile(iconFile, 'vue');
+      // generateExportFile(iconFile, 'vue-latest');
 
 
-      // await generateIconNodes(iconNodes)
-    }
-    // console.log((iconNodesTemplate), 'jsoncontent')
-    // generateIconFile(iconNodes);
-    // generateIconFile(iconNodes, 'vue');
-    // generateIconFile(iconNodes, 'vue-latest');
-    // generateExportFile(iconFile);
-    // generateExportFile(iconFile, 'vue');
-    // generateExportFile(iconFile, 'vue-latest');
 
-
-    // await generateDoc();
-
+    })
     totalIcons += iconCategories.length
 
     console.log(`Generated ${iconCategories.length} icons for ${category} category`);
 
 
+
   })
-
-
   console.log(`Generated ${totalIcons} icons.`);
-};
+  await generateDoc();
+}
 
 buildIcons()
+
 
 
 

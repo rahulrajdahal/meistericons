@@ -7,8 +7,6 @@ const iconNodesJson = resolve(currentDir, "./../../static/icon-nodes.json");
 
 const iconNodesContent = await readSvgCode(iconNodesJson)
 
-const template = `
-    [${(iconNodesContent)}]
-    `
+const template = `[${(iconNodesContent)}]`
 
 writeFileSync(iconNodesJson, template.replace(',\n]', ']'), 'utf-8')

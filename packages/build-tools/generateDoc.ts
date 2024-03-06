@@ -5,8 +5,8 @@ import { getCurrentDir, readIconFiles, readSvgCode } from "./helpers";
 export default async () => {
 
     const currentDir = getCurrentDir(import.meta.url);
-    const targetDir = resolve(currentDir, "../../docs");
-    const iconsDir = resolve(currentDir, "../../icons");
+    const targetDir = resolve(currentDir, "../../../docs");
+    const iconsDir = resolve(currentDir, "../../static/icons");
 
 
     const getIcons = async () => {
@@ -52,4 +52,5 @@ ${categoryIcons}
     writeFileSync(resolve(targetDir, `./icons.md`), template.replaceAll(',', '\n'), "utf-8");
 
 
+    console.log(`Meistericons Docs Created!`)
 }
