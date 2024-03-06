@@ -5,7 +5,7 @@ import { optimize } from "svgo";
 
 
 const currentDir = getCurrentDir(import.meta.url);
-const iconsDir = resolve(currentDir, "../../../icons");
+const iconsDir = resolve(currentDir, '../icons');
 
 let totalIcons = 0
 

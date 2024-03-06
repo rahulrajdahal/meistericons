@@ -2,11 +2,20 @@
   "name": "@mni/static",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "fonts": "bun run ./generateFonts.ts && fantasticon -n mni -p mni icons -o fonts && rm -r fontIcons",
+    "optimize": "bun run ./optimizeIcons.ts"
+  },
+  "files": [
+    "icons",
+    "fonts"
+  ],
   "dependencies": {
     "build-tools": "workspace:*"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "fantasticon": "^2.0.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
