@@ -1,12 +1,14 @@
 {
-  "name": "@mni/build-tools",
+  "name": "build-tools",
   "module": "index.ts",
   "type": "module",
   "scripts": {
+    "fonts": "bun run ./generateFonts.ts && fantasticon -n mni -p mni ../static/icons -o ../static/fonts && rm -r fontIcons",
     "optimize": "bun run ./optimizeIcons.ts"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "fantasticon": "^2.0.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

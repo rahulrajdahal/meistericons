@@ -3,6 +3,10 @@
   "private": true,
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "optimize": "bun run ./packages/build-tools/optimizeIcons.ts",
+    "build:fonts": "bun run ./packages/build-tools/generateFonts.ts && fantasticon -n mni -p mni ./packages/build-tools/fontIcons -o ./packages/static/fonts && rm -r ./packages/build-tools/fontIcons"
+  },
   "workspaces": [
     "packages/*"
   ],
