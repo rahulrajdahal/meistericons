@@ -5,7 +5,15 @@
   "scripts": {
     "fonts": "bun run ./generateFonts.ts && fantasticon -n mni -p mni ../static/icons -o ../static/fonts && rm -r fontIcons",
     "optimize": "bun run ./optimizeIcons.ts",
-    "build:icons": "bun run ./buildIcons.ts && bun run ./generateIconNodes.ts"
+    "build:icons-react": "bun run ./buildIcons.ts && bun run ./generateIconNodes.ts",
+    "build:icons-vue": "bun run ./buildIcons.ts --pkg=vue && bun run ./generateIconNodes.ts",
+    "build:icons-vue-latest": "bun run ./buildIcons.ts --pkg=vue-latest && bun run ./generateIconNodes.ts",
+    "build:icons": "bun run build:icons-react && bun run build:icons-vue && bun run build:icons-vue-latest",
+    "build:types-react": "bun run ./scripts/buildTypes.ts --pkg=react",
+    "build:types-vue": "bun run ./scripts/buildTypes.ts --pkg=vue",
+    "build:types-vue-latest": "bun run ./scripts/buildTypes.ts --pkg=vue-latest",
+    "build:types": "bun run build:types-react && bun run build:types-vue && bun run build:types-vue-latest",
+    "build": "bun run optimize && bun run build:fonts && bun run build:icons&& bun run build:types"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.5",

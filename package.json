@@ -6,10 +6,15 @@
   "scripts": {
     "optimize": "bun run ./packages/build-tools/optimizeIcons.ts",
     "build:fonts": "bun run ./packages/build-tools/generateFonts.ts && fantasticon -n mni -p mni ./packages/build-tools/fontIcons -o ./packages/static/fonts && rm -r ./packages/build-tools/fontIcons",
-    "build:icons-react": "bun run ./packages/build-tools/buildIcons.ts && bun run ./packages/build-tools/generateIconNodes.ts"
-    ,"build:icons-vue": "bun run ./packages/build-tools/buildIcons.ts --pkg=vue && bun run ./packages/build-tools/generateIconNodes.ts"
-    ,"build:icons-vue-latest": "bun run ./packages/build-tools/buildIcons.ts --pkg=vue-latest && bun run ./packages/build-tools/generateIconNodes.ts"
-    ,"build":"bun run optimize && bun run build:fonts && bun run build:icons-react && bun run build:icons-vue && bun run build:icons-vue-latest"
+    "build:icons-react": "bun run ./packages/build-tools/buildIcons.ts && bun run ./packages/build-tools/generateIconNodes.ts",
+    "build:icons-vue": "bun run ./packages/build-tools/buildIcons.ts --pkg=vue && bun run ./packages/build-tools/generateIconNodes.ts",
+    "build:icons-vue-latest": "bun run ./packages/build-tools/buildIcons.ts --pkg=vue-latest && bun run ./packages/build-tools/generateIconNodes.ts",
+    "build:icons": "bun run build:icons-react && bun run build:icons-vue && bun run build:icons-vue-latest",
+    "build:types-react": "bun run ./packages/build-tools/buildTypes.ts --pkg=react",
+    "build:types-vue": "bun run ./packages/build-tools/buildTypes.ts --pkg=vue",
+    "build:types-vue-latest": "bun run ./packages/build-tools/buildTypes.ts --pkg=vue-latest",
+    "build:types": "bun run build:types-react && bun run build:types-vue && bun run build:types-vue-latest",
+    "build": "bun run optimize && bun run build:fonts && bun run build:icons && bun run build:types"
   },
   "workspaces": [
     "packages/*"
