@@ -1,0 +1,8 @@
+
+  import createMeisterIcons from '../src/createMeisterIcons';
+
+  const KeypadB = createMeisterIcons("keypadB", [["path",{"fill":"currentColor","d":"M17.9 5.825a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3","key":"a27bcdb8b642ce8e7728103a5715ff1b8dca3203"}],["path",{"fill":"currentColor","d":"M17.9 3.325a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m-3.9 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3","key":"a4d8a45ebf8fd67a9ffee7f07fc4ba7ec7c5d5d7"}],["path",{"fill":"currentColor","d":"M12 3.325a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m-3.9 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3","key":"fc8f64b5399831fdf7f2cd848ab270d0dbf53dcb"}],["path",{"fill":"currentColor","d":"M6.1 3.325a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m13.8 8.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3","key":"69c32314284c9192bcd43d03e89b5dba4dfc74e1"}],["path",{"fill":"currentColor","d":"M17.9 10.325a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m-3.9 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3","key":"54dccc24b1fb6d068944bf877890d3bafd2a4286"}],["path",{"fill":"currentColor","d":"M12 10.325a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m-3.9 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3","key":"06dc92c89e975f9044532b3a678c1bab8e67d1bc"}],["path",{"fill":"currentColor","d":"M6.1 10.325a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m4.72 6.62a.75.75 0 0 1 1.06 0l2.12 2.12 2.12-2.12a.75.75 0 0 1 1.06 1.06l-2.3 2.3a1.233 1.233 0 0 1-1.76 0l-2.3-2.3a.75.75 0 0 1 0-1.06","key":"a10219166b1640519cbecd6f5019ece03c7b2caa"}]])
+
+
+  export default KeypadB
+  

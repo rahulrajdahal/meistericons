@@ -1,38 +1,41 @@
 import crypto from 'crypto';
-import { appendFileSync, readdirSync } from 'fs';
+import { appendFileSync, existsSync, readdirSync, unlinkSync } from 'node:fs';
 import getCliArguments from 'minimist';
-import path, { resolve } from "path";
+import path, { resolve } from "node:path";
 import { parseSync } from "svgson";
 import generateDoc from './generateDoc';
+import generateExportFile from './generateExportFile';
+import generateIconFile from './generateIconFile';
 import { getCurrentDir, readIconFiles, readSvgCode } from "./helpers";
 
-const { outDir } = getCliArguments(process.argv.slice(2))
+const { pkg='react' } = getCliArguments(process.argv.slice(2))
 
 
 const currentDir = getCurrentDir(import.meta.url);
 const iconsDir = resolve(currentDir, "../../static/icons");
 const iconNodesJson = resolve(currentDir, "./../../static/icon-nodes.json");
+const targetDir = resolve(currentDir, `../../${pkg}/icons`);
 
 
 let totalIcons = 0
 
+if (existsSync(targetDir)) {
+  unlinkSync(`${targetDir}/index.ts`)
+}
 
+if (existsSync(targetDir)) {
+  unlinkSync(iconNodesJson)
+}
 
 const buildIcons = async () => {
-
   readdirSync(iconsDir).forEach(async (category: string, i) => {
     const categoryDir = path.resolve(iconsDir, category);
     const iconCategories = readIconFiles(categoryDir).sort((a, b) => a.localeCompare(b))
 
     iconCategories.forEach(async (iconFile) => {
-
       const svgFile = resolve(iconsDir, `${category}/${iconFile}.svg`);
-
-
       const svgCode = await readSvgCode(svgFile);
-
       const parsedSvg = parseSync(svgCode);
-
 
       parsedSvg.children.forEach((child) => {
 
@@ -56,16 +59,8 @@ const buildIcons = async () => {
       }, {});
 
       appendFileSync(iconNodesJson, `${JSON.stringify(iconNodes, null, 2)},\n`);
-      // console.log((iconNodesTemplate), 'jsoncontent')
-      // generateIconFile(iconNodes);
-      // generateIconFile(iconNodes, 'vue');
-      // generateIconFile(iconNodes, 'vue-latest');
-      // generateExportFile(iconFile);
-      // generateExportFile(iconFile, 'vue');
-      // generateExportFile(iconFile, 'vue-latest');
-
-
-
+      generateIconFile(iconNodes, pkg);
+      generateExportFile(iconFile, pkg);
     })
     totalIcons += iconCategories.length
 

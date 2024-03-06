@@ -2,6 +2,9 @@
   "name": "@mni/react",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build:icons": "rm -r ../static/icon-nodes.json && rm -r ../react/icons/index.ts && rm -r ../vue/icons/index.ts && rm -r ../vue-latest/icons/index.ts  && bun run ../build-tools/buildIcons.ts --pkg=react && bun run ../build-tools/generateIconNodes.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },

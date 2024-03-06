@@ -5,7 +5,7 @@
   "scripts": {
     "fonts": "bun run ./generateFonts.ts && fantasticon -n mni -p mni ../static/icons -o ../static/fonts && rm -r fontIcons",
     "optimize": "bun run ./optimizeIcons.ts",
-    "build:icons": "rm -r ../static/icon-nodes.json && bun run ./buildIcons.ts && bun run ./generateIconNodes.ts"
+    "build:icons": "bun run ./buildIcons.ts && bun run ./generateIconNodes.ts"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.5",
