@@ -2,11 +2,16 @@
   "name": "@mni/build-tools",
   "version": "0.0.1",
   "description": "build tools for meistericons. Intended for internal use only.",
-  "main": "./lib/es/build-tools.es.min.js",
   "repository": {
     "url": "https://github.com/rahulrajdahal/meistericons.git",
     "type": "git",
     "directory": "/packages/build-tools/"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "bundle": "rollup -c"
@@ -14,9 +19,11 @@
   "files": [
     "lib"
   ],
+  "main": "./lib/cjs/build-tools.cjs.min.cjs",
+  "main:umd": "./lib/umd/build-tools.umd.min.js",
+  "module": "./lib/es/build-tools.es.min.js",
   "exports": {
     "import": "./lib/es/build-tools.es.min.mjs",
-    "default": "./lib/umd/build-tools.umd.min.js",
     "require": "./lib/cjs/build-tools.cjs.min.cjs"
   },
   "keywords": [],

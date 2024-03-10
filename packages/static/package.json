@@ -2,7 +2,20 @@
   "name": "@mni/static",
   "version": "0.0.1",
   "description": "static assets for meistericons",
-  "main": "./lib/es/static.es.min.mjs",
+  "main": "./lib/cjs/mni-static.cjs.min.cjs",
+  "main:umd": "./lib/umd/mni-static.umd.min.js",
+  "module": "./lib/es/mni-static.es.min.js",
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git",
+    "directory": "/packages/static"
+  },
   "scripts": {
     "fonts": "bun run ./src/generateFonts.ts && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
     "bundle": "rollup -c",
@@ -13,9 +26,22 @@
   },
   "files": [
     "icons",
-    "fonts"
+    "fonts",
+    "icon-nodes.json"
   ],
-  "keywords": [],
+  "keywords": [
+    "meistericons",
+    "mni",
+    "icons",
+    "icon-library",
+    "vector-icons",
+    "svg-icons",
+    "mni-fonts",
+    "font-icons",
+    "web-fonts",
+    "mni-styles",
+    "mni-css"
+  ],
   "author": "Rahul Raj Dahal",
   "license": "ISC",
   "devDependencies": {

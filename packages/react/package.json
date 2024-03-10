@@ -2,11 +2,19 @@
   "name": "@mni/react",
   "version": "0.0.1",
   "description": "React icon library for meistericons.",
-  "main": "./lib/es/mni-react.es.min.mjs",
+  "main": "./lib/cjs/mni-react.cjs.min.cjs",
+  "main:umd": "./lib/umd/mni-react.umd.min.js",
+  "module": "./lib/es/mni-react.es.min.js",
   "repository": {
     "url": "https://github.com/rahulrajdahal/meistericons.git",
     "type": "git",
     "directory": "/packages/react"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build:icons": "rm -r ./icons && build-icons --pkg=../react",
@@ -17,12 +25,19 @@
     "@mni/build-icons": "workspace:*",
     "@mni/build-tools": "workspace:*"
   },
-  "keywords": [],
+  "keywords": [
+    "meistericons",
+    "mni",
+    "icons",
+    "icon-library",
+    "vector-icons",
+    "svg-icons",
+    "react-icons"
+  ],
   "author": "Rahul Raj Dahal",
   "license": "ISC",
   "exports": {
     "import": "./lib/es/mni-react.es.min.mjs",
-    "default": "./lib/umd/mni-react.umd.min.js",
     "require": "./lib/cjs/mni-react.cjs.min.cjs"
   },
   "devDependencies": {

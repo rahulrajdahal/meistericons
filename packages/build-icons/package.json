@@ -6,8 +6,17 @@
     "url": "https://github.com/rahulrajdahal/meistericons.git",
     "type": "git",
     "directory": "/packages/build-icons"
+
   },
-  "main": "./lib/es/build-icons.es.min.js",
+  "bugs": {
+    "url": "https://github.com/rahulrajdahal/meistericons/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "./lib/cjs/build-icons.cjs.min.cjs",
+  "main:umd": "./lib/umd/build-icons.umd.min.js",
+  "module": "./lib/es/build-icons.es.min.js",
   "bin": {
     "build-icons": "./lib/es/build-icons.es.min.mjs"
   },
@@ -26,7 +35,6 @@
   ],
   "exports": {
     "import": "./lib/es/build-icons.es.min.mjs",
-    "default": "./lib/umd/build-icons.umd.min.js",
     "require": "./lib/cjs/build-icons.cjs.min.cjs"
   },
   "author": "Rahul Raj Dahal",
