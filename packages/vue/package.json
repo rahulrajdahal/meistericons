@@ -1,5 +1,5 @@
 {
-  "name": "@mni/vue",
+  "name": "mni-vue",
   "version": "0.0.1",
   "description": "Vue icon library for meistericons.",
   "bugs": {
@@ -22,8 +22,8 @@
     "build": "bun run build:icons && bun run bundle"
   },
   "dependencies": {
-    "@mni/build-icons": "workspace:*",
-    "@mni/build-tools": "workspace:*"
+    "mni-build-icons": "workspace:*",
+    "mni-build-tools": "workspace:*"
   },
   "peerDependencies": {
     "vue": "^3.4.21"

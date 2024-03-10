@@ -1,5 +1,5 @@
 {
-  "name": "@mni/build-tools",
+  "name": "mni-build-tools",
   "version": "0.0.1",
   "description": "build tools for meistericons. Intended for internal use only.",
   "repository": {
@@ -30,7 +30,7 @@
   "author": "Rahul Raj Dahal",
   "license": "ISC",
   "dependencies": {
-    "@mni/static": "workspace:*"
+    "mni-static": "workspace:*"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",

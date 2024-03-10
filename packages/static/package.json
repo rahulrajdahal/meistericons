@@ -1,5 +1,5 @@
 {
-  "name": "@mni/static",
+  "name": "mni-static",
   "version": "0.0.1",
   "description": "static assets for meistericons",
   "main": "./lib/cjs/mni-static.cjs.min.cjs",
@@ -22,7 +22,7 @@
     "build": "bun run ./src/build.ts"
   },
   "dependencies": {
-    "@mni/build-tools": "workspace:*"
+    "mni-build-tools": "workspace:*"
   },
   "files": [
     "icons",

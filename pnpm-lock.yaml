@@ -10,10 +10,10 @@ importers:
 
   packages/build-icons:
     dependencies:
-      '@mni/build-tools':
+      mni-build-tools:
         specifier: workspace:^
         version: link:../build-tools
-      '@mni/static':
+      mni-static:
         specifier: workspace:*
         version: link:../static
     devDependencies:
@@ -50,7 +50,7 @@ importers:
 
   packages/build-tools:
     dependencies:
-      '@mni/static':
+      mni-static:
         specifier: workspace:*
         version: link:../static
     devDependencies:
@@ -81,10 +81,10 @@ importers:
 
   packages/react:
     dependencies:
-      '@mni/build-icons':
+      mni-build-icons:
         specifier: workspace:*
         version: link:../build-icons
-      '@mni/build-tools':
+      mni-build-tools:
         specifier: workspace:*
         version: link:../build-tools
       react:
@@ -118,7 +118,7 @@ importers:
 
   packages/static:
     dependencies:
-      '@mni/build-tools':
+      mni-build-tools:
         specifier: workspace:*
         version: link:../build-tools
     devDependencies:
@@ -149,10 +149,10 @@ importers:
 
   packages/vue:
     dependencies:
-      '@mni/build-icons':
+      mni-build-icons:
         specifier: workspace:*
         version: link:../build-icons
-      '@mni/build-tools':
+      mni-build-tools:
         specifier: workspace:*
         version: link:../build-tools
       vue:
@@ -180,10 +180,10 @@ importers:
 
   packages/vue-latest:
     dependencies:
-      '@mni/build-icons':
+      mni-build-icons:
         specifier: workspace:*
         version: link:../build-icons
-      '@mni/build-tools':
+      mni-build-tools:
         specifier: workspace:*
         version: link:../build-tools
       vue:

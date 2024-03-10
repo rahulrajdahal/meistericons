@@ -1,5 +1,5 @@
 {
-  "name": "@mni/build-icons",
+  "name": "mni-build-icons",
   "version": "0.0.1",
   "description": "Build icons tool for meistericons. Intended for internal use only.",
   "repository": {
@@ -26,8 +26,8 @@
     "build": "bundle run build:icons && bun run bundle"
   },
   "dependencies": {
-    "@mni/build-tools": "workspace:^",
-    "@mni/static": "workspace:*"
+    "mni-build-tools": "workspace:^",
+    "mni-static": "workspace:*"
   },
   "keywords": [],
   "files": [

@@ -1,5 +1,5 @@
 {
-  "name": "@mni/react",
+  "name": "mni-react",
   "version": "0.0.1",
   "description": "React icon library for meistericons.",
   "main": "./lib/cjs/mni-react.cjs.min.cjs",
@@ -22,8 +22,8 @@
     "build": "bun run build:icons && bun run bundle"
   },
   "dependencies": {
-    "@mni/build-icons": "workspace:*",
-    "@mni/build-tools": "workspace:*"
+    "mni-build-icons": "workspace:*",
+    "mni-build-tools": "workspace:*"
   },
   "keywords": [
     "meistericons",
