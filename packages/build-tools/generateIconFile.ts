@@ -1,5 +1,5 @@
 import { existsSync, mkdirSync, writeFileSync } from "fs";
-import { join, resolve } from "path";
+import path from "path";
 import { getCurrentDir, toPascalCase } from "./helpers";
 
 export default (iconNodes: object, iconPackage: string = 'react') => {
@@ -7,7 +7,7 @@ export default (iconNodes: object, iconPackage: string = 'react') => {
   const paths = Object.values(iconNodes)[0];
 
   const currentDir = getCurrentDir(import.meta.url);
-  const targetDir = resolve(currentDir, `../../${iconPackage}/icons`);
+  const targetDir = path.resolve(currentDir, `../../${iconPackage}/icons`);
 
   if (!existsSync(targetDir)) {
     mkdirSync(targetDir);
@@ -23,5 +23,5 @@ export default (iconNodes: object, iconPackage: string = 'react') => {
 
   export default ${toPascalCase(name)}
   `;
-  writeFileSync(join(targetDir, `${toPascalCase(name)}.ts`), template, "utf-8");
+  writeFileSync(path.join(targetDir, `${toPascalCase(name)}.ts`), template, "utf-8");
 };

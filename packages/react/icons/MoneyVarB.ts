@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const MoneyVarB = createMeisterIcons("money-varB", [["path",{"fill":"currentColor","d":"M6.85 6.1C5.152 6.1 3.7 7.477 3.7 9.25v5.5c0 1.786 1.364 3.15 3.15 3.15h10.3c1.698 0 3.15-1.377 3.15-3.15v-5.5c0-1.698-1.377-3.15-3.15-3.15zM2.2 9.25c0-2.627 2.148-4.65 4.65-4.65h10.3c2.627 0 4.65 2.148 4.65 4.65v5.5c0 2.627-2.148 4.65-4.65 4.65H6.85c-2.614 0-4.65-2.036-4.65-4.65z","key":"933a37f75939f4205efeec84a72155a346ce8e33"}],["path",{"fill":"currentColor","d":"M11.95 14.35a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8","key":"8f55b3fc35969eb4a0fb2bb15ea6bb1d66738348"}],["path",{"fill":"currentColor","d":"M11.95 10.3a1.65 1.65 0 1 0 0 3.3 1.65 1.65 0 0 0 0-3.3M8.8 11.95a3.15 3.15 0 1 1 6.3 0 3.15 3.15 0 0 1-6.3 0","key":"901adc92d2e246df925ce52d243a915af254e2fb"}]])
+  const MoneyVarB = createMeisterIcons("money-varB", [["path",{"fill":"currentColor","d":"M6.85 6.1C5.152 6.1 3.7 7.477 3.7 9.25v5.5c0 1.786 1.364 3.15 3.15 3.15h10.3c1.698 0 3.15-1.377 3.15-3.15v-5.5c0-1.698-1.377-3.15-3.15-3.15zM2.2 9.25c0-2.627 2.148-4.65 4.65-4.65h10.3c2.627 0 4.65 2.148 4.65 4.65v5.5c0 2.627-2.148 4.65-4.65 4.65H6.85c-2.614 0-4.65-2.036-4.65-4.65z","key":"2f92ac4fdf0d4e3d4b1ccfac97dfa4febadde833"}],["path",{"fill":"currentColor","d":"M11.95 14.35a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8","key":"8aaa48e22ff4a99c6cf0d6d3d35211386eac69f1"}],["path",{"fill":"currentColor","d":"M11.95 10.3a1.65 1.65 0 1 0 0 3.3 1.65 1.65 0 0 0 0-3.3M8.8 11.95a3.15 3.15 0 1 1 6.3 0 3.15 3.15 0 0 1-6.3 0","key":"02fa6a0761af0d79ac9d76ffe1c05048a1983515"}]])
 
 
   export default MoneyVarB

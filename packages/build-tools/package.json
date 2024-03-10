@@ -2,6 +2,7 @@
   "name": "@mni/build-tools",
   "module": "index.ts",
   "type": "module",
+  "author": "Rahul Raj Dahal",
   "scripts": {
     "fonts": "bun run ./generateFonts.ts && fantasticon -n mni -p mni ../static/icons -o ../static/fonts && rm -r fontIcons",
     "optimize": "bun run ./optimizeIcons.ts",
@@ -15,6 +16,9 @@
     "build:types": "bun run build:types-react && bun run build:types-vue && bun run build:types-vue-latest",
     "build": "bun run optimize && bun run build:fonts && bun run build:icons&& bun run build:types"
   },
+  "files": [
+    "./lib"
+  ],
   "devDependencies": {
     "@types/minimist": "^1.2.5",
     "bun-types": "latest",
@@ -25,5 +29,6 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "version": "0.0.1"
 }

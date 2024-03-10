@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const ArrowRoundedDownright = createMeisterIcons("arrow-rounded-downright", [["path",{"fill":"currentColor","d":"M16.645 16.93a.75.75 0 0 0 1.06 0l2.5-2.5a1.233 1.233 0 0 0 0-1.76l-2.5-2.5a.75.75 0 0 0-1.06 1.06l2.32 2.32-2.32 2.32a.75.75 0 0 0 0 1.06","key":"35d42384e4a159ed74f968a6619404ce87709b8d"}],["path",{"fill":"currentColor","d":"M3.425 10.6c0 2.114 1.636 3.75 3.75 3.75h12.6a.75.75 0 0 0 0-1.5h-12.6c-1.286 0-2.25-.964-2.25-2.25s.964-2.25 2.25-2.25h4a.75.75 0 1 0 0-1.5h-4c-2.114 0-3.75 1.636-3.75 3.75","key":"c3c53e776dce820937a0c528531e9dce1f39a5c2"}]])
+  const ArrowRoundedDownright = createMeisterIcons("arrow-rounded-downright", [["path",{"fill":"currentColor","d":"M16.645 16.93a.75.75 0 0 0 1.06 0l2.5-2.5a1.233 1.233 0 0 0 0-1.76l-2.5-2.5a.75.75 0 0 0-1.06 1.06l2.32 2.32-2.32 2.32a.75.75 0 0 0 0 1.06","key":"7b44a6cc89c0c062d8c1e271bbf60f06085c508c"}],["path",{"fill":"currentColor","d":"M3.425 10.6c0 2.114 1.636 3.75 3.75 3.75h12.6a.75.75 0 0 0 0-1.5h-12.6c-1.286 0-2.25-.964-2.25-2.25s.964-2.25 2.25-2.25h4a.75.75 0 1 0 0-1.5h-4c-2.114 0-3.75 1.636-3.75 3.75","key":"b806aec2a48cd6d34129caa8f9ee42a8f55e3a7d"}]])
 
 
   export default ArrowRoundedDownright

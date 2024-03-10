@@ -3,12 +3,17 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "build:icons": "rm -r ../static/icon-nodes.json && rm -r ../react/icons/index.ts && rm -r ../vue/icons/index.ts && rm -r ../vue-latest/icons/index.ts  && bun run ../build-tools/buildIcons.ts --pkg=react && bun run ../build-tools/generateIconNodes.ts"
+    "build:icons": "build-icons --pkg=react"
+  },
+  "dependencies": {
+    "@mni/build-icons": "workspace:*"
   },
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^5.0.0"
   }
 }

@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const FolderB = createMeisterIcons("folderB", [["path",{"fill":"currentColor","d":"M2.25 6.25H17c2.602 0 4.75 2.024 4.75 4.75v6A4.76 4.76 0 0 1 17 21.75H7A4.76 4.76 0 0 1 2.25 17zm1.5 1.5V17A3.26 3.26 0 0 0 7 20.25h10A3.26 3.26 0 0 0 20.25 17v-6c0-1.874-1.452-3.25-3.25-3.25z","key":"b578963cf2d9c201bca56dee04c2c06ab9b3e8ed"}],["path",{"fill":"currentColor","d":"M16 7H3V4.2C3 3.5 3.6 3 4.2 3h8.1c1 0 2 .6 2.4 1.5z","key":"7b5457516fee71f3a985e3128c64b938e1644b00"}],["path",{"fill":"currentColor","d":"M3.89 3.883a.43.43 0 0 0-.14.317v2.05h11.015l-.741-1.424-.01-.021C13.747 4.2 13.033 3.75 12.3 3.75H4.2a.47.47 0 0 0-.31.133M2.25 4.2c0-1.154.977-1.95 1.95-1.95h8.1c1.26 0 2.538.74 3.075 1.923l1.86 3.577H2.25z","key":"8f242f4b8de433fb38b4461da6c1ba50e6d5e448"}]])
+  const FolderB = createMeisterIcons("folderB", [["path",{"fill":"currentColor","d":"M2.25 6.25H17c2.602 0 4.75 2.024 4.75 4.75v6A4.76 4.76 0 0 1 17 21.75H7A4.76 4.76 0 0 1 2.25 17zm1.5 1.5V17A3.26 3.26 0 0 0 7 20.25h10A3.26 3.26 0 0 0 20.25 17v-6c0-1.874-1.452-3.25-3.25-3.25z","key":"97a7a3a1cce4e4c2a3f0c184cde71b2283b27a6f"}],["path",{"fill":"currentColor","d":"M16 7H3V4.2C3 3.5 3.6 3 4.2 3h8.1c1 0 2 .6 2.4 1.5z","key":"d91d9baa59c903748782d89e489086a049997dc6"}],["path",{"fill":"currentColor","d":"M3.89 3.883a.43.43 0 0 0-.14.317v2.05h11.015l-.741-1.424-.01-.021C13.747 4.2 13.033 3.75 12.3 3.75H4.2a.47.47 0 0 0-.31.133M2.25 4.2c0-1.154.977-1.95 1.95-1.95h8.1c1.26 0 2.538.74 3.075 1.923l1.86 3.577H2.25z","key":"8e5912e6efbf8ad87f017626e0d45457ae6ad5fe"}]])
 
 
   export default FolderB

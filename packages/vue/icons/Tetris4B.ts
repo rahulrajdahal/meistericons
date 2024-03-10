@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Tetris4B = createMeisterIcons("tetris4B", [["path",{"fill":"currentColor","d":"M12 3.15H6.1v5.9H12z","key":"34f37444d8c33e0562e30edde185edcbdd4b0a7d"}],["path",{"fill":"currentColor","d":"M5.35 2.4h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V3.9z","key":"fa351e182a1168b42aa01eed26155a63ecd2b65b"}],["path",{"fill":"currentColor","d":"M5.35 8.3h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V9.8z","key":"0eae5f2805ed87ab869202b4d61632f709eef4cd"}],["path",{"fill":"currentColor","d":"M11.25 8.3h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V9.8z","key":"f16174a430bb3fa78187389ff99520d8bbd735aa"}],["path",{"fill":"currentColor","d":"M17.9 14.95H12v5.9h5.9z","key":"053f670fa2865fe6816d467c1852df2af3ab5e88"}],["path",{"fill":"currentColor","d":"M11.25 14.2h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4v-4.4z","key":"ddf99d3af3b55ce19612285eb6ec0ab349a8f738"}]])
+  const Tetris4B = createMeisterIcons("tetris4B", [["path",{"fill":"currentColor","d":"M12 3.15H6.1v5.9H12z","key":"36234a9205475634d265e4520ebeedcb1d9f20a7"}],["path",{"fill":"currentColor","d":"M5.35 2.4h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V3.9z","key":"49d5a52a532f4107bfbd608b3984310552bede4f"}],["path",{"fill":"currentColor","d":"M5.35 8.3h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V9.8z","key":"746c8dc9db35e8b966a8e4cc08941c82cfc0d781"}],["path",{"fill":"currentColor","d":"M11.25 8.3h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V9.8z","key":"05fa32a14a9981939b2bff90ef40a531b8d3071d"}],["path",{"fill":"currentColor","d":"M17.9 14.95H12v5.9h5.9z","key":"3ae3bce1699a3eacbee4abc4b03158169c107e26"}],["path",{"fill":"currentColor","d":"M11.25 14.2h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4v-4.4z","key":"cf942c4ec95f54a411f6607f2f5bd5716e023e5b"}]])
 
 
   export default Tetris4B

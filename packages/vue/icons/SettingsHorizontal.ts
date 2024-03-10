@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const SettingsHorizontal = createMeisterIcons("settings-horizontal", [["path",{"fill":"currentColor","d":"M5.25 7.5a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0M6.5 4.75a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5m5 2a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5zm6 8.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5m-2.75 1.25a2.75 2.75 0 1 1 5.5 0 2.75 2.75 0 0 1-5.5 0M4.5 15.75a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5z","key":"69693e4da98ba416c30a9936e42e3fc6e87112ee"}]])
+  const SettingsHorizontal = createMeisterIcons("settings-horizontal", [["path",{"fill":"currentColor","d":"M5.25 7.5a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0M6.5 4.75a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5m5 2a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5zm6 8.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5m-2.75 1.25a2.75 2.75 0 1 1 5.5 0 2.75 2.75 0 0 1-5.5 0M4.5 15.75a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5z","key":"725682eca6c4f6065c2ea99958c6437245478f0a"}]])
 
 
   export default SettingsHorizontal

@@ -2,16 +2,22 @@
   "name": "@mni/static",
   "module": "index.ts",
   "type": "module",
-  "bin": "build-tools",
+  "bin": "./lib/es/static.es.min.mjs",
+  "scripts": {
+    "bundle": "rollup -c ./rollup.config.mjs"
+  },
   "files": [
     "icons",
     "fonts"
   ],
-  "dependencies": {
-    "@mni/build-tools": "workspace:*"
-  },
   "devDependencies": {
-    "bun-types": "latest"
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "bun-types": "latest",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-visualizer": "^5.12.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

@@ -12,8 +12,8 @@ const defaultAttributes = {
   fill: "currentColor",
 };
 
-const targetDir = path.join(currentDir, `../../packages/${pkg}/lib`);
-const iconsDir = path.resolve(currentDir, "../../icons");
+const targetDir = path.join(currentDir, `../../${pkg}/lib`);
+const iconsDir = path.resolve(currentDir, "../../static/icons");
 
 const vuePackage = pkg === 'vue' ? 'vue' : 'vue-latest'
 const typesFileName = `meistericons-${pkg === 'react' ? 'react' : vuePackage}.d.ts`;

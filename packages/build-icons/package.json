@@ -1,0 +1,35 @@
+{
+  "name": "@mni/build-icons",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "build-icons": "./lib/es/build-icons.es.min.mjs"
+  },
+  "scripts": {
+    "build:icons-react": "bun run ./index.ts --pkg=react",
+    "build:icons-vue": "bun run ./index.ts --pkg=vue",
+    "build:icons-vue-latest": "bun run ./index.ts --pkg=vue-latest && bun run ./index.ts-nodes",
+    "build:icons": "bun run build:icons-react && bun run build:icons-vue && bun run build:icons-vue-latest",
+    "build": "bun run ./bun.config.ts",
+    "bundle": "rollup -c ./rollup.config.mjs"
+  },
+  "files": [
+    "./lib"
+  ],
+  "dependencies": {
+    "@mni/static": "workspace:*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "bun-types": "latest",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-visualizer": "^5.12.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "version": "0.0.1"
+}

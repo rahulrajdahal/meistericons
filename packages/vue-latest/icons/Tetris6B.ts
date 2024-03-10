@@ -1,7 +1,7 @@
 
   import createMeisterIcons from '../src/createMeisterIcons';
 
-  const Tetris6B = createMeisterIcons("tetris6B", [["path",{"fill":"currentColor","d":"M12 3.15H6.1v5.9H12z","key":"3b41c34ddf3e33dece842caf03839f7aae497888"}],["path",{"fill":"currentColor","d":"M5.35 2.4h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V3.9z","key":"50d084f35be496c05693b604f7fc1ed56606d9ea"}],["path",{"fill":"currentColor","d":"M5.35 8.3h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V9.8z","key":"3d1083f5f2798cdd6f2daf1bebf7556b6481028b"}],["path",{"fill":"currentColor","d":"M11.25 8.3h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V9.8z","key":"d08fba270e9e85987e0969efc9da570eb379c496"}],["path",{"fill":"currentColor","d":"M12 14.95H6.1v5.9H12z","key":"e16a9bc44ceb9c7c299506c033b2c68e0e7c3c99"}],["path",{"fill":"currentColor","d":"M5.35 14.2h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4v-4.4z","key":"edbdcba9267f780aabf489aaaee3b7513f3be84f"}]])
+  const Tetris6B = createMeisterIcons("tetris6B", [["path",{"fill":"currentColor","d":"M12 3.15H6.1v5.9H12z","key":"5230d009a100a70a4c6e4cf6ec662efd78e905e5"}],["path",{"fill":"currentColor","d":"M5.35 2.4h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V3.9z","key":"6616412adc4d56dc559dcb3588edfed7e0c3d063"}],["path",{"fill":"currentColor","d":"M5.35 8.3h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V9.8z","key":"f0b3645aa9cc4f5ed99fbe1e0ccc722a26445a3d"}],["path",{"fill":"currentColor","d":"M11.25 8.3h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4V9.8z","key":"4bffdbc16da234f2c476fb9c15d95040e1b52ead"}],["path",{"fill":"currentColor","d":"M12 14.95H6.1v5.9H12z","key":"1a610a3301826bfdf93690a0a88e5144a6de0814"}],["path",{"fill":"currentColor","d":"M5.35 14.2h7.4v7.4h-7.4zm1.5 1.5v4.4h4.4v-4.4z","key":"71e1eeed1dec87bb8353bbf20484daf9d165d39e"}]])
 
 
   export default Tetris6B

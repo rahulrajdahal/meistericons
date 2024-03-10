@@ -1,6 +1,7 @@
 import path from "path";
-import { fileURLToPath, resolve } from "bun";
+
 import { readdirSync } from "fs";
+import { fileURLToPath } from 'url';
 
 export const toCamelCase = (string: string) =>
   string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2) =>
