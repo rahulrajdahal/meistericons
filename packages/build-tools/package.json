@@ -1,0 +1,38 @@
+{
+  "name": "@mni/build-tools",
+  "version": "0.0.1",
+  "description": "build tools for meistericons. Intended for internal use only.",
+  "main": "./lib/es/build-tools.es.min.js",
+  "repository": {
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git",
+    "directory": "/packages/build-tools/"
+  },
+  "scripts": {
+    "bundle": "rollup -c"
+  },
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    "import": "./lib/es/build-tools.es.min.mjs",
+    "default": "./lib/umd/build-tools.umd.min.js",
+    "require": "./lib/cjs/build-tools.cjs.min.cjs"
+  },
+  "keywords": [],
+  "author": "Rahul Raj Dahal",
+  "license": "ISC",
+  "dependencies": {
+    "@mni/static": "workspace:*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.11.25",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "svgson": "^5.3.1"
+  }
+}

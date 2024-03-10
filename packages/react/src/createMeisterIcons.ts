@@ -1,6 +1,6 @@
+import { toPascalCase } from "@mni/build-tools";
 import * as React from "react";
 import defaultAttributes from "./defaultAttributes";
-import camelcase from "camelcase";
 
 export type IconNode = [
   elementName: keyof React.ReactSVG,
@@ -28,13 +28,13 @@ const createMeisterIcons = (
           ref,
           width: size,
           height: size,
-          className: `mni mni-${camelcase(iconName, { pascalCase: true })}`,
+          className: `mni mni-${toPascalCase(iconName)}`,
           ...defaultAttributes,
           ...rest,
         },
         [
           ...iconNode.map(([tag, attrs]) => React.createElement(tag, attrs)),
-          Array.isArray(children ? children : [children]) || [],
+          Array.isArray(children ?? [children]) || [],
         ]
       )
   );

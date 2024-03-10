@@ -1,62 +1,29 @@
 {
   "name": "meistericons",
-  "module": "index.ts",
-  "type": "module",
-  "version": "0.1.61",
-  "homepage": "https://rahulrajdahal.github.io/meistericons",
+  "version": "0.0.1",
+  "description": "icon library for you",
+  "main": "index.ts",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rahulrajdahal/meistericons.git"
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git"
   },
-  "bugs": {
-    "url": "https://github.com/rahulrajdahal/meistericons/issues"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "scripts": {
+    "build:icons-nodes": "pnpm --filter build-icons build:icon-nodes",
+    "build:icons-react": "pnpm --filter react build",
+    "build:icons-vue": "pnpm --filter vue build",
+    "build:icons-vue-latest": "pnpm --filter vue-latest build",
+    "build": "pnpm run build:icons-nodes && pnpm run build:icons-react && pnpm run build:icons-vue && pnpm run build:icons-vue-latest"
   },
   "keywords": [
-    "icons",
-    "svg",
-    "mnicons",
     "meistericons",
-    "mni"
+    "mni",
+    "icons",
+    "icon-library",
+    "vector-icons",
+    "svg-icons",
+    "react-icons",
+    "vue-icons"
   ],
-  "files": [
-    "fonts/",
-    "icon-nodes.json",
-    "tags.json",
-    "categories.json"
-  ],
-  "scripts": {
-    "fonts": "fantasticon -n mni -p mni icons -o fonts",
-    "optimize": "bun run ./scripts/optimizeIcons.ts",
-    "build:icons": "bun run ./scripts/buildIcons.ts",
-    "build:types": "bun run ./scripts/buildTypes.ts",
-    "create:release": "bun run ./scripts/generateRelease.ts",
-    "add:tags": "bun run ./scripts/addTags.ts",
-    "add:categories": "bun run ./scripts/addCategories.ts",
-    "build": "bun fonts && bun optimize && build:icons && bun add:tags && bun add:categories && bun build:types",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "devDependencies": {
-    "@types/bun": "^1.0.8",
-    "@types/minimist": "^1.2.5",
-    "@types/node": "^20.9.0",
-    "bun-types": "latest",
-    "debounce": "^2.0.0",
-    "minimist": "^1.2.8",
-    "typescript": "^5.2.2",
-    "vitepress": "^1.0.0-rc.44"
-  },
-  "dependencies": {
-    "fantasticon": "^2.0.0",
-    "htmlparser2": "^9.1.0",
-    "node-html-parser": "^6.1.12",
-    "rollup": "^3.29.2",
-    "svgo": "^3.0.2",
-    "svgson": "^5.3.1",
-    "vue": "^3.4.21"
-  }
+  "author": "Rahul Raj Dahal",
+  "license": "MIT"
 }

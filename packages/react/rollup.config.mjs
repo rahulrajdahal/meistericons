@@ -1,9 +1,9 @@
-import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
-import esbuild, { minify } from "rollup-plugin-esbuild";
-import pkg from "./package.json" assert { type: "json" };
+import resolve from "@rollup/plugin-node-resolve";
 import terser from "@rollup/plugin-terser";
+import esbuild, { minify } from "rollup-plugin-esbuild";
 import { visualizer } from "rollup-plugin-visualizer";
+import pkg from "./package.json" assert { type: "json" };
 
 const inputs = [{ format: "es" }, { format: "cjs" }, { format: "umd" }];
 
@@ -21,25 +21,20 @@ const outputFileExt = (format) => {
 };
 
 const output = inputs.map(({ format }) => ({
-  file: `lib/${format}/meistericons-react.${format}.${outputFileExt(format)}`,
-  // sourcemap: true,
+  file: `lib/${format}/mni-react.${format}.${outputFileExt(format)}`,
 }));
 
 const minifyOutput = inputs.map(({ format }) => ({
   name: pkg.name,
-  file: `lib/${format}/meistericons-react.${format}.min.${outputFileExt(
-    format
-  )}`,
+  file: `lib/${format}/mni-react.${format}.min.${outputFileExt(format)}`,
   plugins: [minify(), terser()],
-  // sourcemap: true,
 }));
 
 export default {
-  input: "src/meistericons-react.ts",
+  input: "./index.ts",
   output: [...output, ...minifyOutput],
-  external: ["react"],
   plugins: [
-    esbuild({ optimizeDeps: { include: ["react"] } }),
+    esbuild({}),
     resolve({ preferBuiltins: true, browser: true }),
     commonjs(),
     visualizer(),

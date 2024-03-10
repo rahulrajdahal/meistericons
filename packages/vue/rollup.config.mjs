@@ -1,35 +1,43 @@
-import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
-import sourcemaps from "rollup-plugin-sourcemaps";
+import resolve from "@rollup/plugin-node-resolve";
+import terser from "@rollup/plugin-terser";
 import esbuild, { minify } from "rollup-plugin-esbuild";
+import { visualizer } from "rollup-plugin-visualizer";
 import pkg from "./package.json" assert { type: "json" };
 
-const inputs = [{ format: "esm" }, { format: "cjs" }, { format: "umd" }];
+const inputs = [{ format: "es" }, { format: "cjs" }, { format: "umd" }];
+
+const outputFileExt = (format) => {
+  switch (format) {
+    case "es":
+      return "mjs";
+
+    case "cjs":
+      return "cjs";
+
+    default:
+      return "js";
+  }
+};
 
 const output = inputs.map(({ format }) => ({
-  file: `lib/${format}/meistericons-vue.${format}.${
-    format === "esm" ? "m" : format === "cjs" ? "c" : ""
-  }js`,
-  sourcemap: true,
+  file: `lib/${format}/mni-vue.${format}.${outputFileExt(format)}`,
 }));
 
 const minifyOutput = inputs.map(({ format }) => ({
   name: pkg.name,
-  file: `lib/${format}/meistericons-vue.${format}.min.${
-    format == "esm" ? "m" : format === "cjs" ? "c" : ""
-  }js`,
-  plugins: [minify()],
-  sourcemap: true,
+  file: `lib/${format}/mni-vue.${format}.min.${outputFileExt(format)}`,
+  plugins: [minify(), terser()],
 }));
 
 export default {
-  input: "src/meistericons-vue.ts",
+  input: "./index.ts",
   output: [...output, ...minifyOutput],
-  external: ["vue"],
+  external:['vue'],
   plugins: [
-    esbuild(),
-    sourcemaps(),
-    resolve({ preferBuiltins: true }),
+    esbuild({}),
+    resolve({ preferBuiltins: true, browser: true }),
     commonjs(),
+    visualizer(),
   ],
 };

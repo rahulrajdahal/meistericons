@@ -1,0 +1,46 @@
+{
+  "name": "@mni/build-icons",
+  "version": "0.0.1",
+  "description": "Build icons tool for meistericons. Intended for internal use only.",
+  "repository": {
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git",
+    "directory": "/packages/build-icons"
+  },
+  "main": "./lib/es/build-icons.es.min.js",
+  "bin": {
+    "build-icons": "./lib/es/build-icons.es.min.mjs"
+  },
+  "scripts": {
+    "build:icons-nodes": "bun run ./src/generateIconNodes.ts",
+    "bundle": "rollup -c",
+    "build": "bundle run build:icons && bun run bundle"
+  },
+  "dependencies": {
+    "@mni/build-tools": "workspace:^",
+    "@mni/static": "workspace:*"
+  },
+  "keywords": [],
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    "import": "./lib/es/build-icons.es.min.mjs",
+    "default": "./lib/umd/build-icons.umd.min.js",
+    "require": "./lib/cjs/build-icons.cjs.min.cjs"
+  },
+  "author": "Rahul Raj Dahal",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.11.25",
+    "minimist": "^1.2.8",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "svgson": "^5.3.1"
+  }
+}

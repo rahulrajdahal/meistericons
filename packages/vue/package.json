@@ -1,35 +1,39 @@
 {
-  "name": "meistericons-vue",
-  "version": "0.0.7",
-  "main": "./lib/cjs/meistericons-vue.cjs.cjs",
-  "main:umd": "./lib/umd/meistericons-vue.umd.js",
-  "module": "./lib/esm/meistericons-vue.esm.mjs",
-  "type": "module",
-  "license": "MIT",
+  "name": "@mni/vue",
+  "version": "0.0.1",
+  "description": "Vue icon library for meistericons.",
+  "main": "./lib/es/mni-vue.es.min.mjs",
+  "repository": {
+    "url": "https://github.com/rahulrajdahal/meistericons.git",
+    "type": "git",
+    "directory": "/packages/vue"
+  },
   "scripts": {
-    "bundle": "rollup -c ./rollup.config.mjs",
-    "build": "bun bundle"
+    "build:icons": "rm -r ./icons && build-icons --pkg=../vue",
+    "bundle": "rollup -c",
+    "build": "bun run build:icons && bun run bundle"
   },
-  "files": [
-    "lib"
-  ],
+  "dependencies": {
+    "@mni/build-icons": "workspace:*",
+    "@mni/build-tools": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.21"
+  },
   "exports": {
-    "require": "./lib/cjs/meistericons-vue.cjs.cjs",
-    "import": "./lib/esm/meistericons-vue.esm.mjs"
+    "import": "./lib/es/mni-vue.es.min.mjs",
+    "default": "./lib/umd/mni-vue.umd.min.js",
+    "require": "./lib/cjs/mni-vue.cjs.min.cjs"
   },
-  "typings": "./lib/meistericons-vue.d.ts",
+  "keywords": [],
+  "author": "Rahul Raj Dahal",
+  "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@vitejs/plugin-vue": "^4.2.3",
-    "rollup-plugin-esbuild": "^6.1.0",
-    "rollup-plugin-sourcemaps": "^0.6.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vue": "2.7.14",
-    "vue-tsc": "^1.8.5"
-  },
-  "peerDependencies": {
-    "vue": "^3.3.4"
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-visualizer": "^5.12.0"
   }
 }

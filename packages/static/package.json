@@ -1,0 +1,36 @@
+{
+  "name": "@mni/static",
+  "version": "0.0.1",
+  "description": "static assets for meistericons",
+  "main": "./lib/es/static.es.min.mjs",
+  "scripts": {
+    "fonts": "bun run ./src/generateFonts.ts && fantasticon -n mni -p mni ./fontIcons -o ./fonts && rm -r ./fontIcons",
+    "bundle": "rollup -c",
+    "build": "bun run ./src/build.ts"
+  },
+  "dependencies": {
+    "@mni/build-tools": "workspace:*"
+  },
+  "files": [
+    "icons",
+    "fonts"
+  ],
+  "keywords": [],
+  "author": "Rahul Raj Dahal",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.11.25",
+    "rollup": "^4.12.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "fantasticon": "^2.0.0",
+    "rollup-plugin-visualizer": "^5.12.0"
+  },
+  "exports": {
+    "default": "./lib/umd/static.umd.min.js",
+    "import": "./lib/es/static.es.min.mjs",
+    "require": "./lib/cjs/static.cjs.cjs"
+  }
+}
